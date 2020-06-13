@@ -1,7 +1,7 @@
 console.log("hello world");
 
 // Make DOM call to detect 'nav' element
-let nav = document.querySelector('nav');
+const nav = document.querySelector('nav');
 
 // Add click event listeners to all its children
 Array.prototype.forEach.call(nav.children, child => {
