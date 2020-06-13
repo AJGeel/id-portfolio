@@ -1,5 +1,6 @@
 html {
   font-family: 'Sen', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -8,5 +9,46 @@ body {
 }
 
 aside {
+  background-color: #fff;
+  width: 16em;
+  flex: 0 0 auto;
 
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  padding: 2em;
+}
+
+nav a {
+  color: #888888;
+  text-decoration: none;
+  font-size: 1em;
+  margin-bottom: 1em;
+  transition: color .2s ease-in-out;
+}
+
+nav a:hover {
+  color: #555;
+}
+
+nav a.active {
+  color: #111;
+  color: red;
+}
+
+main {
+  background-color: #efefef;
+  width: 100%;
+  padding: 2em;
+}
+
+section {
+  max-width: 500px;
 }
