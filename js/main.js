@@ -1,55 +1,9 @@
 // Make DOM call to detect 'nav' element
 const nav = document.querySelector('nav');
-// let clickTimeout = true;
-// setTimeout(function() {
-//   clickTimeout = false;
-// }, 1000);
-
-// Add click event listeners to all its children
-Array.prototype.forEach.call(nav.children, child => {
-  child.addEventListener('click', event => {
-
-    // Remove all tags from nav
-    Array.prototype.forEach.call(nav.children, child => {
-      child.classList.remove('active');
-    })
-
-    // Add back to the specific clicked item
-    child.classList.toggle('active');
-
-    // Set 'clickTimeout' to true to prevent IntersectionObserver from hijacking
-    // clickTimeout = true;
-    // setTimeout(function() {clickTimeout = false;}, 1000);
-  })
-})
-
 
 // Init PhotoSwipe
 const pswpElement = document.querySelectorAll('.pswp')[0];
 
-// // build items array
-// let items = [
-//   {
-//     src: 'https://placekitten.com/600/400',
-//     w: 600,
-//     h: 400
-//   },
-//   {
-//     src: 'https://placekitten.com/1200/900',
-//     w: 1200,
-//     h: 900
-//   }
-// ];
-//
-// // Define options (if needed)
-// let options = {
-//   // optionName: 'option value'
-//   index: 0 // start at first slide
-// }
-//
-// // Initializes and opens PhotoSwipe
-// var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-// // gallery.init();
 
 var initPhotoSwipeFromDOM = function(gallerySelector) {
 
@@ -275,14 +229,21 @@ let observer = new IntersectionObserver((entries, observer) => {
       // Update URL with hash of id
       updateUrlHash(entry.target.id);
 
-      // // Remove all tags from nav
-      // Array.prototype.forEach.call(nav.children, child => {
-      //   child.classList.remove('active');
-      // })
-      //
-      // // Add back to the specific clicked item
+      // Remove all tags from nav
+      Array.prototype.forEach.call(nav.children, child => {
+        child.classList.remove('active');
+      })
+
+      // Loop again, add 'active' if there is a match
+      Array.prototype.forEach.call(nav.children, child => {
+        if (child.hash.substr(1) == entry.target.id) {
+          child.classList.add('active');
+        }
+      })
+
+      // Add back to the specific clicked item
       // child.classList.toggle('active');
     }
   });
 }, {rootMargin: "0px 0px 200px 0px"});
-document.querySelectorAll('section').forEach(section => { observer.observe(section) });
+document.querySelectorAll('h1').forEach(h1 => { observer.observe(h1) });

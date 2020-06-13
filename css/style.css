@@ -22,8 +22,8 @@ aside {
 nav {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   padding: 2em;
+  overflow: hidden;
 }
 
 nav a {
@@ -40,7 +40,23 @@ nav a:hover {
 
 nav a.active {
   color: #111;
-  color: red;
+}
+
+nav a::before {
+  display: inline-block;
+  position: absolute;
+  left: -8px;
+  content: "";
+  border-top: .1em solid #111;
+  width: 1.75em;
+  transform: translate(-2em, 7px);
+  transition: opacity .2s ease-in-out, transform .2s ease-in-out;
+  opacity: 0;
+}
+
+nav a.active::before {
+  transform: translate(0px, 7px);
+  opacity: 1;
 }
 
 main {
