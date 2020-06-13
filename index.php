@@ -15,8 +15,11 @@
 
     <link rel="shortcut icon" href="/i/logo.png" type="image/png" id="favicon">
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/normalize.min.css"> <!-- normalize.css v8.0.1. MIT License -->
+    <link rel="stylesheet" href="/css/normalize.min.css"> <!-- Normalize v8.0.1. MIT License -->
     <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="/css/photoswipe.min.css">            <!-- PhotoSwipe v4.1.3. MIT License -->
+    <link rel="stylesheet" href="/css/default-skin/default-skin.css"> <!-- PhotoSwipe v4.1.3. MIT License -->
+
   </head>
 
   <body>
@@ -139,6 +142,8 @@
   </body>
 
   <script src="js/main.min.js" charset="utf-8"></script>
+  <script src="js/photoswipe.min.js" charset="utf-8"></script>            <!-- PhotoSwipe v4.1.3. MIT License -->
+  <script src="js/photoswipe-ui-default.min.js" charset="utf-8"></script> <!-- PhotoSwipe v4.1.3. MIT License -->
 </html>
 
 
