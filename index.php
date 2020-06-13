@@ -207,42 +207,17 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 
 </body>
 
-<!-- PhotoSwipe v4.1.3. MIT License — Files are deferred to reduce initial page load time -->
-<script src="js/photoswipe.min.js" charset="utf-8"></script>
-<script src="js/photoswipe-ui-default.min.js" charset="utf-8"></script>
+<!-- PhotoSwipe v4.1.3 MIT License — Files are deferred to reduce initial page load time -->
+<script defer src="js/photoswipe.min.js" charset="utf-8"></script>
+<script defer src="js/photoswipe-ui-default.min.js" charset="utf-8"></script>
 
-<script src="js/main.min.js" charset="utf-8"></script>
+<!-- ScrollReveal v4.0.1 waypoints.js -->
+<!-- <script defer src="js/waypoints.min.js" charset="utf-8"></script> -->
 
-<script type="text/javascript">
-// Init PhotoSwipe
-const pswpElement = document.querySelectorAll('.pswp')[0];
-
-// build items array
-let items = [
-  {
-    src: 'https://placekitten.com/600/400',
-    w: 600,
-    h: 400
-  },
-  {
-    src: 'https://placekitten.com/1200/900',
-    w: 1200,
-    h: 900
-  }
-];
-
-// Define options (if needed)
-let options = {
-  // optionName: 'option value'
-  index: 0 // start at first slide
-}
-
-// Initializes and opens PhotoSwipe
-var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-gallery.init();
+<script defer src="js/main.min.js" charset="utf-8"></script>
 
 
-</script>
+
 </html>
 
 
