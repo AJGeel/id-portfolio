@@ -209,7 +209,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 };
 
 // execute above function
-initPhotoSwipeFromDOM('.my-gallery');
+initPhotoSwipeFromDOM('.pswp__gallery');
 
 
 function updateUrlHash(hash) {
@@ -245,5 +245,41 @@ let observer = new IntersectionObserver((entries, observer) => {
       // child.classList.toggle('active');
     }
   });
-}, {rootMargin: "0px 0px 200px 0px"});
-document.querySelectorAll('h1').forEach(h1 => { observer.observe(h1) });
+}, {rootMargin: "0px 0px 0px 0px"});
+document.querySelectorAll('section').forEach(section => { observer.observe(section) });
+
+
+
+// Function that counts the amount of words in a string
+function countWords(string) {
+  return string.split(' ').length;
+}
+
+// Reading Time = Amount of Words / Reading Speed per Minute. (Rounded down to the minute)
+function calcReadingTime(words, speed) {
+  return Math.round( words / speed );
+}
+
+function updateReadingTimeDOM() {
+  // Get the DOM element that will have the dynamic amount of minutes
+  const readingTimeDOM = document.getElementById('readingTime');
+
+  // Humans read around 200 to 250 words per minute. For the calculation, we use the lower end.
+  const readingSpeed = 200;
+
+  // We want to only count the words that are in the actual article.
+  let blogArticle = document.querySelector('main').innerText;
+  let totalWords = countWords(blogArticle);
+
+  // The resulting reading time is this:
+  let readingTime = calcReadingTime(totalWords, readingSpeed);
+
+  // Finally, update the innerHTML of the reading time DOM element.
+  readingTimeDOM.innerHTML = readingTime;
+
+  // Also, we need to update the 'aria-label' on the paragraph element that is the parent of the readingTimeDOM.
+
+  readingTimeDOM.parentElement.setAttribute('aria-label', `How is the reading time estimated, you ask? Well, on average, our reading speed is 200 to 250 words per minute. \n \n  This portfolio contains ${totalWords} words. \n \n  ${totalWords} / 200 ≈ ${readingTime} minutes. There we go!`)
+}
+
+updateReadingTimeDOM();
