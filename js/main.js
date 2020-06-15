@@ -279,7 +279,7 @@ function updateReadingTimeDOM() {
 
   // Also, we need to update the 'aria-label' on the paragraph element that is the parent of the readingTimeDOM.
 
-  readingTimeDOM.parentElement.setAttribute('aria-label', `How is the reading time estimated, you ask? Well, on average, our reading speed is 200 to 250 words per minute. \n \n  This portfolio contains ${totalWords} words. \n \n  ${totalWords} / 200 ≈ ${readingTime} minutes. There we go!`)
+  readingTimeDOM.parentElement.setAttribute('aria-label', `How is the reading time estimated, you ask? Well, on average, our reading speed is 200 to 250 words per minute. \n \n  This web page contains ${totalWords} words.  ${totalWords} / 200 ≈ ${readingTime} minutes. There we go! \n \n  However, the actual reading time may be more, as the deliverables created for these activities were not included in this estimate.`)
 }
 
 function updateGreeting() {
@@ -369,4 +369,21 @@ function toggleCompetencyClass(competency) {
       allIcons[i].parentElement.parentElement.classList.remove("inactive");
     }
   }
+}
+
+// Make reference to all deliverable items
+let allDeliverables = document.getElementsByClassName('deliverables__item');
+
+// Add eventlistener to deliverables to keep track of them being clicked.
+for (i=0; i<allDeliverables.length; i++) {
+    allDeliverables[i].addEventListener('click', function() {
+      // console.log(this);
+      toggleLinkVisited(this);
+    })
+  }
+
+
+function toggleLinkVisited(target) {
+  // Check if target has not been visited before
+  target.classList.add('visited');
 }
