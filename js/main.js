@@ -344,11 +344,11 @@ iconEventListener(iconUs);
 // Function that highlights icons of the selected competency
 function toggleCompetencyClass(competency) {
 
-  // console.log(competency[0].classList[1])
-
   // Reset all competency icons
   for (i=0; i<allIcons.length; i++) {
     allIcons[i].classList.remove("active");
+
+    allIcons[i].parentElement.parentElement.classList.add("inactive");
   }
 
   // Check if the clicked icon is also active
@@ -358,9 +358,15 @@ function toggleCompetencyClass(competency) {
     // Add them back to the selected competency area
     for (i=0; i<competency.length; i++) {
       competency[i].classList.add("active");
+
+      competency[i].parentElement.parentElement.classList.remove("inactive");
     }
   } else {
     // Reset active icon variable
     iconActive = "";
+
+    for (i=0; i<allIcons.length; i++) {
+      allIcons[i].parentElement.parentElement.classList.remove("inactive");
+    }
   }
 }

@@ -212,49 +212,60 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <h2 class="width__small">M11 Semester</h2>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
 
-      <h3>Project: "Eindhoven Museum"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+      <div class="activity">
+        <h3>Project: "Eindhoven Museum"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+          <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        </div>
       </div>
 
-      <h3>Elective: "Constructive Design Research"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+      <div class="activity">
+        <h3>Elective: "Constructive Design Research"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
+          <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        </div>
       </div>
 
-      <h3>Elective: "Designing Intelligence in Interaction"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+
+      <div class="activity">
+        <h3>Elective: "Designing Intelligence in Interaction"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+          <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+        </div>
       </div>
 
-      <h3>Extracurricular: "UX Designer at SPIE Nederland B.V."</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+
+      <div class="activity">
+        <h3>Extracurricular: "UX Designer at SPIE Nederland B.V."</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+          <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        </div>
       </div>
+
       </div>
     </section>
 
@@ -263,49 +274,62 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <div class="section__inner">
       <h2 class="width__small">M12 Semester</h2>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <h3>Project: "Live Persona"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+
+      <div class="activity">
+        <h3>Project: "Live Persona"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+          <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        </div>
       </div>
 
-      <h3>Elective: "UX Theory &amp; Practice"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+
+      <div class="activity">
+        <h3>Elective: "UX Theory &amp; Practice"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+          <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
+          <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        </div>
       </div>
 
-      <h3>Elective: "Data-Enabled Design"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+
+      <div class="activity">
+        <h3>Elective: "Data-Enabled Design"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+          <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        </div>
       </div>
 
-      <h3>Extracurricular: "..."</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+
+      <div class="activity">
+        <h3>Extracurricular: "..."</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+          <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        </div>
       </div>
+
     </div>
     </section>
 
@@ -314,75 +338,96 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <div class="section__inner">
       <h2 class="width__small">M21 Semester</h2>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <h3>Project: "FMP Proposal"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+      <div class="activity">
+        <h3>Project: "FMP Proposal"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
+          <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
+          <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        </div>
       </div>
 
-      <h3>Elective: "Design for Behavioural Change"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+
+      <div class="activity">
+        <h3>Elective: "Design for Behavioural Change"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
+          <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        </div>
       </div>
 
-      <h3>Elective: "Object-Oriented Programming"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+
+      <div class="activity">
+        <h3>Elective: "Object-Oriented Programming"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+          <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
+          <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+          <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+        </div>
       </div>
 
-      <h3>Elective: "Foundations of Data Mining"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+
+      <div class="activity">
+        <h3>Elective: "Foundations of Data Mining"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+          <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
+          <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+          <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+        </div>
       </div>
 
-      <h3>Elective: "Cyberattacks: Crime &amp; Defenses"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+
+      <div class="activity">
+        <h3>Elective: "Cyberattacks: Crime &amp; Defenses"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+          <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
+          <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+          <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+        </div>
       </div>
 
-      <h3>Elective: "The Sound of Smart Things"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+
+      <div class="activity">
+        <h3>Elective: "The Sound of Smart Things"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
+          <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
+          <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        </div>
       </div>
 
-      <h3>Extracurricular: "..."</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-    </div>
+
+      <div class="activity">
+        <h3>Extracurricular: "..."</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      </div>
+      </div>
+
     </section>
 
     <!-- Section 7: M22 Semester -->
@@ -390,26 +435,31 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <div class="section__inner">
       <h2 class="width__small">M22 Semester</h2>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <h3>Project: "FMP &mdash; Requestor"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+      <div class="activity">
+        <h3>Project: "FMP &mdash; Requestor"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+          <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+          <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+          <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        </div>
       </div>
 
-      <h3>Extracurricular: "Brouwerij Geel Website"</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
-        <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+
+      <div class="activity">
+        <h3>Extracurricular: "Brouwerij Geel Website"</h3>
+        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <div class="icon-row width__small">
+          <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
+          <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+          <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
+          <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
+          <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+          <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+        </div>
       </div>
     </div>
     </section>

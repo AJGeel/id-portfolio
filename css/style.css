@@ -274,7 +274,6 @@ figure {
 
 .icon-row {
   display: flex;
-  margin-bottom: 4rem;
 }
 
 .icon-row .icon-list__icon {
@@ -288,4 +287,15 @@ figure {
 
 .icon-list__icon.active {
   background-color: var(--royal-green);
+}
+
+.activity {
+  /* border: 1px solid red; */
+  margin-bottom: 4rem;
+
+  transition: opacity .2s ease-in-out;
+}
+
+.activity.inactive {
+  opacity: .3;
 }
