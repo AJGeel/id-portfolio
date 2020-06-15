@@ -56,11 +56,12 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 
       <div class="section__inner">
         <h2 class="width__small">Welcome</h2>
-        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-        <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+        <p class="width__small p__intro">Good <span id="timeOfDay">day</span>, and welcome to my Final Master Portfolio!</p>
+        <p class="width__small p__intro">On this page I present a timeline of my work of the past two years where I reflect on my competency development resulting from this. <span id="viewportNav">The menu on the left</span> contains an overview of the themes in this portfolio, which will help you keep track of where you are. I hope you enjoy!</p>
+        <p class="width__small p__intro">&mdash; Arthur</p>
 
-        <div class="pswp__gallery" itemscope itemtype="http://schema.org/ImageGallery">
-          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <!-- <div class="pswp__gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
             <a href="https://farm3.staticflickr.com/2567/5697107145_a4c2eaa0cd_o.jpg" itemprop="contentUrl" data-size="1024x1024">
               <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg" itemprop="thumbnail" alt="Image description" />
             </a>
@@ -68,27 +69,27 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 
           </figure>
 
-          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
             <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
               <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
             </a>
             <figcaption itemprop="caption description">Image caption 2</figcaption>
           </figure>
 
-          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
             <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
               <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
             </a>
             <figcaption itemprop="caption description">Image caption 3</figcaption>
           </figure>
 
-          <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
             <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
               <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
             </a>
             <figcaption itemprop="caption description">Image caption 4</figcaption>
           </figure>
-        </div>
+        </div> -->
 
       </div>
     </section>
@@ -97,6 +98,22 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
     <section id="About-Me">
       <div class="section__inner">
         <h2 class="width__small">About Me</h2>
+        <div class="two-columns width__small">
+          <ul class="no-list-styling">
+            <li><span>Name:</span> Arthur Geel</li>
+            <li><span>Track:</span> Research, Design &amp; Development</li>
+            <li><span>Expertise Areas:</span> Design &amp; Research Processes, User &amp; Society, Technology &amp; Realization</li>
+            <li><span>Things I Love:</span> Homebrewing, collecting (Drum and Bass) records, science-fiction, old civilisations, analog technology, Mid-Century Modern interior design.</li>
+          </ul>
+          <div class="pswp__gallery" itemscope itemtype="https://schema.org/ImageGallery">
+          <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+            <a href="https://placehold.it/1334x488" itemprop="contentUrl" data-size="1680x1400">
+              <img src="https://placehold.it/336x280" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">Image caption 1 lorem ipsum dolor sit amet</figcaption>
+          </figure>
+        </div>
+        </div>
         <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
         <h3>Profesional Identity</h3>
         <p class="width__small">My name is Arthur Geel — I’m a MSc student Industrial Design at the Eindhoven University of Technology. During my bachelor degree at the ID department I became familiar with a broad range of design applications (from design research to automotive design), but was mostly interested in User Experience Design.Being a designer in the 21st century means adapting to the needs of a rapidly changing world by having competencies in areas that are not traditionally design-related. My response to this shift is to develop myself as a Pi-Shaped Designer [11, 49] . Besides being familiar with a broad range of product design essentials, a Pi-Shaped Designer has two areas of competence in which they excel.</p>
@@ -115,9 +132,79 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
     <section id="Growth">
       <div class="section__inner">
       <h2 class="width__small">Competency Development</h2>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <h3>Expertise Areas</h3>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <p class="width__small to-be-changed">Over the time of my Master I have developed into a critical designer with an interest in societal transformation. My M1.2 research project in Kuwait was a gamechanger for this development. By working in an environment that was so different from my own, I learned to approach our Dutch society from new perspectives. I started to see relations between elements that I took for granted before I left. For example, the fact that we are organized as a participatory society, has a huge influence on our understanding of social impact. I was so triggered by these findings, that I dedicated my Final Master Project towards researching the interplay between design, government and wicked problems. Just like I perceived the Netherlands from a Kuwaiti perspective, I approached design from a governmental perspective too, as well as from the perspective of wicked problems. My work experience at Zet benefited greatly to this, as I got to experience in a multidisciplinary team what designing for wicked problems means in practice. This resulted in a holistic approach of my Final Master Project, which really is a synergy of the skills, knowledge and attitude I gained through projects, electives, work experience and extracurricular activities.</p>
+
+      <p class="width__small">After spending both my Bachelor's and Master's degrees at ID TU/e, I've become very familiar with the department's Expertise Area framework. In this section I share my personal interpretation of all six competencies.</p>
+      <p class="width__small">The icons are used throughout this page to signify which competency area was involved in learning activities. Don't worry about losing track of which icon signifies what, you can hover over icons to see their meaning.</p>
+
+      <!-- Competency Area-->
+      <div class="icon-list width__small">
+        <div class="icon-list__icon" data-balloon-length="medium" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up">
+          <img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon">
+        </div>
+
+        <div class="icon-list__copy">
+          <h3>Business &amp; Entrepreneurship</h3>
+          <p>This competency is about understanding markets and the 'rules of the game'. It allows me to analyse and coordinate the environment required to make the envisioned design values a reality.</p>
+        </div>
+      </div>
+
+      <!-- Competency Area-->
+      <div class="icon-list width__small">
+        <div class="icon-list__icon" data-balloon-length="medium" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up">
+          <img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon">
+        </div>
+        <div class="icon-list__copy">
+          <h3>Creativity &amp; Aesthetics</h3>
+          <p>This competency is about
+            In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <!-- Competency Area-->
+      <div class="icon-list width__small">
+        <div class="icon-list__icon" data-balloon-length="medium" aria-label="Design &amp; Research Processes" data-balloon-pos="up">
+          <img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon">
+        </div>
+        <div class="icon-list__copy">
+          <h3>Design &amp; Research Processes</h3>
+          <p>In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <!-- Competency Area-->
+      <div class="icon-list width__small">
+        <div class="icon-list__icon" data-balloon-length="medium" aria-label="Math, Data &amp; Computing" data-balloon-pos="up">
+          <img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon">
+        </div>
+        <div class="icon-list__copy">
+          <h3>Math, Data &amp; Computing</h3>
+          <p>In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <!-- Competency Area-->
+      <div class="icon-list width__small">
+        <div class="icon-list__icon" data-balloon-length="medium" aria-label="Technology &amp; Realization" data-balloon-pos="up">
+          <img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon">
+        </div>
+        <div class="icon-list__copy">
+          <h3>Technology &amp; Realization</h3>
+          <p>In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <!-- Competency Area-->
+      <div class="icon-list width__small">
+        <div class="icon-list__icon" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up">
+          <img src="i/icons/user-society.svg" alt="User and Society Icon">
+        </div>
+        <div class="icon-list__copy">
+          <h3>User &amp; Society</h3>
+          <p>In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
       </div>
     </section>
 

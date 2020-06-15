@@ -282,4 +282,32 @@ function updateReadingTimeDOM() {
   readingTimeDOM.parentElement.setAttribute('aria-label', `How is the reading time estimated, you ask? Well, on average, our reading speed is 200 to 250 words per minute. \n \n  This portfolio contains ${totalWords} words. \n \n  ${totalWords} / 200 ≈ ${readingTime} minutes. There we go!`)
 }
 
+function updateGreeting() {
+  // Get client's current datetime
+  let now = new Date();
+  // Extract current hour
+  let currentHour = now.getHours();
+
+  // Get DOM element that is customised, based on the time
+  const timeOfDayDOM = document.getElementById('timeOfDay');
+
+  // Initialize variable that stores the eventual greeting
+  let greeting;
+
+  // Conditionally detect the time of day
+  if (currentHour <= 4) {
+    greeting = 'evening';
+  } else if (currentHour <= 11) {
+    greeting = 'morning';
+  } else if (currentHour <= 17) {
+    greeting = 'afternoon';
+  } else {
+    greeting = 'evening';
+  }
+
+  // Finally, update the conditional greeting
+  timeOfDayDOM.innerHTML = greeting;
+}
+
 updateReadingTimeDOM();
+updateGreeting();
