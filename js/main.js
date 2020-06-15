@@ -311,3 +311,56 @@ function updateGreeting() {
 
 updateReadingTimeDOM();
 updateGreeting();
+
+// Make reference to all icons
+let allIcons = document.getElementsByClassName('icon-list__icon');
+
+// Make reference to individual icon lists
+let iconBe = document.getElementsByClassName('icon__be');
+let iconCa = document.getElementsByClassName('icon__ca');
+let iconDrp = document.getElementsByClassName('icon__drp');
+let iconMdc = document.getElementsByClassName('icon__mdc');
+let iconTr = document.getElementsByClassName('icon__tr');
+let iconUs = document.getElementsByClassName('icon__us');
+
+// Keeps track of currently active icon list
+let iconActive = "";
+
+function iconEventListener(competency) {
+  for (i=0; i<competency.length; i++) {
+    competency[i].addEventListener('click', function() {
+      toggleCompetencyClass(competency);
+    })
+  }
+}
+// Add event listeners to all
+iconEventListener(iconBe);
+iconEventListener(iconCa);
+iconEventListener(iconDrp);
+iconEventListener(iconMdc);
+iconEventListener(iconTr);
+iconEventListener(iconUs);
+
+// Function that highlights icons of the selected competency
+function toggleCompetencyClass(competency) {
+
+  // console.log(competency[0].classList[1])
+
+  // Reset all competency icons
+  for (i=0; i<allIcons.length; i++) {
+    allIcons[i].classList.remove("active");
+  }
+
+  // Check if the clicked icon is also active
+  if (iconActive != competency[0].classList[1]) {
+    // Icon is currently not yet active.
+    iconActive = competency[0].classList[1];
+    // Add them back to the selected competency area
+    for (i=0; i<competency.length; i++) {
+      competency[i].classList.add("active");
+    }
+  } else {
+    // Reset active icon variable
+    iconActive = "";
+  }
+}

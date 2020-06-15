@@ -211,16 +211,17 @@ figure {
   box-shadow: 0 2px 5px rgba(0,153,114,.4);
   text-align: center;
 
-  transition: transform .2s ease-in-out, box-shadow .2s ease-in-out, filter .2s ease-in-out;
+  transition: transform .2s ease-in-out, box-shadow .2s ease-in-out, filter .2s ease-in-out, background-color .2s ease-in-out;
+}
+
+.icon-list__icon.active img {
+  /* Select filter for this specific item */
+  filter: grayscale(1) contrast(8) invert(1);
 }
 
 .icon-list:hover .icon-list__icon {
   /* transform: translateY(-.4em);
   box-shadow: 0 5px 15px rgba(0,153,114,.5); */
-}
-
-.icon-list__icon:hover {
-  filter: grayscale(1) contrast(5);
 }
 
 .icon-list__copy h3 {
@@ -269,4 +270,22 @@ figure {
 .section__inner .p__intro {
   font-size: 1.1em;
   margin-bottom: 1rem;
+}
+
+.icon-row {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.icon-row .icon-list__icon {
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  box-shadow: none;
+  padding: .5rem;
+  margin-right: .5rem;
+}
+
+.icon-list__icon.active {
+  background-color: var(--royal-green);
 }
