@@ -600,6 +600,7 @@ aside:hover .icon-row.vertical {
   padding: 1rem;
   border-radius: 2px;
   opacity: .5;
+  margin-top: 2rem;
 
   transition: opacity .2s ease-in-out;
 }
@@ -619,7 +620,7 @@ aside:hover .icon-row.vertical {
 
 .references ol {
   line-height: 1.5;
-  color: #777;
+  color: #555;
 }
 
 .references ol li {
@@ -639,6 +640,14 @@ a.link:hover {
   color: #111;
 }
 
+span.thanks {
+  text-align: center;
+}
+
+.section__inner p.collab {
+  color: #777;
+}
+
 #ray {
   transform: translateY(-8px);
 }
@@ -655,9 +664,17 @@ a.link:hover {
   display: inline-block;
 }
 
+.hide-for-non-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1200px) {
   aside {
     width: 12em;
+  }
+
+  .section__slide-block.image {
+    transform: translateX(160px) scale(2.5);
   }
 }
 
@@ -669,11 +686,52 @@ a.link:hover {
   .section__inner {
     margin: 0 auto;
   }
+
+  .section__slide-block.image {
+    transform: translateX(200px) scale(3);
+  }
+}
+
+@media only screen and (max-width: 980px) {
+
+  .section__slide-block h1 {
+    font-size: 1.6rem;
+  }
+
+  .section__slide-block.image {
+    transform: translateX(200px) scale(3);
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .section__slide-block.image {
+    transform: translateX(230px) scale(4);
+  }
 }
 
 @media only screen and (max-width: 780px) {
   body {
     flex-direction: column;
+  }
+
+  .hide-for-non-mobile {
+    display: block;
+  }
+
+  .section__slide {
+    height: auto;
+  }
+
+  .section__slide-block {
+    width: 100%;
+  }
+
+  .section__slide-block.image {
+    display: none;
+  }
+
+  .section__slide-block p:first-child {
+    margin-top: 2rem;
   }
 
   aside {
@@ -728,6 +786,28 @@ a.link:hover {
   .icon-row.vertical img {
     width: 24px;
   }
+
+  /* Remove some  animations for Mobile, adjust timing for others */
+
+  aside {
+    animation: none;
+  }
+
+  .section__slide {
+    background: var(--royal-green--select);
+  }
+
+  .section__inner.first {
+    animation-delay: 1.5s;
+  }
+
+  .section__inner.second {
+    animation: fadeIn 2s ease-in-out;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+  }
+
+
 
   #smallViewport {
     display: inline-block;

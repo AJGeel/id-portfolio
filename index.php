@@ -61,6 +61,8 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
             <h1 class="width__small">Portfolio</h1>
             <h1 class="width__small">MSc Industrial Design</h1>
             <h1 class="width__small">Arthur Geel</h1>
+            <p class="width__small hide-for-non-mobile">June 18th, 2020</p>
+            <p class="width__small hide-for-non-mobile">Eindhoven University of Technology</p>
           </div>
           <div class="section__slide-block image">
             <div id="container">
@@ -72,7 +74,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
                     </defs>
                     <g>
                         <use xlink:href="#circlePath" fill="none"/>
-                        <text fill="#333">
+                        <text fill="#333" text-rendering="optimizeLegibility">
                             <textPath xlink:href="#circlePath">Becoming a Pi-Shaped UX Designer
                               &nbsp; &nbsp; &nbsp;
                               &mdash;
@@ -94,8 +96,8 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 
       <div class="section__inner first">
         <h2 class="width__small">Welcome</h2>
-        <p class="width__small p__intro">Good <span id="timeOfDay">day</span>, and welcome to my Final Master Portfolio!</p>
-        <p class="width__small p__intro">On this page I present a timeline of the work I did over the past two years, which is augmented with reflections on my competency development. The menu on the <span id="smallViewport">top right</span><span id="bigViewport">left</span> contains an overview of the sections in this portfolio, which will help you keep track of where you are. Furthermore, images are clickable, showing you a gallery view of high-resolution images. I hope you enjoy!</p>
+        <p class="width__small p__intro"><b>Good <span id="timeOfDay">day</span>, and welcome to my Final Master Portfolio!</b></p>
+        <p class="width__small p__intro">On this page I present <b>a timeline of the work I did over the past two years</b>, which is supported with reflections how they contributed to my competency development. <b>The menu on the <span id="smallViewport">top right</span><span id="bigViewport">left</span></b> contains an overview of the sections in this portfolio, which will help you keep track of where you are. Furthermore, you can <b>click on images</b>, which will show additional high-resolution photos for projects, accompanied by brief descriptions. I hope you enjoy!</p>
         <p class="width__small p__intro">&mdash; Arthur</p>
         <!-- <p class="width__small p__intro" data-balloon-length="large" aria-label="" data-balloon-pos="left" data-balloon-break>Estimated reading time: ~<span id="readingTime">0</span> minutes.</p> -->
 
@@ -104,13 +106,13 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 
 <!-- Section 2: About Me -->
 <section id="About-Me">
-  <div class="section__inner">
+  <div class="section__inner second">
     <h2 class="width__small">About Me</h2>
     <div class="two-columns width__small">
       <ul class="no-list-styling">
         <li><span>Name:</span> Arthur Geel</li>
-        <li><span>Track:</span> Research, Design &amp; Development</li>
-        <li><span>Expertise Areas:</span> Design &amp; Research Processes, User &amp; Society, Technology &amp; Realization</li>
+        <li><span>Specialization Track:</span> Research, Design &amp; Development (RDD).</li>
+        <li><span>Expertise Areas:</span> Design &amp; Research Processes (DRP), User &amp; Society (US), Technology &amp; Realization (TR).</li>
         <li><span>Things I'm passionate about:</span> Homebrewing, french press coffee, technology (analog/digital), collecting (Drum and Bass) records, science-fiction, digital design.</li>
       </ul>
       <div class="pswp__gallery" itemscope itemtype="https://schema.org/ImageGallery">
@@ -123,11 +125,12 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       </div>
     </div>
     <h3>Profesional Identity</h3>
-    <p class="width__small">During my bachelor degree at the ID department I became familiar with a broad range of design applications (from design research to automotive design), but was mostly interested in User Experience Design.Being a designer in the 21st century means adapting to the needs of a rapidly changing world by having competencies in areas that are not traditionally design-related. My response to this shift is to develop myself as a <em>Pi-Shaped Designer</em>. Besides being familiar with a broad range of product design essentials, a Pi-Shaped Designer has two areas of competence in which they excel.</p>
-    <p class="width__small">For me, those two areas are <em>designing for digital user experiences</em> and the <em>technological realization of digital products</em>. I believe that such a varied skillset allows me to better understand contexts by analysing them from both perspectives. Consequently, the two competency areas within the Industrial Design Eindhoven Education Framework I have decided to specialize in are <em>User & Society</em> and <em>Technology &amp; Realization</em>. In my process I put an emphasis on creating a thorough understanding of the context and its stakeholders, where I use skills and attitude developed in the User & Society competence to guide me. More specifically, I employ UX methodologies such as <em>design ethnography</em>, <em>contextual inquiries</em> and <em>customer journey mapping</em> to inform my process.</p>
-    <p class="width__small">Afterwards, I give shape to the insights by designing digital prototypes in increasing levels of fidelity — from wireframes to complete design systems. These design artifacts allow me to further explore the design space by conducting in-context evaluations once more tapping into the User & Society competency. Finally, I enjoy breathing life into prototypes by developing them with my skills in the Technology & Realization competency. My preferred tool of choice for this is a front- end development stack. During my Master’s degree, Programming has become an integral part of my designer’s identity and toolkit.</p>
-    <p class="width__small">Throughout my time at the TU/e I was driven to complement my academic knowledge with professional experience. In 2017 I had a six-month internship as a Junior Interaction Designer at creative digital agency Momkai <sup><a href="#ref__1" class="link">[ 1 ]</a></sup>, which I discuss in detail in my FBP portfolio <sup><a href="#ref__1" class="link">[ 2 ]</a></sup>.Additionally, from September 2018 until December 2019 I have been working part-time as the sole UX Designer at SPIE Nederland B.V. <sup><a href="#ref__1" class="link">[ 3 ]</a></sup>. </p>
-    <p class="width__small">In this position I was responsible for re-designing the usability and user experience of legacy applications.Experiencing the differences in working as a designer at these companies with very differing attitudes towards design was one of the drivers for this project — I felt that the benefits of UX Design should be available to all, regardless of <em>UX Maturity</em> levels. The time I spent working as a designer further strengthened my identity as a designer: I want to keep developing myself as a Pi-Shaped UX Designer in my future career.</p>
+    <p class="width__small">Being a designer in the 21st century means adapting to the needs of a rapidly changing world by having competencies in areas that are not traditionally design-related. My response to this shift is to develop myself as a <b>Pi-Shaped Designer</b>. Besides being familiar with a broad range of product design essentials, a Pi-Shaped Designer has two areas of competence in which they excel.</p>
+    <p class="width__small">For me, those two areas are <b>designing for digital user experiences</b> and the <b>technological realization of digital products</b>. I believe that such a varied skillset allows me to better understand contexts by analysing them from both perspectives. Consequently, the two competency areas within the TU/e ID Education Framework I have specialized in are <b>User & Society</b> and <b>Technology &amp; Realization</b>. In my process I put an emphasis on creating a thorough understanding of the context and its stakeholders, where I use skills and attitude developed in the User & Society competence to guide me. More specifically, I employ UX methodologies such as design ethnography, contextual inquiries and customer journey mapping to inform my process.</p>
+    <p class="width__small">Afterwards, I give shape to the insights by designing digital prototypes in increasing levels of fidelity — from wireframes to complete <b>design systems</b>. These design artifacts allow me to further explore the design space by conducting in-context evaluations. Finally, I enjoy breathing life into prototypes by developing them with my skills in the Technology & Realization competency. My preferred tool of choice for this is a front- end development stack. During my Master’s degree, <b>programming</b> has become an integral part of my designer’s identity and toolkit.</p>
+    <p class="width__small">Throughout my time at the TU/e I was driven to complement my academic knowledge with <b>professional experience</b>. In 2017 I had a six-month internship as a Junior Interaction Designer at creative digital agency Momkai <sup><a href="#ref__1" class="link">[ 1 ]</a></sup>, which I discuss in detail in my FBP portfolio <sup><a href="#ref__1" class="link">[ 2 ]</a></sup>. This great experience solidified my interest in becoming a UX Designer. Additionally, from September 2018 until December 2019 I have been working part-time as the sole UX Designer at SPIE Nederland B.V. <sup><a href="#ref__1" class="link">[ 3 ]</a></sup>. In this position I was responsible for re-designing the usability and user experience of legacy applications.</p>
+    <p class="width__small">Experiencing the differences in working as a designer at these companies with very differing attitudes towards design
+    has given me more <b>perspective</b> for continuing my career as a UX Designer after I graduate.</p>
     <div class="width__small references">
       <h4 id="ref__1">References</h4>
       <ol>
@@ -138,10 +141,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
     </div>
 
     <h3>Vision on Design</h3>
-    <p class="width__small">Computers and the internet have revolutionalised our way of living. We increasingly perform complex tasks that were previously deemed impossible, including connecting with peers all over the world, automating tasks that are repetitive and sharing vast amounts of data. We have made the world more accessible: computers enable all to contribute to our society, regardless of their location, age, gender or disabilities.</p>
-    <p class="width__small">In contrast with physical products, the landscape of digital products is a lot more dynamic. By removing physical materials and real-world shipping from the equation, we see new products make it to the market faster, and see existing products receive new features regularly. Because of this, barriers that prevent us from being productive are rapidly disolving.</p>
-    <p class="width__small">However&hellip; that is not always the case. The complexity of the tools we use in everyday life is rapidly expanding, requiring more training and expertise to operate. This clashes with making the world more accessible: not everybody is able to participate anymore as their skillset does not allow them to participate. Furthermore, we are seeing negative societal trends regarding the digital products we use. Our privacy is being eroded through the increasing intensiveness of web- tracking and transfer of personal data to third parties, and our behaviour is being influenced on a large scale by the party that pays the most.</p>
-    <p class="width__small p__block">With my design I try to take a stand against these developments. I am driven to create <em>digital tools and systems</em> that not only make the internet a <em>more accessible place</em>, but also <em>more respecting</em> of the persons operating it.</p>
+    <p class="width__small">Computers and the internet have <b>revolutionalised our way of living</b>. We increasingly perform complex tasks that were previously deemed impossible, including connecting with peers all over the world, automating tasks that are repetitive and sharing vast amounts of data. We have made the world <b>more accessible</b>: computers enable all to contribute to our society, regardless of their location, age, gender or disabilities.</p>
+    <p class="width__small">In contrast with physical products, the landscape of digital products is a lot more dynamic. By removing physical materials and real-world shipping from the equation, we see new products make it to the market faster, and see existing products receive new features regularly. All these developments seem to <b>rapidly improve our world!</b></p>
+    <p class="width__small"><b>However&hellip; that is not always the case.</b> The complexity of the tools we use in everyday life is rapidly expanding, requiring more training and expertise to operate. This clashes with making the world more accessible: not everybody is able to participate anymore as their skillset does not allow them to participate. Furthermore, we are seeing <b>negative societal trends</b> regarding the digital products we use. Our privacy is being eroded through the increasing intensiveness of web trackers and transfer of personal data to third parties, ultimately allowing them to slyly manipulate our behaviour.</p>
+    <p class="width__small p__block">With my design I try to take a stand against these developments. I am driven to create <b>digital tools and systems</b> that not only make the internet a <b>more accessible place</b>, but also <b>more respecting</b> of the persons operating it.</p>
   </div>
 </section>
 
@@ -149,11 +152,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 <section id="Growth">
   <div class="section__inner">
     <h2 class="width__small">Competency Development</h2>
-    <p class="width__small">Over the time </p>
-    <p class="width__small to-be-changed">Insert ~200 word integral reflection here.</p>
+    <p class="width__small to-be-changed">Insert ~200 word integral reflection here. To be written at the very end.</p>
 
     <p class="width__small">After spending both my Bachelor's and Master's degrees at ID TU/e, I've become very familiar with the department's Expertise Area framework. In this section I share my personal interpretation of all six competencies.</p>
-    <p class="width__small">The icons are used throughout this page to signify which competency area was involved in learning activities. Don't worry about losing track of which icon signifies what, you can hover over icons to see their meaning. Additionally, you can click on an icon to highlight activities that have this competency area.</p>
+    <p class="width__small">The icons are used throughout this page to signify which competency area was involved in learning activities. Don't worry about losing track of which icon signifies what, you can hover over icons to see their meaning. Additionally, you can <b>click on an icon</b> to highlight activities that have this competency area.</p>
 
     <!-- Competency Area-->
     <div class="icon-list width__small">
@@ -228,10 +230,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 <section id="M11">
   <div class="section__inner">
     <h2 class="width__small">M11 Semester</h2>
-    <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+    <p class="width__small">The first semester of my Master's degree was spent exploring the potential tracks that the study had. During this I completed my last group project, which was in the context of the <a href="#EM" class="link">Eindhoven Museum</a>. Furthermore, I completed the core course on <a href="#CDR" class="link">Constructive Design Research</a>, as well as an elective course on <a href="#DIII" class="link">Designing Intelligence in Interaction</a>. Finally, I landed a part-time job as a UX Designer, working at <a href="#SPIE" class="link">SPIE Nederland</a>.</p>
 
     <div class="activity">
-      <h3>Project: "Eindhoven Museum"</h3>
+      <h3 id="EM">Project: "Eindhoven Museum"</h3>
       <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
           <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
@@ -261,8 +263,9 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
       <p class="width__small p__details">Grade: Excellence</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <p class="width__small">In collaboration with Yiwen Shen, Krishnaa Seck &amp; Xueqing Liang.</p>
+      <p class="width__small">In the M11 project we worked for the client 'Eindhoven Museum', and were asked to aid in their vision of becoming a <b>pop-up museum &mdash; Museum in the City</b>. Through an iterative process we explored ways of extracting more value from their collection of over 23.000 items, which included tangible interactions, gamification and the element of surprise. The final concept was 'Ray': an <b>interactive agent</b> that makes real-time predictions on visitors of exhibitions, all based on their behaviour.</p>
+      <p class="width__small">In this project I gained skills in managing the different disciplines we had in our team, for example by <b>hosting UX design workshops</b> and taking the lead in <b>technical realization</b> of this digital protoytpe.</p>
+      <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Shen!" data-balloon-pos="up">Yiwen Shen</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Krishnaa!" data-balloon-pos="up">Krishnaa Seck</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Liang!" data-balloon-pos="up">Xueqing Liang</span>.</p>
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/M11_Report_Geel_AJ_Eindhoven-Museum.pdf" target="_blank">
           <div class="deliverables__item-left">
@@ -296,7 +299,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
     </div>
 
     <div class="activity">
-      <h3>Elective: "Constructive Design Research"</h3>
+      <h3 id="CDR">Elective: "Constructive Design Research"</h3>
       <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
           <a href="/i/wayfinder.jpg" itemprop="contentUrl" data-size="2688x1488">
@@ -313,15 +316,16 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       </div>
       <div class="icon-row width__small" style="filter: hue-rotate(55deg) brightness(1.3)">
         <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+        <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
         <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
         <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
         <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
       <p class="width__small p__details">Grade: 7.0</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <p class="width__small">In collaboration with Mitchell Ansems, Linas Gabrielaitis, Naomi Kool, Jianxue 'Amy' Xu &amp; Xiaoyu 'Davy' Yu.</p>
+      <p class="width__small">In this elective I was introduced to the full range of <b>Constructive Design Research</b>: 'lab', 'field' and 'showroom'. We explored 'presenting recognizable open data in its related context' by using a <b>Field-style</b> approach. The final concept was 'Wayfinder': a public display of abstract data. The concept was used in an evaluation which had the aim to better understand <b>how open data can be presented</b> in-situ with better interpretability.</p>
+      <p class="width__small">As a result of this elective, I have a <b>better perspective</b> on the 'genres' of design research, and learned about the flexible structure that they may have. Specifically, I learnt how the 'field' research style lends itself well for <b>open-ended design exploration</b>.</p>
+      <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Mitchell!" data-balloon-pos="up">Mitchell Ansems</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Linas!" data-balloon-pos="up">Linas Gabrielaitis</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Naomi!" data-balloon-pos="up">Naomi Kool</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Amy!" data-balloon-pos="up">Jianxue 'Amy' Xu</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Davy!" data-balloon-pos="up">Xiaoyu 'Davy' Yu</span>.</p>
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/DCM100_Paper_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
@@ -355,7 +359,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 
 
     <div class="activity">
-      <h3>Elective: "Designing Intelligence in Interaction"</h3>
+      <h3 id="DIII">Elective: "Designing Intelligence in Interaction"</h3>
       <div class="width__small">
         <div style="padding:56.25% 0 0 0;position:relative; margin: 2rem 0 .2rem 0;"><iframe src="https://player.vimeo.com/video/428417817?color=d39d1f&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
       </div>
@@ -368,8 +372,9 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
       </div>
       <p class="width__small p__details">Grade: 8.0</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <p class="width__small">In collaboration with Jesper van Bentum, Marleen Hillen &amp; Tim van de Puttelaar.</p>
+      <p class="width__small">In this elective I gained further intuition in designing- and realizing intelligent systems based on <b>Artificial Intelligence</b>. Alongside the group we explored <b>multiple architectures of neural networks</b> with the aim to replace the need for eartags on goats, made possible by well-integrated <b>facial recognition for goats</b>.</p>
+      <p class="width__small">In the process I gained insight in the importance of integrating a seamless way to collect <b>reliable data</b> (we chose the milking carousel), and use <b>data visualisation</b> to identify features in the dataset which had the most potential. Finally, I've learned about strategies to <b>extract more information from images</b>, such as using edge detection filters and comparing values in different colour spaces.
+      <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jesper!" data-balloon-pos="up">Jesper van Bentum</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marleen!" data-balloon-pos="up">Marleen Hillen</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Tim!" data-balloon-pos="up">Tim van de Puttelaar</span>.</p>
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/DBM130_Paper_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
@@ -394,18 +399,22 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 
 
     <div class="activity">
-      <h3>Extracurricular: "UX Designer at SPIE Nederland B.V."</h3>
+      <h3 id="SPIE">Extracurricular: "UX Designer at SPIE Nederland B.V."</h3>
       <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
+            <a href="/i/spie-urenportaal.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/spie-urenportaal@0,33x.jpg" itemprop="thumbnail" alt="SPIE Urenportaal" loading="lazy" />
           </a>
-          <figcaption itemprop="caption description"></figcaption>
+          <figcaption itemprop="caption description">Final design of the SPIE Urenportaal App: a web application that allows SPIE employees to keep track of their worked hours on their phones.</figcaption>
+        </figure>
+        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+            <a href="/i/spie-urenportaal-2.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/spie-urenportaal-2@0,33x.jpg" itemprop="thumbnail" alt="SPIE Urenportaal" loading="lazy" />
+          </a>
+          <figcaption itemprop="caption description">Overview of the Figma project of the Urenportaal Final Designs. I introduced Figma in SPIE, showcasing its qualities in speeding up projects through the use of visual prototyping, using grids and using re-usable components.</figcaption>
         </figure>
       </div>
-      <div class="icon-row width__small">
+      <div class="icon-row width__small" style="filter: hue-rotate(75deg)">
         <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
         <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
         <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
@@ -413,7 +422,11 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <p class="width__small">In September 2018 I was hired by <a href="https://www.spie-nl.com/" class="link" target="_blank">SPIE Nederland</a> as a UX Designer &mdash; their very first. As a part-time (0.2 FTE) UX Designer I was hired to introduce <b>design expertise</b> in the Dutch branch of the multinational company, something that was sorely lacking.</p>
+      <p class="width__small">SPIE has a lot of custom-made tools that were developed in-house, powerering thousands of their Dutch employees. However, these tools were not created with <b>usability nor aesthetics</b> in mind, resulting in tools that functionally accomplish what they are supposed to do, yet are limited in use. Furthermore, this mentality <b>frustrated progress</b>: projects were realized in code from the get-go, <b>without ever exploring</b> the options, users, context or values. Consequently, fewer iterations were made, and the end-results did not reflect the time invested.</p>
+      <p class="width__small">In the time that I have worked at SPIE, I have contributed to several projects, always directing the design processes. For instance, I've re-designed a <b>workflow support application for mechanics</b> to suit mobile phones and tables, helping them in carrying out their jobs and simplifying their data administration. Additionally, I visually re-designed the <b>Financial Dashboard for business managers</b>, helping them more easily take strategic decisions based on data. Finally, I conducted UX Research and designed a mobile variant of the <b>Urenportaal App</b>, a mobile-first approach to enable all SPIE Nederland employees to report their time on a phone &mdash; something that previously required mandatory logging onto a computer to do.</p>
+      <p class="width__small">In December 2019 I vacated my job at SPIE in order to focus on my Final Master Project. Looking back, it has been excellent for my personal development, allowing me to grow in <b>all competency areas</b> by carrying out real-world projects. However, perhaps the biggest growth was in the competency of <b>Business &amp; Entrepreneurship</b>, due to the financial implications of working in a real-life context. Working has given me experience in <b>collaborating with multiple stakeholders</b> within the company, whose interests did not always align. Additionally, it has taught me to better <b>articulate the value of design</b>, helping in value propositions. Finally, I've gained perspective on <b>the management of risk</b>, an essential component of bringing design concepts to reality.</p>
+
     </div>
 
   </div>
@@ -501,7 +514,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       </div>
       <p class="width__small p__details">Grade: 8.0</p>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <p class="width__small">In collaboration with Melvin Sterk (Manifesto), and in collaboration with Jessie Harms, Marit Her, Marit Proper &amp; Jordy Oplaat (Booking.com case).</p>
+      <p class="width__small">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Melvin!" data-balloon-pos="up">Melvin Sterk</span> (Manifesto), and in collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jessie!" data-balloon-pos="up">Jessie Harms</span>, <br><span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marit!" data-balloon-pos="up">Marit Her</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marit!" data-balloon-pos="up">Marit Proper</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jordy!" data-balloon-pos="up">Jordy Oplaat</span> (Booking.com case).</p>
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/DDM150-UX-Portfolio-Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
@@ -556,7 +569,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       </div>
       <p class="width__small p__details">Grade: 8.0</p>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <p class="width__small">In collaboration with Yizou Liu &amp; Sark Xing.</p>
+      <p class="width__small">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Yizhou!" data-balloon-pos="up">Yizhou Liu</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sark!" data-balloon-pos="up">Sark Xing</span>.</p>
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/DBM160_Paper_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
@@ -678,7 +691,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       </div>
       <p class="width__small p__details">Grade: 7.0</p>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <p class="width__small">In collaboration with Marco Putzu &amp; Sacha Prudon.</p>
+      <p class="width__small">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marco!" data-balloon-pos="up">Marco Putzu</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sacha!" data-balloon-pos="up">Sacha Prudon</span>.</p>
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/DDM110_Proposal_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
@@ -725,7 +738,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <p class="width__small p__details">Grade: 9.0</p>
       <p class="width__small">Department: Computer Science, TU/e.</p>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="width__small deliverables">
+      <!-- <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
             <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
@@ -735,7 +748,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
             <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
           </div>
         </a>
-      </div>
+      </div> -->
     </div>
 
 
@@ -762,7 +775,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <p class="width__small p__details">Grade: 9.0</p>
       <p class="width__small">Department: Computer Science, TU/e.</p>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu. The group assignment can be opened with the password 'backpropagation'.</p>
-      <p class="width__small">In collaboration with Jelle Koks, Martijn Beeks, Steffi Krijgsman &amp; Sven Ruiter.</p>
+      <p class="width__small">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jelle!" data-balloon-pos="up">Jelle Koks</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Martijn!" data-balloon-pos="up">Martijn Beeks</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Steffi!" data-balloon-pos="up">Steffi Krijgsman</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sven!" data-balloon-pos="up">Sven Ruiter</span>.</p>
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
@@ -773,7 +786,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
             <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
           </div>
         </a>
-        <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
+        <!-- <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
             <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
           </div>
@@ -781,7 +794,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
             <p class="deliverables__file-size">0.1MB</p>
             <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
           </div>
-        </a>
+        </a> -->
       </div>
     </div>
 
@@ -812,14 +825,14 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/2IMS20_Lecture-Notes_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
-            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Extended Lecture Notes</h4>
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Extensive Lecture Notes, summarised by me</h4>
           </div>
           <div class="deliverables__item-right">
             <p class="deliverables__file-size">0.4MB</p>
             <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
           </div>
         </a>
-        <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
+        <!-- <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
             <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
           </div>
@@ -827,7 +840,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
             <p class="deliverables__file-size">0.1MB</p>
             <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
           </div>
-        </a>
+        </a> -->
       </div>
     </div>
 
