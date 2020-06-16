@@ -316,7 +316,7 @@ function updateGreeting() {
   timeOfDayDOM.innerHTML = greeting;
 }
 
-updateReadingTimeDOM();
+// updateReadingTimeDOM();
 updateGreeting();
 
 // Make reference to all icons

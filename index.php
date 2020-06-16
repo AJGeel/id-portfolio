@@ -57,17 +57,47 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
     <section id="Welcome">
       <div class="section__slide">
         <div class="section__slide-inner">
-          <h1 class="width__small">Portfolio by Arthur Geel</h1>
-          <p data-balloon-length="large" aria-label="" data-balloon-pos="left" data-balloon-break>Estimated reading time: ~<span id="readingTime">0</span> minutes.</p>
+          <div class="section__slide-block">
+            <h1 class="width__small">Portfolio</h1>
+            <h1 class="width__small">MSc Industrial Design</h1>
+            <h1 class="width__small">Arthur Geel</h1>
+          </div>
+          <div class="section__slide-block image">
+            <div id="container">
+              <img src="/i/ajgeel-splash.jpg" alt="Arthur Geel">
+              <div id="circle">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="400px" height="400px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+                    <defs>
+                        <path id="circlePath" d=" M 150, 150 m -120, 0 a 120,120 0 0,1 240,0 a 120,120 0 0,1 -240,0 "/>
+                    </defs>
+                    <g>
+                        <use xlink:href="#circlePath" fill="none"/>
+                        <text fill="#333">
+                            <textPath xlink:href="#circlePath">Becoming a Pi-Shaped UX Designer
+                              &nbsp; &nbsp; &nbsp;
+                              &mdash;
+                              &nbsp; &nbsp; &nbsp;
+                              June 18th, 2020
+                              &nbsp; &nbsp; &nbsp;
+                              &mdash;
+                              &nbsp; &nbsp; &nbsp;
+                              Eindhoven University of Technology
+                            </textPath>
+                        </text>
+                    </g>
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="section__inner">
+      <div class="section__inner first">
         <h2 class="width__small">Welcome</h2>
         <p class="width__small p__intro">Good <span id="timeOfDay">day</span>, and welcome to my Final Master Portfolio!</p>
         <p class="width__small p__intro">On this page I present a timeline of the work I did over the past two years, which is augmented with reflections on my competency development. The menu on the <span id="smallViewport">top right</span><span id="bigViewport">left</span> contains an overview of the sections in this portfolio, which will help you keep track of where you are. Furthermore, images are clickable, showing you a gallery view of high-resolution images. I hope you enjoy!</p>
         <p class="width__small p__intro">&mdash; Arthur</p>
-
+        <!-- <p class="width__small p__intro" data-balloon-length="large" aria-label="" data-balloon-pos="left" data-balloon-break>Estimated reading time: ~<span id="readingTime">0</span> minutes.</p> -->
 
       </div>
     </section>
@@ -119,6 +149,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 <section id="Growth">
   <div class="section__inner">
     <h2 class="width__small">Competency Development</h2>
+    <p class="width__small">Over the time </p>
     <p class="width__small to-be-changed">Insert ~200 word integral reflection here.</p>
 
     <p class="width__small">After spending both my Bachelor's and Master's degrees at ID TU/e, I've become very familiar with the department's Expertise Area framework. In this section I share my personal interpretation of all six competencies.</p>
