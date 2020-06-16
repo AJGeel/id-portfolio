@@ -28,6 +28,7 @@ body {
   flex-direction: row;
   max-width: 1440px;
   margin: 4em auto;
+  background-image: url(/i/noise.png);
 }
 
 img {
@@ -35,7 +36,7 @@ img {
 }
 
 aside {
-  background-color: #fff;
+  /* background-color: #fff; */
   width: 16em;
   flex: 0 0 auto;
 
@@ -96,7 +97,7 @@ nav a.active::before {
 }
 
 main {
-  background-color: #fff;
+  /* background-color: #fff; */
   width: 100%;
   padding: 2em;
   box-sizing: border-box;
@@ -159,14 +160,45 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2rem;
-}
-
-.pswp__gallery {
   justify-content: space-between;
 }
 
+.pswp__gallery > figure:first-child::before, .pswp__gallery.small-thumbnails > figure::before {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  position: absolute;
+  box-sizing: border-box;
+  /* background-image: url(/i/icons/zoom.svg); */
+  background-image: url(/i/icons/more-photos.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: invert(1);
+  border-radius: 100%;
+
+  border: 2px solid rgba(0,0,0,0);
+  /* box-shadow: 0px 1px 5px rgba(0,0,0,.3); */
+  transition: transform .2s ease-in-out, border .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.pswp__gallery > figure.no-invert:first-child::before, .pswp__gallery.small-thumbnails > figure.no-invert::before {
+  filter: invert(0);
+  opacity: .5;
+}
+
+.pswp__gallery > figure:hover::before {
+  cursor: pointer;
+  transform: scale(1.2);
+  border: 2px solid rgba(0,0,0,1);
+  /* box-shadow: 0px 4px 20px rgba(0,0,0,.8); */
+}
+
 .pswp__gallery.small-thumbnails > figure {
-  flex: 0 0 30%;
+  flex: 0 0 48%;
+  margin-bottom: 4%;
 }
 
 .pswp__gallery > figure.hidden {
@@ -257,9 +289,29 @@ figure {
   filter: grayscale(1) contrast(8) invert(1);
 }
 
-.icon-list:hover .icon-list__icon {
-  /* transform: translateY(-.4em);
-  box-shadow: 0 5px 15px rgba(0,153,114,.5); */
+.icon-list__icon:hover {
+  box-shadow: 0 5px 15px rgba(0,153,114,.5);
+  background-color: hsla(165, 100%, 26%, .02);
+}
+
+.icon-list__icon.active img {
+  /* Select filter for this specific item */
+  filter: grayscale(1) contrast(8) invert(1);
+}
+
+
+.icon-row .icon-list__icon:hover {
+  background-color: hsla(165, 100%, 26%, .1);
+}
+
+.icon-row .icon-list__icon.active img {
+  /* Select filter for this specific item */
+  filter: grayscale(1) contrast(8) invert(1);
+}
+
+.icon-row .icon-list__icon.active {
+  /* Select filter for this specific item */
+  background-color: var(--royal-green);
 }
 
 .icon-list__copy h3 {
@@ -419,6 +471,14 @@ aside:hover .icon-row.vertical {
               0 32px 64px rgba(0,0,0,0.03);
 }
 
+.deliverables__item:active {
+  transform: translateY(.05rem);
+  box-shadow: 0 0px 2px rgba(0,0,0,0.03),
+              0 0px 4px rgba(0,0,0,0.03),
+              0 0px 8px rgba(0,0,0,0.03),
+              0 0px 16px rgba(0,0,0,0.03);
+}
+
 .deliverables__item.visited {
   background-color: #fff;
 }
@@ -457,12 +517,64 @@ aside:hover .icon-row.vertical {
   margin-left: .5rem;
 }
 
+.references {
+  border: 1px solid #999;
+  padding: 1rem;
+  border-radius: 2px;
+  opacity: .5;
+
+  transition: opacity .2s ease-in-out;
+}
+
+.references h4 {
+  color: #777;
+  transition: color .2s ease-in-out;
+}
+
+.references:hover {
+  opacity: 1;
+}
+
+.references:hover h4 {
+  color: #333;
+}
+
+.references ol {
+  line-height: 1.5;
+  color: #777;
+}
+
+.references ol li {
+  margin-bottom: 1rem;
+}
+
+sup a {
+  text-decoration: none;
+}
+
+a.link {
+  color: var(--royal-green);
+  transition: color .2s ease-in-out;
+}
+
+a.link:hover {
+  color: #111;
+}
+
 #ray {
   transform: translateY(-8px);
 }
 
 #hamburgerMenu {
   display: none;
+}
+
+#smallViewport {
+  display: none;
+}
+
+#bigViewport {
+  display: inline-block;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -500,6 +612,7 @@ aside:hover .icon-row.vertical {
     justify-content: center;
     opacity: 0;
     visibility: hidden;
+    background-color: #fff;
 
     transition: opacity .2s ease-in-out;
   }
@@ -536,6 +649,14 @@ aside:hover .icon-row.vertical {
 
   .icon-row.vertical img {
     width: 24px;
+  }
+
+  #smallViewport {
+    display: inline-block;
+  }
+
+  #bigViewport {
+    display: none;
   }
 
   #hamburgerMenu {

@@ -65,7 +65,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <div class="section__inner">
         <h2 class="width__small">Welcome</h2>
         <p class="width__small p__intro">Good <span id="timeOfDay">day</span>, and welcome to my Final Master Portfolio!</p>
-        <p class="width__small p__intro">On this page I present a timeline of my work of the past two years where I reflect on my competency development resulting from this. <span id="viewportNav">The menu on the left</span> contains an overview of the sections in this portfolio, which will help you keep track of where you are. Furthermore, images are clickable, showing you a gallery view of high-resolution images. I hope you enjoy!</p>
+        <p class="width__small p__intro">On this page I present a timeline of the work I did over the past two years, which is augmented with reflections on my competency development. The menu on the <span id="smallViewport">top right</span><span id="bigViewport">left</span> contains an overview of the sections in this portfolio, which will help you keep track of where you are. Furthermore, images are clickable, showing you a gallery view of high-resolution images. I hope you enjoy!</p>
         <p class="width__small p__intro">&mdash; Arthur</p>
 
 
@@ -81,10 +81,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <li><span>Name:</span> Arthur Geel</li>
         <li><span>Track:</span> Research, Design &amp; Development</li>
         <li><span>Expertise Areas:</span> Design &amp; Research Processes, User &amp; Society, Technology &amp; Realization</li>
-        <li><span>Things I Love:</span> Homebrewing, collecting (Drum and Bass) records, science-fiction, old civilisations, analog technology, Mid-Century Modern interior design.</li>
+        <li><span>Things I'm passionate about:</span> Homebrewing, french press coffee, technology (analog/digital), collecting (Drum and Bass) records, science-fiction, digital design.</li>
       </ul>
       <div class="pswp__gallery" itemscope itemtype="https://schema.org/ImageGallery">
-        <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
           <a href="/i/ajgeel.jpg" itemprop="contentUrl" data-size="1680x1400">
             <img src="/i/ajgeel@0,2x.jpg" itemprop="thumbnail" alt="Arthur Geel" loading="lazy"/>
           </a>
@@ -92,17 +92,26 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         </figure>
       </div>
     </div>
-    <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
     <h3>Profesional Identity</h3>
-    <p class="width__small">My name is Arthur Geel — I’m a MSc student Industrial Design at the Eindhoven University of Technology. During my bachelor degree at the ID department I became familiar with a broad range of design applications (from design research to automotive design), but was mostly interested in User Experience Design.Being a designer in the 21st century means adapting to the needs of a rapidly changing world by having competencies in areas that are not traditionally design-related. My response to this shift is to develop myself as a Pi-Shaped Designer [11, 49] . Besides being familiar with a broad range of product design essentials, a Pi-Shaped Designer has two areas of competence in which they excel.</p>
-    <p class="width__small">For me, those two areas are designing for digital user experiences and the technological realization of digital products. I believe that such a varied skillset allows me to better understand contexts by analysing them from both perspectives. Consequently, the two competency areas within the Industrial Design Eindhoven Education Framework I have decided to specialize in are User & Society and Technology & Realization. In my process I put an emphasis on creating a thorough understanding of the context and its stakeholders, where I use skills and attitude developed in the User & Society competence to guide me. More specifically, I employ UX methodologies such as design ethnography [26] , contextual inquiries [26] and customer journey mapping [48] to inform my process.</p>
-    <p class="width__small">Afterwards, I give shape to the insights by designing digital prototypes in increasing levels of fidelity — from wireframes [2] to complete design system [13] — using Figma [15], my tool of choice for designing digital products and systems. These design artifacts allow me to further explore the design space by conducting in-context evaluations once more tapping into the User & Society competency. Finally, I enjoy breathing life into prototypes by developing them with my skills in the Technology & Realization competency. My preferred tool of choice for this is a front- end development stack (HTML/CSS/JavaScript), using Git for version control. During my Master’s degree, Programming has become an integral part of my designer’s identity and toolkit.</p>
-    <p class="width__small">Throughout my time at the TU/e I was driven to complement my academic knowledge with professional experience. In 2017 I had a six-month internship as a Junior Interaction Designer at creative digital agency Momkai, which I discuss in detail in my portfolio [18].Additionally, from September 2018 until January 2020 I have been working part-time as the sole UX Designer at SPIE Nederland. In this position I am responsible for re-designing the usability and user experience of legacy applications.Experiencing the differences in working as a designer at these companies with very differing attitudes towards design was one of the drivers for this project — I felt that the benefits of UX Design should be available to all, regardless of UX Maturity levels.The time I spent working as a designer further strengthened my identity as a designer: I want to keep developing myself as a Pi-Shaped UX Designer in my future career.</p>
+    <p class="width__small">During my bachelor degree at the ID department I became familiar with a broad range of design applications (from design research to automotive design), but was mostly interested in User Experience Design.Being a designer in the 21st century means adapting to the needs of a rapidly changing world by having competencies in areas that are not traditionally design-related. My response to this shift is to develop myself as a <em>Pi-Shaped Designer</em>. Besides being familiar with a broad range of product design essentials, a Pi-Shaped Designer has two areas of competence in which they excel.</p>
+    <p class="width__small">For me, those two areas are <em>designing for digital user experiences</em> and the <em>technological realization of digital products</em>. I believe that such a varied skillset allows me to better understand contexts by analysing them from both perspectives. Consequently, the two competency areas within the Industrial Design Eindhoven Education Framework I have decided to specialize in are <em>User & Society</em> and <em>Technology &amp; Realization</em>. In my process I put an emphasis on creating a thorough understanding of the context and its stakeholders, where I use skills and attitude developed in the User & Society competence to guide me. More specifically, I employ UX methodologies such as <em>design ethnography</em>, <em>contextual inquiries</em> and <em>customer journey mapping</em> to inform my process.</p>
+    <p class="width__small">Afterwards, I give shape to the insights by designing digital prototypes in increasing levels of fidelity — from wireframes to complete design systems. These design artifacts allow me to further explore the design space by conducting in-context evaluations once more tapping into the User & Society competency. Finally, I enjoy breathing life into prototypes by developing them with my skills in the Technology & Realization competency. My preferred tool of choice for this is a front- end development stack. During my Master’s degree, Programming has become an integral part of my designer’s identity and toolkit.</p>
+    <p class="width__small">Throughout my time at the TU/e I was driven to complement my academic knowledge with professional experience. In 2017 I had a six-month internship as a Junior Interaction Designer at creative digital agency Momkai <sup><a href="#ref__1" class="link">[ 1 ]</a></sup>, which I discuss in detail in my FBP portfolio <sup><a href="#ref__1" class="link">[ 2 ]</a></sup>.Additionally, from September 2018 until December 2019 I have been working part-time as the sole UX Designer at SPIE Nederland B.V. <sup><a href="#ref__1" class="link">[ 3 ]</a></sup>. </p>
+    <p class="width__small">In this position I was responsible for re-designing the usability and user experience of legacy applications.Experiencing the differences in working as a designer at these companies with very differing attitudes towards design was one of the drivers for this project — I felt that the benefits of UX Design should be available to all, regardless of <em>UX Maturity</em> levels. The time I spent working as a designer further strengthened my identity as a designer: I want to keep developing myself as a Pi-Shaped UX Designer in my future career.</p>
+    <div class="width__small references">
+      <h4 id="ref__1">References</h4>
+      <ol>
+        <li>Momkai (2020). <em>We are Momkai, a design studio that helps dreamers and thinkers to build brands and platforms that serve a purpose.</em> Retrieved from <a href="https://momkai.com/" class="link" target="_blank">momkai.com</a></li>
+        <li>Geel, A.J. (July, 2018). <em>Momkai — Half-year Internship.</em> Retrieved from <a href="https://arthurgeel.com/momkai.html" class="link" target="_blank">arthurgeel.com/momkai</a>.</li>
+        <li>SPIE Nederland B.V. (n.d.). <em>SPIE - specialist in de installisatiebranche.</em> Retrieved from <a href="https://www.spie-nl.com/" class="link" target="_blank">spie-nl.com</a>.</li>
+      </ol>
+    </div>
 
     <h3>Vision on Design</h3>
-    <p class="width__small">Computers and the internet have revolutionalised our way of living. We increasingly perform complex tasks that were previously deemed impossible, including connecting with peers all over the world, automating tasks that are repetitive and sharing vast amounts of data. We have made the world more accessible: computers enable all to contribute to our society, regardless of their location, age, gender or disabilities. In contrast with physical products, the landscape of digital products is a lot more dynamic. By removing physical materials and real-world shipping from the equation, we see new products make it to the market faster, and see existing products receive new features regularly. Because of this, barriers that prevent us from being productive are rapidly disolving.</p>
+    <p class="width__small">Computers and the internet have revolutionalised our way of living. We increasingly perform complex tasks that were previously deemed impossible, including connecting with peers all over the world, automating tasks that are repetitive and sharing vast amounts of data. We have made the world more accessible: computers enable all to contribute to our society, regardless of their location, age, gender or disabilities.</p>
+    <p class="width__small">In contrast with physical products, the landscape of digital products is a lot more dynamic. By removing physical materials and real-world shipping from the equation, we see new products make it to the market faster, and see existing products receive new features regularly. Because of this, barriers that prevent us from being productive are rapidly disolving.</p>
     <p class="width__small">However&hellip; that is not always the case. The complexity of the tools we use in everyday life is rapidly expanding, requiring more training and expertise to operate. This clashes with making the world more accessible: not everybody is able to participate anymore as their skillset does not allow them to participate. Furthermore, we are seeing negative societal trends regarding the digital products we use. Our privacy is being eroded through the increasing intensiveness of web- tracking and transfer of personal data to third parties, and our behaviour is being influenced on a large scale by the party that pays the most.</p>
-    <p class="width__small p__block">With my design I try to take a stand against these developments. I am driven to create digital tools and systems that not only make the internet a more accessible place, but also more respecting of the persons operating it.</p>
+    <p class="width__small p__block">With my design I try to take a stand against these developments. I am driven to create <em>digital tools and systems</em> that not only make the internet a <em>more accessible place</em>, but also <em>more respecting</em> of the persons operating it.</p>
   </div>
 </section>
 
@@ -122,7 +131,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       </div>
       <div class="icon-list__copy">
         <h3>Business &amp; Entrepreneurship</h3>
-        <p>This competency is about understanding markets and the 'rules of the game'. It allows me to analyse and coordinate the environment required to make the envisioned design values a reality.</p>
+        <p>This competency is about understanding markets and the 'rules of the game'. It allows me to analyse the environment required to anchor the envisioned design values and make them a reality.</p>
       </div>
     </div>
 
@@ -155,7 +164,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       </div>
       <div class="icon-list__copy">
         <h3>Math, Data &amp; Computing</h3>
-        <p>This competency is about making sense through abstraction. It allows me to find strong evidence by crunching numbers manually, and by .</p>
+        <p>This competency is about making sense through abstraction. It allows me to make informed decisions by crunching numbers, both manually as well as algorithmically.</p>
       </div>
     </div>
 
@@ -166,7 +175,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       </div>
       <div class="icon-list__copy">
         <h3>Technology &amp; Realization</h3>
-        <p>In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>This competency is about turning concepts into reality. It allows me to understand up-and-coming technologies, integrating them in design concepts to create reliable, interactive systems.</p>
       </div>
     </div>
 
@@ -177,7 +186,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       </div>
       <div class="icon-list__copy">
         <h3>User &amp; Society</h3>
-        <p>In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>This competency is about expanding perspectives. It allows me to be empathic, curious and sensitive to stakeholders and contexts, and provides me with the tools to approach design problems.</p>
       </div>
     </div>
 
@@ -262,7 +271,13 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="/i/wayfinder.jpg" itemprop="contentUrl" data-size="2688x1488">
             <img src="/i/wayfinder@0,33x.jpg" itemprop="thumbnail" alt="Wayfinder Research Poster" loading="lazy"/>
           </a>
-          <figcaption itemprop="caption description"></figcaption>
+          <figcaption itemprop="caption description">Isometric illustration style for the research poster</figcaption>
+        </figure>
+        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+          <a href="/i/wayfinder-2.jpg" itemprop="contentUrl" data-size="1488x2000">
+            <img src="/i/wayfinder-2@0,33x.jpg" itemprop="thumbnail" alt="Wayfinder Research Poster" loading="lazy"/>
+          </a>
+          <figcaption itemprop="caption description">Research poster: 'Presenting Recognizable Open Data in its Related Context.'</figcaption>
         </figure>
       </div>
       <div class="icon-row width__small" style="filter: hue-rotate(55deg) brightness(1.3)">
@@ -900,7 +915,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
-        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
@@ -908,6 +923,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
+
       </div>
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/M22_Report_Geel_AJ_Requestor.pdf" target="_blank">
@@ -966,7 +982,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
             <a href="/i/brouwerij-geel.jpg" itemprop="contentUrl" data-size="2688x1488">
             <img src="/i/brouwerij-geel@0,33x.jpg" itemprop="thumbnail" alt="Brouwerij Geel" loading="lazy"/>
           </a>
-          <figcaption itemprop="caption description">Brewing log, listing all eleven batches that have been brewed thus far.</figcaption>
+          <figcaption itemprop="caption description">A database that contains my brewing log, this is where I keep track of the things I've made and their stand-out features.</figcaption>
         </figure>
         <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
             <a href="/i/brouwerij-geel-2.jpg" itemprop="contentUrl" data-size="2688x1488">
@@ -1063,8 +1079,6 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 
 <!-- <script defer src="js/main.min.js" charset="utf-8"></script> -->
 <script defer src="js/main.js" charset="utf-8"></script>
-
-
 
 </html>
 
