@@ -29,7 +29,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 
 <body>
 
-
+  <a href="#!" id="hamburgerMenu">☰</a>
   <aside>
     <!-- Sticky navigational menu, providing quick navigation through this page. -->
     <nav>
@@ -86,7 +86,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <div class="pswp__gallery" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
           <a href="/i/ajgeel.jpg" itemprop="contentUrl" data-size="1680x1400">
-            <img src="/i/ajgeel@0,2x.jpg" itemprop="thumbnail" alt="Arthur Geel" />
+            <img src="/i/ajgeel@0,2x.jpg" itemprop="thumbnail" alt="Arthur Geel" loading="lazy"/>
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
@@ -195,10 +195,30 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
           <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" />
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy"/>
           </a>
-          <figcaption itemprop="caption description"></figcaption>
+          <figcaption itemprop="caption description">Ray &mdash; a Conversational UI that predicts who you are.. based on how you behaved during your visit to the Eindhoven Museum.</figcaption>
         </figure>
+        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+          <a href="/i/ray-2.jpg" itemprop="contentUrl" data-size="1488x2000">
+            <img src="/i/ray-2@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy"/>
+          </a>
+          <figcaption itemprop="caption description">Ray in person. Let's talk!</figcaption>
+        </figure>
+        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+          <a href="/i/em-early-prototype.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/em-early-prototype@0,33x.jpg" itemprop="thumbnail" alt="Eindhoven Museum early prototype" loading="lazy"/>
+          </a>
+          <figcaption itemprop="caption description">Early concept exploration: matching Eindhoven Museum and Gamification.</figcaption>
+        </figure>
+      </div>
+      <div class="icon-row width__small" style="filter: hue-rotate(-135deg) saturate(2);">
+        <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
+        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
       <p class="width__small p__details">Grade: Excellence</p>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
@@ -228,18 +248,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
             <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Demonstrator Prototype: 'Ray'</h4>
           </div>
           <div class="deliverables__item-right">
-            <p class="deliverables__file-size">Website</p>
+            <p class="deliverables__file-size">External</p>
             <img src="/i/icons/file-ray.gif" alt="Ray File Icon" id="ray">
           </div>
         </a>
-      </div>
-      <div class="icon-row width__small" style="filter: hue-rotate(-135deg) saturate(2);">
-        <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
     </div>
 
@@ -247,13 +259,19 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <h3>Elective: "Constructive Design Research"</h3>
       <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+          <a href="/i/wayfinder.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/wayfinder@0,33x.jpg" itemprop="thumbnail" alt="Wayfinder Research Poster" loading="lazy"/>
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
+      </div>
+      <div class="icon-row width__small" style="filter: hue-rotate(55deg) brightness(1.3)">
+        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+        <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
+        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
       <p class="width__small p__details">Grade: 7.0</p>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
@@ -261,7 +279,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/DCM100_Paper_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
-            <h4>Group Paper: 'Wayfinder'</h4>
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Paper: 'Wayfinder'</h4>
           </div>
           <div class="deliverables__item-right">
             <p class="deliverables__file-size">2MB</p>
@@ -270,21 +288,22 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         </a>
         <a class="deliverables__item" href="/documents/DCM100_Reflection_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
-            <h4>Individual Reflection</h4>
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
           </div>
           <div class="deliverables__item-right">
             <p class="deliverables__file-size">0.3MB</p>
             <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
           </div>
         </a>
-      </div>
-      <div class="icon-row width__small">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
-        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+        <a class="deliverables__item" href="/documents/DCM100_Poster_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Poster</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">34MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
       </div>
     </div>
 
@@ -292,30 +311,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
     <div class="activity">
       <h3>Elective: "Designing Intelligence in Interaction"</h3>
       <div class="width__small">
-        <div style="padding:56.25% 0 0 0;position:relative; margin: 2rem 0;"><iframe src="https://player.vimeo.com/video/428417817?color=d39d1f&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-      </div>
-      <p class="width__small p__details">Grade: 8.0</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <p class="width__small">In collaboration with Jesper van Bentum, Marleen Hillen &amp; Tim van de Puttelaar.</p>
-      <div class="width__small deliverables">
-        <a class="deliverables__item" href="/documents/DBM130_Paper_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Report: 'Digital Goat Farmer`s Assistant</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">2MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="/documents/DBM130_Reflection_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Individual Reflection</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.2MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
+        <div style="padding:56.25% 0 0 0;position:relative; margin: 2rem 0 .2rem 0;"><iframe src="https://player.vimeo.com/video/428417817?color=d39d1f&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
       </div>
       <div class="icon-row width__small" style="filter: hue-rotate(272deg) saturate(6.5);">
         <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
@@ -324,6 +320,29 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+      </div>
+      <p class="width__small p__details">Grade: 8.0</p>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <p class="width__small">In collaboration with Jesper van Bentum, Marleen Hillen &amp; Tim van de Puttelaar.</p>
+      <div class="width__small deliverables">
+        <a class="deliverables__item" href="/documents/DBM130_Paper_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Report: 'Digital Goat Farmer`s Assistant</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">2MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="/documents/DBM130_Reflection_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.2MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
       </div>
     </div>
 
@@ -335,12 +354,11 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
       </div>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
       <div class="icon-row width__small">
         <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
         <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
@@ -349,6 +367,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
     </div>
 
   </div>
@@ -367,41 +386,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
-      </div>
-      <p class="width__small p__details">Grade: Pass</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="width__small deliverables">
-        <a class="deliverables__item" href="/documents/M12_Paper_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Paper: 'The Live Persona'</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">3MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="/documents/M12_Reflection_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Individual Reflection</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.3MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="https://arthurgeel.com/tp/" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Research Onboarding / Demonstrator</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">Website</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
       </div>
       <div class="icon-row width__small">
         <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
@@ -410,6 +398,37 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+      </div>
+      <p class="width__small p__details">Grade: Pass</p>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <div class="width__small deliverables">
+        <a class="deliverables__item" href="/documents/M12_Paper_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Paper: 'The Live Persona'</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">3MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="/documents/M12_Reflection_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.3MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="https://arthurgeel.com/tp/" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Research Onboarding / Demonstrator</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">External</p>
+            <img src="/i/icons/file-external.png" alt="External File Icon">
+          </div>
+        </a>
       </div>
     </div>
 
@@ -421,42 +440,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
-      </div>
-      <p class="width__small p__details">Grade: 8.0</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <p class="width__small">In collaboration with Melvin Sterk (Manifesto), and in collaboration with Jessie Harms, Marit Her, Marit Proper &amp; Jordy Oplaat (Booking.com case).</p>
-      <div class="width__small deliverables">
-        <a class="deliverables__item" href="/documents/DDM150-UX-Portfolio-Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Individual 'UX Portfolio'</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">5MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="/documents/DDM150_Team-Challenge_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Booking.com Team UX Case</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.5MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="/documents/DDM150_Manifesto_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>UX Manifesto</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.5MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
       </div>
       <div class="icon-row width__small">
         <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
@@ -465,6 +452,38 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
         <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+      </div>
+      <p class="width__small p__details">Grade: 8.0</p>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <p class="width__small">In collaboration with Melvin Sterk (Manifesto), and in collaboration with Jessie Harms, Marit Her, Marit Proper &amp; Jordy Oplaat (Booking.com case).</p>
+      <div class="width__small deliverables">
+        <a class="deliverables__item" href="/documents/DDM150-UX-Portfolio-Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual 'UX Portfolio'</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">5MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="/documents/DDM150_Team-Challenge_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Booking.com Team UX Case</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.5MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="/documents/DDM150_Manifesto_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">UX Manifesto</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.5MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
       </div>
     </div>
 
@@ -476,33 +495,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
-      </div>
-      <p class="width__small p__details">Grade: 8.0</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <p class="width__small">In collaboration with Yizou Liu &amp; Sark Xing.</p>
-      <div class="width__small deliverables">
-        <a class="deliverables__item" href="/documents/DBM160_Paper_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Group Pictorial: 'Shared Spaces'</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">5MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="/documents/DBM160_Reflection_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Individual Reflection</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.5MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
       </div>
       <div class="icon-row width__small">
         <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
@@ -511,6 +507,29 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+      </div>
+      <p class="width__small p__details">Grade: 8.0</p>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <p class="width__small">In collaboration with Yizou Liu &amp; Sark Xing.</p>
+      <div class="width__small deliverables">
+        <a class="deliverables__item" href="/documents/DBM160_Paper_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Pictorial: 'Shared Spaces'</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">5MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="/documents/DBM160_Reflection_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.5MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
       </div>
     </div>
 
@@ -522,20 +541,20 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
       </div>
+      <div class="icon-row width__small">
+        <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
+        <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+        <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+        <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+      </div>
       <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-    </div>
-    <div class="icon-row width__small">
-      <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
-      <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-      <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-      <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-      <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-      <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
     </div>
   </div>
 
@@ -553,32 +572,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
-      </div>
-      <p class="width__small p__details">Grade: Pass</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="width__small deliverables">
-        <a class="deliverables__item" href="/documents/M21_Proposal_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>FMP Proposal</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">7MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="/documents/M21_Reflection_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Individual Reflection</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.4MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
       </div>
       <div class="icon-row width__small">
         <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
@@ -587,6 +584,28 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
         <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+      </div>
+      <p class="width__small p__details">Grade: Pass</p>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <div class="width__small deliverables">
+        <a class="deliverables__item" href="/documents/M21_Proposal_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">FMP Proposal</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">7MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="/documents/M21_Reflection_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.4MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
       </div>
     </div>
 
@@ -598,33 +617,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
-      </div>
-      <p class="width__small p__details">Grade: 7.0</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <p class="width__small">In collaboration with Marco Putzu &amp; Sacha Prudon.</p>
-      <div class="width__small deliverables">
-        <a class="deliverables__item" href="/documents/DDM110_Proposal_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Study Proposal</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.9MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Individual Reflection</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.1MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
       </div>
       <div class="icon-row width__small">
         <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
@@ -633,6 +629,29 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
         <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+      </div>
+      <p class="width__small p__details">Grade: 7.0</p>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <p class="width__small">In collaboration with Marco Putzu &amp; Sacha Prudon.</p>
+      <div class="width__small deliverables">
+        <a class="deliverables__item" href="/documents/DDM110_Proposal_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Study Proposal</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.9MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.1MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
       </div>
     </div>
 
@@ -644,24 +663,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
-      </div>
-      <p class="width__small p__details">Grade: 9.0</p>
-      <p class="width__small">Department: Computer Science, TU/e.</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="width__small deliverables">
-        <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Individual Reflection (TO-DO)</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.1MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
       </div>
       <div class="icon-row width__small">
         <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
@@ -670,6 +675,20 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+      </div>
+      <p class="width__small p__details">Grade: 9.0</p>
+      <p class="width__small">Department: Computer Science, TU/e.</p>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <div class="width__small deliverables">
+        <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.1MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
       </div>
     </div>
 
@@ -681,34 +700,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
-      </div>
-      <p class="width__small p__details">Grade: 9.0</p>
-      <p class="width__small">Department: Computer Science, TU/e.</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu. The group assignment can be opened with the password 'backpropagation'.</p>
-      <p class="width__small">In collaboration with Jelle Koks, Martijn Beeks, Steffi Krijgsman &amp; Sven Ruiter.</p>
-      <div class="width__small deliverables">
-        <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Group Assignments</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">4MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Individual Reflection (TO-DO)</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.1MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
       </div>
       <div class="icon-row width__small">
         <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
@@ -717,6 +712,30 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+      </div>
+      <p class="width__small p__details">Grade: 9.0</p>
+      <p class="width__small">Department: Computer Science, TU/e.</p>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu. The group assignment can be opened with the password 'backpropagation'.</p>
+      <p class="width__small">In collaboration with Jelle Koks, Martijn Beeks, Steffi Krijgsman &amp; Sven Ruiter.</p>
+      <div class="width__small deliverables">
+        <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Assignments</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">4MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.1MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
       </div>
     </div>
 
@@ -728,18 +747,26 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
       </div>
+      <div class="icon-row width__small" style="filter: hue-rotate(45deg) saturate(2.5);">
+        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+        <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
+        <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
+        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+        <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+      </div>
       <p class="width__small p__details">Grade: 10.0</p>
       <p class="width__small">Department: Computer Science, TU/e.</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu. The group assignment can be opened with the password 'backpropagation'.</p>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/2IMS20_Lecture-Notes_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
-            <h4>Extended Lecture Notes</h4>
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Extended Lecture Notes</h4>
           </div>
           <div class="deliverables__item-right">
             <p class="deliverables__file-size">0.4MB</p>
@@ -748,21 +775,13 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         </a>
         <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
           <div class="deliverables__item-left">
-            <h4>Individual Reflection (TO-DO)</h4>
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
           </div>
           <div class="deliverables__item-right">
             <p class="deliverables__file-size">0.1MB</p>
             <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
           </div>
         </a>
-      </div>
-      <div class="icon-row width__small" style="filter: hue-rotate(45deg) saturate(5.5);">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
       </div>
     </div>
 
@@ -772,41 +791,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
           <a href="/i/smart-coffee.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/smart-coffee@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" />
+            <img src="/i/smart-coffee@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" />
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
-      </div>
-      <p class="width__small p__details">Grade: 7.0</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu. The group assignment can be opened with the password 'backpropagation'.</p>
-      <div class="width__small deliverables">
-        <a class="deliverables__item" href="/documents/DCM180_Report_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Group Report</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">4MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="/documents/DCM180_Reflection_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Individual Reflection</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.2MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="https://vimeo.com/428499788" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Group Video</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">External</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
       </div>
       <div class="icon-row width__small">
         <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
@@ -815,6 +803,37 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
         <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+      </div>
+      <p class="width__small p__details">Grade: 7.0</p>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu. The group assignment can be opened with the password 'backpropagation'.</p>
+      <div class="width__small deliverables">
+        <a class="deliverables__item" href="/documents/DCM180_Report_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Report</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">4MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="/documents/DCM180_Reflection_Geel_AJ.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.2MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="https://vimeo.com/428499788" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Video</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">External</p>
+            <img src="/i/icons/file-vimeo.png" alt="Vimeo File Icon">
+          </div>
+        </a>
       </div>
     </div>
 
@@ -826,7 +845,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
             <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
             <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
           </a>
           <figcaption itemprop="caption description"></figcaption>
         </figure>
@@ -845,81 +864,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
     <div class="activity">
       <h3>Project: "FMP &mdash; Requestor"</h3>
       <div class="width__small">
-        <div style="padding:56.25% 0 0 0;position:relative; margin: 2rem 0;"><iframe src="https://player.vimeo.com/video/425870546?color=f3f9f8&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-      </div>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-        <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
-          </a>
-          <figcaption itemprop="caption description"></figcaption>
-        </figure>
-        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
-          </a>
-          <figcaption itemprop="caption description"></figcaption>
-        </figure>
-        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
-          </a>
-          <figcaption itemprop="caption description"></figcaption>
-        </figure>
-      </div>
-      <div class="width__small deliverables">
-        <a class="deliverables__item" href="/documents/DCM180_Report_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>FMP Report</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">4MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="/documents/M22_Reflection_Geel_AJ.pdf" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Individual Reflection</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.4MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="https://requestor.nl/app/cui.php" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Requestor: 'Conversational UI'</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">External</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="https://requestor.nl/app/gui.php" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Requestor: 'Traditional UI'</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">External</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
-        <a class="deliverables__item" href="https://requestor.nl/" target="_blank">
-          <div class="deliverables__item-left">
-            <h4>Requestor: 'Landing Page'</h4>
-          </div>
-          <div class="deliverables__item-right">
-            <p class="deliverables__file-size">External</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-          </div>
-        </a>
+        <div style="padding:56.25% 0 0 0;position:relative; margin: 2rem 0 .2rem 0;"><iframe src="https://player.vimeo.com/video/425870546?color=f3f9f8&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
       </div>
       <div class="icon-row width__small">
         <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
@@ -929,6 +874,88 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <div class="pswp__gallery width__small small-thumbnails" itemscope itemtype="https://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
+            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
+            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
+          </a>
+          <figcaption itemprop="caption description"></figcaption>
+        </figure>
+        <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
+            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
+            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
+          </a>
+          <figcaption itemprop="caption description"></figcaption>
+        </figure>
+        <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
+            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
+            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
+          </a>
+          <figcaption itemprop="caption description"></figcaption>
+        </figure>
+        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
+            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
+            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
+          </a>
+          <figcaption itemprop="caption description"></figcaption>
+        </figure>
+      </div>
+      <div class="width__small deliverables">
+        <a class="deliverables__item" href="/documents/M22_Report_Geel_AJ_Requestor.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">FMP Report</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">26MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="/documents/M22_Reflection_Geel_AJ_Requestor.pdf" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">0.4MB</p>
+            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="https://requestor.nl/app/cui.php" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Requestor: 'Conversational UI'</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">External</p>
+            <img src="/i/icons/file-requestor.png" alt="Requestor File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="https://requestor.nl/app/gui.php" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Requestor: 'Traditional UI'</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">External</p>
+            <img src="/i/icons/file-requestor.png" alt="Requestor File Icon">
+          </div>
+        </a>
+        <a class="deliverables__item" href="https://requestor.nl/" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Requestor: 'Landing Page'</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">External</p>
+            <img src="/i/icons/file-requestor.png" alt="Requestor File Icon">
+          </div>
+        </a>
+      </div>
     </div>
 
 
@@ -936,16 +963,31 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <h3>Extracurricular: "Brouwerij Geel Website"</h3>
       <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" /> -->
+            <a href="/i/brouwerij-geel.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/brouwerij-geel@0,33x.jpg" itemprop="thumbnail" alt="Brouwerij Geel" loading="lazy"/>
           </a>
-          <figcaption itemprop="caption description"></figcaption>
+          <figcaption itemprop="caption description">Brewing log, listing all eleven batches that have been brewed thus far.</figcaption>
+        </figure>
+        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+            <a href="/i/brouwerij-geel-2.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/brouwerij-geel-2@0,33x.jpg" itemprop="thumbnail" alt="Brouwerij Geel" loading="lazy"/>
+          </a>
+          <figcaption itemprop="caption description">Brouwerij Geel's brews a wide range of beers.</figcaption>
+        </figure>
+        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+            <a href="/i/brouwerij-geel-3.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/brouwerij-geel-3@0,33x.jpg" itemprop="thumbnail" alt="Brouwerij Geel" loading="lazy"/>
+          </a>
+          <figcaption itemprop="caption description">Kiki's Cheeky Kriekie: a tribute to our cat.</figcaption>
+        </figure>
+        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+            <a href="/i/brouwerij-geel-4.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/brouwerij-geel-4@0,33x.jpg" itemprop="thumbnail" alt="Brouwerij Geel" loading="lazy"/>
+          </a>
+          <figcaption itemprop="caption description">Interactive ingredients &amp; brewing steps, showing how you brew your own Ginger Beer.</figcaption>
         </figure>
       </div>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
-      <div class="icon-row width__small">
+      <div class="icon-row width__small" style="filter: hue-rotate(-98deg) saturate(3.5)">
         <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
         <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
         <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
@@ -953,6 +995,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
       </div>
+      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
     </div>
   </div>
 </section>

@@ -1,6 +1,13 @@
 // Make DOM call to detect 'nav' element
 const nav = document.querySelector('nav');
 
+// Add hamburger closer eventlistener to all 'a' tags in nav
+for (i=0; i < nav.children.length; i++) {
+  nav.children[i].addEventListener('click', function() {
+    linkAndBurger();
+  })
+}
+
 // Init PhotoSwipe
 const pswpElement = document.querySelectorAll('.pswp')[0];
 
@@ -386,4 +393,34 @@ for (i=0; i<allDeliverables.length; i++) {
 function toggleLinkVisited(target) {
   // Check if target has not been visited before
   target.classList.add('visited');
+}
+
+const hamburger = document.getElementById('hamburgerMenu');
+
+function toggleHamburger() {
+  // Select 'aside' DOM element
+  const aside = document.querySelector('aside');
+
+  if (aside.classList.contains('visible')) {
+    aside.style.opacity = '0';
+    setTimeout(function() {
+      aside.classList.remove('visible');
+    }, 200);
+    hamburger.classList.remove('active');
+  } else {
+    aside.style.opacity = '100';
+    aside.classList.add('visible');
+    hamburger.classList.add('active');
+  }
+}
+
+hamburger.addEventListener('click', function() {
+  toggleHamburger();
+})
+
+// Nav A tag behaviour: close hamburger menu if screen is small enough.
+function linkAndBurger() {
+  if (screen.width <= 780) {
+    toggleHamburger();
+  }
 }
