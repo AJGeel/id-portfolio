@@ -883,6 +883,11 @@ span.thanks {
   }
 }
 
+code {
+  background-color: #f2f2f2;
+  padding: .2rem .4rem;
+}
+
 
 @-webkit-keyframes rotate {
     from { -webkit-transform: rotate(360deg); }
