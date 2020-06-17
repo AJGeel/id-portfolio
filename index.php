@@ -680,6 +680,18 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
           </a>
           <figcaption itemprop="caption description">A number of identified problems presented in the proposal. The environment results in a disrupted design process.</figcaption>
         </figure>
+        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+          <a href="/i/fmp-proposal-system.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/fmp-proposal-system@0,33x.jpg" itemprop="thumbnail" alt="FMP Proposal: System Overview" loading="lazy" />
+          </a>
+          <figcaption itemprop="caption description">Schematic overview of the envisioned system to address the identified problem statement.</figcaption>
+        </figure>
+        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+          <a href="/i/fmp-proposal-wireframe.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/fmp-proposal-wireframe@0,33x.jpg" itemprop="thumbnail" alt="FMP Proposal: Wireframe" loading="lazy" />
+          </a>
+          <figcaption itemprop="caption description">Wireframe flowchart of the envisioned design concept, illustrating the user journey.</figcaption>
+        </figure>
       </div>
       <div class="icon-row width__small">
         <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
@@ -690,9 +702,9 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
       <p class="width__small p__details">Grade: Pass</p>
-      <p class="width__small">In the FMP Proposal I defined the design briefing for my <a href="#FMP" class="link">Final Master Project</a>. This was done <b>through literature review, reflecting on my identity and vision and early concept development</b>. The FMP Proposal was presented to two assessors. However, the first iteration was graded with a 'contitional hold'
-
-         euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <p class="width__small">In the FMP Proposal I defined the design briefing for my <a href="#FMP" class="link">Final Master Project</a>. This was done <b>through literature review, reflecting on my identity and vision and early concept development</b>. The FMP Proposal was presented to two assessors. However, the first iteration was graded with a 'contitional hold', with the main points of criticism being that the identified problem statement was <b>not concrete enough</b>, and the road to an eventual concept was <b>not apparent</b>.</p>
+      <p class="width__small">Reflecting on this, I fully agreed with this assessment. For this project, I was envisioning the things made possible by technological developments, yet I did not fully <b>consider the value</b> that the resulting concept would bring. The extra time that was given for the re-take of this proposal was spent re-framing the project, which was done through stakeholder interviews, ideation sessions and low-fidelity prototyping.</p>
+      <p class="width__small">This resulted in a <b>more defined problem statement</b>: "User Experience Designers working in corporate enterprises are inhibited in their ability to perform well due to challenges stemming from low UX Maturity.", which resulted in a <b>concrete concept</b>: "A system that allows UX Designers to more easily share their works-in-progress with colleagues and related stakeholders". In the re-take document, schematic overviews and wireframe renditions of this system were shown, which resulted in an assessment of a 'Pass'.</p>
       <p class="width__small lecturers">Assessors: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Khan!" data-balloon-pos="up">dr.ir. Javed Khan</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Funk!" data-balloon-pos="up">dr. Mathias Funk</span>.</p>
       <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/M21_Proposal_Geel_AJ.pdf" target="_blank">
@@ -721,15 +733,13 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <h3 id="DFBC">Elective: "Design for Behavioural Change"</h3>
       <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
+          <a href="/i/behaviour-change.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/behaviour-change@0,33x.jpg" itemprop="thumbnail" alt="Behaviour Change: Personality Quiz" loading="lazy" />
           </a>
-          <figcaption itemprop="caption description"></figcaption>
+          <figcaption itemprop="caption description">Screen capture of 'Welke composthoop ben jij?', a satirical online personality test, designed for behaviour change.</figcaption>
         </figure>
       </div>
-      <div class="icon-row width__small">
+      <div class="icon-row width__small" style="filter: hue-rotate(-55deg)">
         <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
         <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
         <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
@@ -738,7 +748,8 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
       <p class="width__small p__details">Grade: 7.0</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <p class="width__small">In this elective I gained knowledge on designing products or systems that can <b>help people change their behaviour</b> without utilising coercion or manipulation. In order to do so, I studied models on human behaviour (e.g. the Theory of Planned Behaviour), which provided me with <b>the tools to understand behaviour and even make predictions</b>.</p>
+      <p class="width__small">In a group project I used the <b>COM-B model</b> (Capability-Opportunity-Motivation-Behaviour) to analyse human behaviour regarding waste separation, and identified an <b>intervention strategy</b> aimed to change this behaviour. The final concept was a satirical online personality test which focused on <b>social opportunity and reflective motivation</b>. Finally, in this elective I became aware of the responsibilities involved in designing for behaviour change, which can be addressed by conducting a <b>stakeholder analysis</b>.</p>
       <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marco!" data-balloon-pos="up">Marco Putzu</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sacha!" data-balloon-pos="up">Sacha Prudon</span>.</p>
       <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr. Markopoulos!" data-balloon-pos="up">prof.dr. Panos Markopoulos</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. van Essen!" data-balloon-pos="up">dr.ir. Harm van Essen</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Bekker!" data-balloon-pos="up">prof.dr.ir. Tilde Bekker</span>.</p>
       <div class="width__small deliverables">
@@ -768,12 +779,10 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       <h3 id="JAVA">Elective: "Object-Oriented Programming (Java)"</h3>
       <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
+          <a href="/i/oop-java.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/oop-java@0,33x.jpg" itemprop="thumbnail" alt="Java Code" loading="lazy" />
           </a>
-          <figcaption itemprop="caption description"></figcaption>
+          <figcaption itemprop="caption description">Object-oriented approach to solving the ArrayQuest problem of the 2019 exam.</figcaption>
         </figure>
       </div>
       <div class="icon-row width__small">
@@ -786,7 +795,8 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
       </div>
       <p class="width__small p__details">Grade: 9.0</p>
       <p class="width__small">Department: Computer Science, TU/e.</p>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <p class="width__small">In this elective I sought to increase my ability to write <b>more structured code</b>, making it more scalable and flexible. The language of this elective was Java, a language I had little previous experience in. The elective focused on two areas: GUIs and Object-Oriented Programming. In Java, frameworks are often used to create consistent graphical user interfaces. Through this elective I developed skills and intuition in using the <b>Java Abstract Widget Toolkit (AWT)</b> and the <b>Java Swing Framework</b>, allowing me to build interactive interfaces using Java. However, I do not believe I will use these often, as I am a lot more proficient in my preferred front-end technology stack (HTML/JS/CSS), which is more currently more widely used.</p>
+      <p class="width__small">However, I highly value the insights gained on <b>Object-Oriented Programming</b> (OOP), as these enable me to more efficiently realize designs in code through <b>better modularity</b>. Specifically, I learnt about and implemented the six main principles of Object-Oriented Programming in Java, those being <b>Abstraction, Encapsulation, Polymorphism, Inheritance, Association, Aggregation and Composition</b>. This elective was graded based on weekly challenges and a written test on OOP-implementations, which I completed with a 9.0.</p>
       <p class="width__small lecturers">Lecturer: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Huizing!" data-balloon-pos="up">dr. Kees Huizing</span>.</p>
       <!-- <div class="width__small deliverables">
         <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
