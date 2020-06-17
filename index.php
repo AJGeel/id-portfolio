@@ -964,9 +964,9 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 <section id="M22">
   <div class="section__inner">
     <h2 class="width__small">M22 Semester</h2>
-    <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+    <p class="width__small">The final semester of my Master's degree was dedicated to my <a href="#FMP" class="link">Final Master Project</a>: the final demonstration of my vision on design alongside my competence in design, guided by my core competencies of <b>Design &amp; Research Processes, Technology &amp; Realization and User &amp; Society</b>. In addition to that, I have been <a href="#Future" class="link">preparing for a career</a> after graduating, and created <a href="#Brouwerij-Geel" class="link">an online system</a> for my hobby: homebrewing.</p>
     <div class="activity">
-      <h3>Project: "FMP &mdash; Requestor"</h3>
+      <h3 id="FMP">Project: "FMP &mdash; Requestor"</h3>
       <div class="width__small">
         <div style="padding:56.25% 0 0 0;position:relative; margin: 2rem 0 .2rem 0;"><iframe src="https://player.vimeo.com/video/425870546?color=f3f9f8&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
       </div>
@@ -978,39 +978,35 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <p class="width__small"><b>How might we create a better collaborative space for UX Designers and their environment?</b></p>
+      <p class="width__small">That is the question that guided this work. Despite the increasing industry interest in attracting in-house UX Designers to add design thinking to commercial projects, we see <b>significant challenges</b> related to misunderstandings about what design is, and what place it should take in the workplace, ultimately resulting in disrupted design processes. Even though this issue was first discussed more than a decade ago by <a href="https://www.nngroup.com/articles/ux-maturity-stages-1-4/" class="link">Jakob Nielsen</a>, recent surveys held among <a href="https://info.userzoom.com/UX-Enterprise-Survey-2019.html" class="link">professional practitioners</a> demonstrate that the same problems still rings true.</p>
+      <p class="width__small">With this project I designed and developed <b>Requestor</b>: an online platform that facilitates sharing works-in-progress with non-experts. The platform enables UX Designers to integrate ongoing design prototypes from their favourite design tools (Figma, Adobe XD), and share them with others. The platform helps these potential non-expert designers in <b>understanding and evaluating the design</b>, empowering them to give meaningful feedback to the UX Designer, and helping bridge the knowledge gap.</p>
+      <p class="width__small">Requestor was evaluated in a comparative study, where two variants of the interface were compared as 24 total research participants used Requestor to perform a heuristic evaluation of a fictional design case. Two variants were designed: a 'traditional' GUI and a Conversational UI. Analysis of the results showed <b>a statistically significant difference</b> in perceived effort and perceived mental demand between the two variants, with the <b>Conversational UI being perceived as less demanding</b>.</p>
+      <p class="width__small">This project has brought me a lot. It has resulted in the most complete system that I have made so far, and the process of bringing this concept from early wireframes to a fully functioning system has taught me a lot. I have learnt about incrementally designing and developing a system using a <b>module-based philosphy</b>, which allowed for adaptability and scalability throughout the process.</p>
       <div class="pswp__gallery width__small small-thumbnails" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
+          <a href="/i/requestor-cui.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/requestor-cui@0,33x.jpg" itemprop="thumbnail" alt="Requestor: Conversational User Interface" loading="lazy" />
           </a>
-          <figcaption itemprop="caption description"></figcaption>
+          <figcaption itemprop="caption description">Conversational variant of the Requestor Platform: using conversation to guide non-experts through the evaluation.</figcaption>
         </figure>
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
+          <a href="/i/requestor-dashboard.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/requestor-dashboard@0,33x.jpg" itemprop="thumbnail" alt="Requestor: Dashboard" loading="lazy" />
           </a>
-          <figcaption itemprop="caption description"></figcaption>
+          <figcaption itemprop="caption description">The Requestor Dashboard. Importing design prototypes from popular tools is just one link away.</figcaption>
         </figure>
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
+          <a href="/i/requestor-landing.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/requestor-landing@0,33x.jpg" itemprop="thumbnail" alt="Requestor: Landing Page" loading="lazy" />
           </a>
-          <figcaption itemprop="caption description"></figcaption>
+          <figcaption itemprop="caption description">Landing page to the Requestor platform: explaining all about its functionality and capabilities.</figcaption>
         </figure>
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="https://placehold.it/2688x1488" itemprop="contentUrl" data-size="2688x1488">
-            <img src="https://placehold.it/672x372" itemprop="thumbnail" alt="Placeholder" />
-            <!-- <a href="/i/ray.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/ray@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" /> -->
+          <a href="/i/requestor-gui.jpg" itemprop="contentUrl" data-size="2688x1488">
+            <img src="/i/requestor-gui@0,33x.jpg" itemprop="thumbnail" alt="Requestor: Traditional User Interface" loading="lazy" />
           </a>
-          <figcaption itemprop="caption description"></figcaption>
+          <figcaption itemprop="caption description">The 'Traditional' variant of the Requestor Platform: supporting non-experts visually in their design evaluations.</figcaption>
         </figure>
 
       </div>
@@ -1035,7 +1031,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         </a>
         <a class="deliverables__item" href="https://requestor.nl/app/cui.php" target="_blank">
           <div class="deliverables__item-left">
-            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Requestor: 'Conversational UI'</h4>
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Demonstrator: 'Conversational UI'</h4>
           </div>
           <div class="deliverables__item-right">
             <p class="deliverables__file-size">External</p>
@@ -1044,7 +1040,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         </a>
         <a class="deliverables__item" href="https://requestor.nl/app/gui.php" target="_blank">
           <div class="deliverables__item-left">
-            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Requestor: 'Traditional UI'</h4>
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Demonstrator: 'Traditional UI'</h4>
           </div>
           <div class="deliverables__item-right">
             <p class="deliverables__file-size">External</p>
@@ -1100,7 +1096,18 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
       </div>
-      <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+      <p class="width__small">During stressful times it is important to keep doing things that bring you joy. For me, one of those things is working on my homebrewery: Brouwerij Geel. After <a href="#BWG" class="link">establishing a brand identity earlier</a>, I designed and built a website which serves as a digital display where I can show off what I do. Additionally, it serves <b>a number of purposes for me personally</b>. I have created a page where I can easily keep track of the brews that I have made, simplifying my administration processes. Additionally, I created interactive pages where I can store and share my recipes. These pages are equipped with functionality that <b>make it easier to keep track of the steps</b> performed in the process.</p>
+      <div class="width__small deliverables">
+        <a class="deliverables__item" href="https://brouwerijgeel.nl" target="_blank">
+          <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Brouwerij Geel Website</h4>
+          </div>
+          <div class="deliverables__item-right">
+            <p class="deliverables__file-size">External</p>
+            <img src="/i/icons/file-brouwerij-geel.png" alt="Brouwerij Geel Icon">
+          </div>
+        </a>
+      </div>
     </div>
   </div>
 </section>
