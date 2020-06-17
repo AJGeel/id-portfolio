@@ -644,7 +644,7 @@ span.thanks {
   text-align: center;
 }
 
-.section__inner p.collab {
+.section__inner p.collab, .section__inner p.lecturers {
   color: #777;
 }
 
