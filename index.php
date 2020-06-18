@@ -76,7 +76,12 @@ MSc Industrial Design TU/e, 2018-2020
                   <g>
                     <use xlink:href="#circlePath" fill="none"/>
                     <text fill="#333" text-rendering="optimizeLegibility">
-                      <textPath xlink:href="#circlePath">Becoming a Pi-Shaped UX Designer&nbsp; &nbsp; &nbsp; &mdash; &nbsp; &nbsp; &nbsp; June 18th, 2020 &nbsp; &nbsp; &nbsp; &mdash; &nbsp; &nbsp; &nbsp; Eindhoven University of Technology</textPath>
+                      <!-- <textPath xlink:href="#circlePath">Becoming a Pi-Shaped UX Designer&nbsp; &nbsp; &nbsp; &mdash; &nbsp; &nbsp; &nbsp; June 18th, 2020 &nbsp; &nbsp; &nbsp; &mdash; &nbsp; &nbsp; &nbsp; Eindhoven University of Technology</textPath> -->
+                      <textPath xlink:href="#circlePath">Becoming a Pi-Shaped UX Designer
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                      September 1st, 2018 &mdash; June 18th, 2020
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                      Eindhoven University of Technology</textPath>
                     </text>
                   </g>
                 </svg>
@@ -146,10 +151,14 @@ MSc Industrial Design TU/e, 2018-2020
       <section id="Growth">
         <div class="section__inner">
           <h2 class="width__small">Competency Development</h2>
-          <p class="width__small to-be-changed">Insert ~200 word integral reflection here. To be written at the very end.</p>
+          <h3 class="width__small" style="margin-top: 0;">Core Development</h3>
+          <p class="width__small">Over the time of my Master's degree I have developed myself as a <b>Pi-Shaped UX Designer</b>, not merely with skills in the design of digital concepts but also with the realization of interactive systems. I have grown to guide my design and research processes through the competencies of <b>User &amp; Society</b> and <b>Technology &amp; Realization</b>, enabling me to create value through a human-centred and iterative approach.</p>
+          <p class="width__small">I've learnt to integrate all expertise areas in support of the design process, allowing me to make design decisions that consider feasibility & viability while exploring the possibilities with an iterative approach. In my process, I operate from my vision on creating digital tools and systems that <b>contribute towards accessibility and integrity</b>.</p>
+          <p class="width__small">Throughout this portfolio I further substantiate my growth by showcasing all learning activities and deliverables, <b>reflecting on their contribution to my expertise areas</b>.</p>
 
+          <h3 class="width__small">Expertise Areas</h3>
           <p class="width__small">After spending both my Bachelor's and Master's degrees at ID TU/e, I've become very familiar with the department's Expertise Area framework. In this section I share my personal interpretation of all six competencies.</p>
-          <p class="width__small">The icons are used throughout this page to signify which competency area was involved in learning activities. Don't worry about losing track of which icon signifies what, you can hover over icons to see their meaning. Additionally, you can <b>click on an icon</b> to highlight activities that have this competency area.</p>
+          <p class="width__small">The icons are used throughout this page to signify which competency area was involved in learning activities. Do not worry about losing track of which icon signifies what, you can <b>hover over icons</b> to see their meaning. Additionally, you can <b>click on an icon</b> to highlight activities that have this competency area.</p>
 
           <!-- Competency Area-->
           <div class="icon-list width__small">
@@ -201,7 +210,7 @@ MSc Industrial Design TU/e, 2018-2020
               <img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon">
             </div>
             <div class="icon-list__copy">
-              <h3>Technology &amp; Realization *</h3>
+              <h3>Technology &amp; Realization</h3>
               <p>This competency is about <b>turning concepts into reality</b>. It allows me to understand up-and-coming technologies, integrating them in design concepts to create reliable, interactive systems.</p>
             </div>
           </div>
@@ -775,95 +784,84 @@ MSc Industrial Design TU/e, 2018-2020
             </div>
           </div>
 
-          <div class="activity">
-            <h3 id="TSoST">Elective: "The Sound of Smart Things"</h3>
-            <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-              <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                <a href="/i/smart-coffee.jpg" itemprop="contentUrl" data-size="2688x1488">
-                  <img src="/i/smart-coffee@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" />
-                </a>
-                <figcaption itemprop="caption description">The Smart Coffee Machine in the 'Lucid Bar 2030' &mdash; a fictional context which contained decentralised, intelligent systems.</figcaption>
-              </figure>
-            </div>
-            <div class="icon-row width__small">
-              <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-              <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-              <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-              <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
-              <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
-              <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
-            </div>
-            <p class="width__small p__details">Grade: 7.0</p>
-            <p class="width__small">In this course I acquired fundamental knowledge of sound and sound design. After reviewing theory on <b>the physics of sound</b> (i.e. waveform vibrations, made by a source in a location) I am better able to deconstruct sounds that I hear, extracting the qualities that they have for me. I've gained practical experience in <b>creating sounds and soundscapes</b> using software (Audacity, Logic Pro X). I have gained insights in principles in <b>music theory</b> such as tension/release and consonance/dissonance, and am now able to better appreciate the emotions soundscapes made with these principles can evoke.</p>
-            <p class="width__small"></p>
-            <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Alynne!" data-balloon-pos="up">Alynne</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Hsiu!" data-balloon-pos="up">Hsiu</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jing-Li!" data-balloon-pos="up">Jing-Li</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Maria!" data-balloon-pos="up">Maria</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Naomi!" data-balloon-pos="up">Naomi</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sanne!" data-balloon-pos="up">Sanne</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Seiji!" data-balloon-pos="up">Seiji</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Shiyuan!" data-balloon-pos="up">Shiyuan</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Yiyue!" data-balloon-pos="up">Yiyue</span> <br> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Veerle!" data-balloon-pos="up">Veerle</span>.</p>
-            <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Hengeveld!" data-balloon-pos="up">dr.ir. Bart Hengeveld</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Eggen!" data-balloon-pos="up">prof.dr.ir. Berry Eggen</span>.</p>
-            <div class="width__small deliverables">
-              <a class="deliverables__item" href="/documents/DCM180_Report_Geel_AJ.pdf" target="_blank">
-                <div class="deliverables__item-left">
-                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Report</h4>
-                </div>
-                <div class="deliverables__item-right">
-                  <p class="deliverables__file-size">4MB</p>
-                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                </div>
-              </a>
-              <a class="deliverables__item" href="/documents/DCM180_Reflection_Geel_AJ.pdf" target="_blank">
-                <div class="deliverables__item-left">
-                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
-                </div>
-                <div class="deliverables__item-right">
-                  <p class="deliverables__file-size">0.2MB</p>
-                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                </div>
-              </a>
-              <a class="deliverables__item" href="https://vimeo.com/428499788" target="_blank">
-                <div class="deliverables__item-left">
-                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Video</h4>
-                </div>
-                <div class="deliverables__item-right">
-                  <p class="deliverables__file-size">External</p>
-                  <img src="/i/icons/file-vimeo.png" alt="Vimeo File Icon">
-                </div>
-              </a>
-            </div>
-          </div>
-
-
-          <div class="activity">
-            <h3 id="JAVA">Elective: "Object-Oriented Programming (Java)"</h3>
-            <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-              <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                <a href="/i/oop-java.jpg" itemprop="contentUrl" data-size="2688x1488">
-                  <img src="/i/oop-java@0,33x.jpg" itemprop="thumbnail" alt="Java Code" loading="lazy" />
-                </a>
-                <figcaption itemprop="caption description">Object-oriented approach to solving the ArrayQuest problem of the 2019 exam.</figcaption>
-              </figure>
-            </div>
-            <div class="icon-row width__small">
-              <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-              <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
-              <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
-              <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-              <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-              <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
-            </div>
-            <p class="width__small p__details">Grade: 9.0</p>
-            <p class="width__small">Department: Computer Science, TU/e.</p>
-            <p class="width__small">In this elective I sought to increase my ability to write <b>more structured code</b>, making it more scalable and flexible. The language of this elective was Java, a language I had little previous experience in. The elective focused on two areas: GUIs and Object-Oriented Programming. In Java, frameworks are often used to create consistent graphical user interfaces. Through this elective I developed skills and intuition in using the <b>Java Abstract Widget Toolkit (AWT)</b> and the <b>Java Swing Framework</b>, allowing me to build interactive interfaces using Java. However, I do not believe I will use these often, as I am a lot more proficient in my preferred front-end technology stack (HTML/JS/CSS), which is more currently more widely used.</p>
-            <p class="width__small">However, I highly value the insights gained on <b>Object-Oriented Programming</b> (OOP), as these enable me to more efficiently realize designs in code through <b>better modularity</b>. Specifically, I learnt about and implemented the six main principles of Object-Oriented Programming in Java, those being <b>Abstraction, Encapsulation, Polymorphism, Inheritance, Association, Aggregation and Composition</b>. This elective was graded based on weekly challenges and a written test on OOP-implementations, which I completed with a 9.0.</p>
-            <p class="width__small lecturers">Lecturer: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Huizing!" data-balloon-pos="up">dr. Kees Huizing</span>.</p>
-            <!-- <div class="width__small deliverables">
-            <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
-            <div class="deliverables__item-left">
-            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
-          </div>
-          <div class="deliverables__item-right">
-          <p class="deliverables__file-size">0.1MB</p>
+  <div class="activity">
+    <h3 id="TSoST">Elective: "The Sound of Smart Things"</h3>
+    <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+      <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="/i/smart-coffee.jpg" itemprop="contentUrl" data-size="2688x1488">
+          <img src="/i/smart-coffee@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" />
+        </a>
+        <figcaption itemprop="caption description">The Smart Coffee Machine in the 'Lucid Bar 2030' &mdash; a fictional context which contained decentralised, intelligent systems.</figcaption>
+      </figure>
+    </div>
+    <div class="icon-row width__small">
+      <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+      <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+      <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+      <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
+      <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
+      <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+    </div>
+    <p class="width__small p__details">Grade: 7.0</p>
+    <p class="width__small">In this course I acquired fundamental knowledge of sound and sound design. After reviewing theory on <b>the physics of sound</b> (i.e. waveform vibrations, made by a source in a location) I am better able to deconstruct sounds that I hear, extracting the qualities that they have for me. I've gained practical experience in <b>creating sounds and soundscapes</b> using software (Audacity, Logic Pro X). I have gained insights in principles in <b>music theory</b> such as tension/release and consonance/dissonance, and am now able to better appreciate the emotions soundscapes made with these principles can evoke.</p>
+    <p class="width__small"></p>
+    <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Alynne!" data-balloon-pos="up">Alynne</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Hsiu!" data-balloon-pos="up">Hsiu</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jing-Li!" data-balloon-pos="up">Jing-Li</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Maria!" data-balloon-pos="up">Maria</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Naomi!" data-balloon-pos="up">Naomi</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sanne!" data-balloon-pos="up">Sanne</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Seiji!" data-balloon-pos="up">Seiji</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Shiyuan!" data-balloon-pos="up">Shiyuan</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Yiyue!" data-balloon-pos="up">Yiyue</span> <br> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Veerle!" data-balloon-pos="up">Veerle</span>.</p>
+    <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Hengeveld!" data-balloon-pos="up">dr.ir. Bart Hengeveld</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Eggen!" data-balloon-pos="up">prof.dr.ir. Berry Eggen</span>.</p>
+    <div class="width__small deliverables">
+      <a class="deliverables__item" href="/documents/DCM180_Report_Geel_AJ.pdf" target="_blank">
+        <div class="deliverables__item-left">
+          <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Report</h4>
+        </div>
+        <div class="deliverables__item-right">
+          <p class="deliverables__file-size">4MB</p>
           <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
         </div>
       </a>
-    </div> -->
+      <a class="deliverables__item" href="/documents/DCM180_Reflection_Geel_AJ.pdf" target="_blank">
+        <div class="deliverables__item-left">
+          <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+        </div>
+        <div class="deliverables__item-right">
+          <p class="deliverables__file-size">0.2MB</p>
+          <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+        </div>
+      </a>
+      <a class="deliverables__item" href="https://vimeo.com/428499788" target="_blank">
+        <div class="deliverables__item-left">
+          <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Video</h4>
+        </div>
+        <div class="deliverables__item-right">
+          <p class="deliverables__file-size">External</p>
+          <img src="/i/icons/file-vimeo.png" alt="Vimeo File Icon">
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="activity">
+    <h3 id="JAVA">Elective: "Object-Oriented Programming (Java)"</h3>
+    <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+      <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="/i/oop-java.jpg" itemprop="contentUrl" data-size="2688x1488">
+          <img src="/i/oop-java@0,33x.jpg" itemprop="thumbnail" alt="Java Code" loading="lazy" />
+        </a>
+        <figcaption itemprop="caption description">Object-oriented approach to solving the ArrayQuest problem of the 2019 exam.</figcaption>
+      </figure>
+    </div>
+    <div class="icon-row width__small">
+      <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+      <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
+      <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
+      <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+      <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+      <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+    </div>
+    <p class="width__small p__details">Grade: 9.0</p>
+    <p class="width__small">Department: Computer Science, TU/e.</p>
+    <p class="width__small">In this elective I sought to increase my ability to write <b>more structured code</b>, making it more scalable and flexible. The language of this elective was Java, a language I had little previous experience in. The elective focused on two areas: GUIs and Object-Oriented Programming. In Java, frameworks are often used to create consistent graphical user interfaces. Through this elective I developed skills and intuition in using the <b>Java Abstract Widget Toolkit (AWT)</b> and the <b>Java Swing Framework</b>, allowing me to build interactive interfaces using Java. However, I do not believe I will use these often, as I am a lot more proficient in my preferred front-end technology stack (HTML/JS/CSS), which is more currently more widely used.</p>
+    <p class="width__small">However, I highly value the insights gained on <b>Object-Oriented Programming</b> (OOP), as these enable me to more efficiently realize designs in code through <b>better modularity</b>. Specifically, I learnt about and implemented the six main principles of Object-Oriented Programming in Java, those being <b>Abstraction, Encapsulation, Polymorphism, Inheritance, Association, Aggregation and Composition</b>. This elective was graded based on weekly challenges and a written test on OOP-implementations, which I completed with a 9.0.</p>
+    <p class="width__small lecturers">Lecturer: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Huizing!" data-balloon-pos="up">dr. Kees Huizing</span>.</p>
   </div>
 
 
