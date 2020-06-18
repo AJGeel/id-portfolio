@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <!--
-Reflective Portfolio by Arthur Geel
+M22 Portfolio by Arthur Geel
 Proudly developed from scratch using HTML/CSS/JS/PHP.
+
+MSc Industrial Design TU/e, 2018-2020
 -->
 <html lang="en" dir="ltr">
 <head>
@@ -18,18 +20,17 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
   <link rel="stylesheet" href="/css/normalize.min.css"> <!-- Normalize v8.0.1. MIT License -->
   <link rel="stylesheet" href="/css/style.min.css">
 
-  <!-- Non-essential CSS is deferred to reduce initial page load time  -->
   <!-- PhotoSwipe v4.1.3. MIT License -->
   <link rel="stylesheet" href="/css/photoswipe.min.css">
   <link rel="stylesheet" href="/css/default-skin/default-skin.css">
   <!-- Balloon.css v1.1.0. MIT License -->
   <link rel="stylesheet" href="/css/balloon.min.css">
-
 </head>
 
 <body>
 
-  <a href="#!" id="hamburgerMenu">☰</a>
+  <!-- Hamburger menu for small screens (<780px vertical width). Toggles <aside> visibility -->
+  <a id="hamburgerMenu">☰</a>
   <aside>
     <!-- Sticky navigational menu, providing quick navigation through this page. -->
     <nav>
@@ -200,7 +201,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
               <img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon">
             </div>
             <div class="icon-list__copy">
-              <h3>Technology &amp; Realization</h3>
+              <h3>Technology &amp; Realization *</h3>
               <p>This competency is about <b>turning concepts into reality</b>. It allows me to understand up-and-coming technologies, integrating them in design concepts to create reliable, interactive systems.</p>
             </div>
           </div>
@@ -318,7 +319,7 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
             </div>
             <p class="width__small p__details">Grade: 7.0</p>
             <p class="width__small">In this elective I was introduced to the full range of <b>Constructive Design Research</b>: 'lab', 'field' and 'showroom'. We explored 'presenting recognizable open data in its related context' by using a <b>Field-style</b> approach. The final concept was 'Wayfinder': a public display of abstract data. The concept was used in an evaluation which had the aim to better understand <b>how open data can be presented</b> in-situ with better interpretability.</p>
-            <p class="width__small">As a result of this elective, I have a <b>better perspective</b> on the 'genres' of design research, and learned about the flexible structure that they may have. Specifically, I learnt how the 'field' research style lends itself well for <b>open-ended design exploration</b>.</p>
+            <p class="width__small">As a result of this elective, I have a <b>better perspective</b> on the 'genres' of design research, and learned about the flexible structure that they may have. Specifically, I learnt how the 'field' research style lends itself well for <b>open-ended design exploration</b>. Within design, this often implies using a human-centered approach, basing the results on a <b>thematic analysis of observations and semi-structured interviews</b>.</p>
             <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Mitchell!" data-balloon-pos="up">Mitchell Ansems</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Linas!" data-balloon-pos="up">Linas Gabrielaitis</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Naomi!" data-balloon-pos="up">Naomi Kool</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Amy!" data-balloon-pos="up">Jianxue 'Amy' Xu</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Davy!" data-balloon-pos="up">Xiaoyu 'Davy' Yu</span>.</p>
             <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Wensveen!" data-balloon-pos="up">prof.dr.ir. Stephan Wensveen</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Hupfeld!" data-balloon-pos="up">dr. Annika Hupfeld</span>.</p>
             <div class="width__small deliverables">
@@ -368,553 +369,553 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
             </div>
             <p class="width__small p__details">Grade: 8.0</p>
             <p class="width__small">In this elective I gained further intuition in designing- and realizing intelligent systems based on <b>Artificial Intelligence</b>. Alongside the group we explored <b>multiple architectures of neural networks</b> with the aim to replace the need for eartags on goats, made possible by well-integrated <b>facial recognition for goats</b>.</p>
-            <p class="width__small">In the process I gained insight in the importance of integrating a seamless way to collect <b>reliable data</b> (we chose the milking carousel), and use <b>data visualisation</b> to identify features in the dataset which had the most potential. Finally, I've learned about strategies to <b>extract more information from images</b>, such as using edge detection filters and comparing values in different colour spaces.
-              <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jesper!" data-balloon-pos="up">Jesper van Bentum</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marleen!" data-balloon-pos="up">Marleen Hillen</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Tim!" data-balloon-pos="up">Tim van de Puttelaar</span>.</p>
-              <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Hu PDEng MEng!" data-balloon-pos="up">dr. Jun Hu PDEng MEng</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Feijs!" data-balloon-pos="up">prof.dr.ir. Feijs</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Funk!" data-balloon-pos="up">dr. Mathias Funk</span> <br> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Martens!" data-balloon-pos="up">prof.dr.ir. Jean-Bernard Martens</span>.</p>
-              <div class="width__small deliverables">
-                <a class="deliverables__item" href="/documents/DBM130_Paper_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Report: 'Digital Goat Farmer`s Assistant</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">2MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
-                </a>
-                <a class="deliverables__item" href="/documents/DBM130_Reflection_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">0.2MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
-                </a>
-              </div>
-            </div>
-
-
-            <div class="activity">
-              <h3 id="SPIE">Extracurricular: "UX Designer at SPIE Nederland B.V."</h3>
-              <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-                <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/spie-urenportaal.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/spie-urenportaal@0,33x.jpg" itemprop="thumbnail" alt="SPIE Urenportaal" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Final design of the SPIE Urenportaal App: a web application that allows SPIE employees to keep track of their worked hours on their phones.</figcaption>
-                </figure>
-                <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/spie-urenportaal-2.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/spie-urenportaal-2@0,33x.jpg" itemprop="thumbnail" alt="SPIE Urenportaal" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Overview of the Figma project of the Urenportaal Final Designs. I introduced Figma in SPIE, showcasing its qualities in speeding up projects through the use of visual prototyping, using grids and using re-usable components.</figcaption>
-                </figure>
-                <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/spie-dashboard.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/spie-dashboard@0,33x.jpg" itemprop="thumbnail" alt="SPIE Dashboard" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Before- and after view of the Financial Dashboard: increased consistency, spacing, composition and a more balanced colour scheme. (Data is fictional). Built in Microsoft PowerBI.</figcaption>
-                </figure>
-              </div>
-              <div class="icon-row width__small" style="filter: hue-rotate(75deg)">
-                <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
-                <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-                <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-                <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-                <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-                <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
-              </div>
-              <p class="width__small">In September 2018 I was hired by <a href="https://www.spie-nl.com/" class="link" target="_blank">SPIE Nederland</a> as a UX Designer &mdash; their very first. As a part-time (0.2 FTE) UX Designer I was hired to introduce <b>design expertise</b> in the Dutch branch of the multinational company, something that was sorely lacking.</p>
-              <p class="width__small">SPIE has a lot of custom-made tools that were developed in-house, powerering thousands of their Dutch employees. However, these tools were not created with <b>usability nor aesthetics</b> in mind, resulting in tools that functionally accomplish what they are supposed to do, yet are limited in use. Furthermore, this mentality <b>frustrated progress</b>: projects were realized in code from the get-go, <b>without ever exploring</b> the options, users, context or values. Consequently, fewer iterations were made, and the end-results did not reflect the time invested.</p>
-              <p class="width__small">In the time that I have worked at SPIE, I have contributed to several projects, always directing the design processes. For instance, I've re-designed a <b>workflow support application for mechanics</b> to suit mobile phones and tables, helping them in carrying out their jobs and simplifying their data administration. Additionally, I visually re-designed the <b>Financial Dashboard for business managers</b>, helping them more easily take strategic decisions based on data. Finally, I conducted UX Research and designed a mobile variant of the <b>Urenportaal App</b>, a mobile-first approach to enable all SPIE Nederland employees to report their time on a phone &mdash; something that previously required mandatory logging onto a computer to do.</p>
-              <p class="width__small">In December 2019 I vacated my job at SPIE in order to focus on my Final Master Project. Looking back, it has been excellent for my personal development, allowing me to grow in <b>all competency areas</b> by carrying out real-world projects. However, perhaps the biggest growth was in the competency of <b>Business &amp; Entrepreneurship</b>, due to the financial implications of working in a real-life context. Working has given me experience in <b>collaborating with multiple stakeholders</b> within the company, whose interests did not always align. Additionally, it has taught me to better <b>articulate the value of design</b>, helping in value propositions. Finally, I've gained perspective on <b>the management of risk</b>, an essential component of bringing design concepts to reality.</p>
-
-            </div>
-
-          </div>
-        </section>
-
-        <!-- Section 5: M12 Semester -->
-        <section id="M12">
-          <div class="section__inner">
-            <h2 class="width__small">M12 Semester</h2>
-            <p class="width__small">In the M12 Semester I finalized my choice of specialization: the Research, Design &amp; Development (RDD) track with the focal competencies of User &amp; Society (US) and Technology &amp; Realization (TR). Building on the growth from the Constructive Design Research course from last semester, I completed a solo <a href="#TLP" class="link">Design Research Project</a>, entitled 'the Live Persona'. Furthermore, I completed the core elective for the RDD track <a href="#UXTP" class="link">UX Theory &amp; Practice</a>. Finally, I took part in the new <a href="#DED" class="link">Data-Enabled Design</a> elective, and dedicated time to building a brand for my <a href="#BWG" class="link">Homebrewing hobby</a>, and conducted some exploration of potential entrepreneurial opportunities.</p>
-
-            <div class="activity">
-              <h3 id="TLP">M12 Project: 'The Live Persona'</h3>
-              <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-                <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/live-persona.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/live-persona@0,33x.jpg" itemprop="thumbnail" alt="The Live Persona" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Promotional image of 'The Live Persona'. We see rich insights in the form of statistics, data points and conversations enter, being transmitted to the cloud.</figcaption>
-                </figure>
-                <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/live-persona-poster.jpg" itemprop="contentUrl" data-size="1488x2000">
-                    <img src="/i/live-persona-poster@0,33x.jpg" itemprop="thumbnail" alt="The Live Persona Poster" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">A1 Poster (printed on cloth) of the Live Persona, presented at the Final Demo Day.</figcaption>
-                </figure>
-              </div>
-              <div class="icon-row width__small" style="filter: hue-rotate(45deg) contrast(.8)">
-                <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-                <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-                <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-                <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-                <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-                <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
-              </div>
-              <p class="width__small p__details">Grade: Pass</p>
-              <p class="width__small">In this research project I sought to explore a topic that was close to me: UX Research. When communicating the insights, often formats are used that are <b>not as powerful</b> as directly talking to stakeholders or end-users. In addressing this, I designed and developed the Live Persona, a tool for communicating user research with a focus on <b>transferring empathy</b> by including personal details that make it relatable.The Live Persona was used in a study where designers were asked to carry out a short design case, <b>basing their design decisions on the Live Persona</b>.</p>
-              <p class="width__small">During this project I put the insights of the <b>Constructive Design Research</b> elective into practice, using the 'Field' style research. Beyond gaining more skills in conducting design research such as doing <b>thematic analysis</b>, above all this project made me aware of the <b>time investment</b> (design) research requires, which means the <b>project planning and management</b> has to be sound.</p>
-              <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Khan!" data-balloon-pos="up">dr.ir. Javed Khan</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Hummels!" data-balloon-pos="up">prof.dr.ir. Caroline Hummels</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Levy!" data-balloon-pos="up">dr.ir. Pierre Levy</span>.</p>
-              <div class="width__small deliverables">
-                <a class="deliverables__item" href="/documents/M12_Paper_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Paper: 'The Live Persona'</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">3MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
-                </a>
-                <a class="deliverables__item" href="/documents/M12_Reflection_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">0.3MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
-                </a>
-                <a class="deliverables__item" href="https://arthurgeel.com/tp/" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Research Onboarding / Demonstrator</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">External</p>
-                    <img src="/i/icons/file-external.png" alt="External File Icon">
-                  </div>
-                </a>
-              </div>
-            </div>
-
-
-            <div class="activity">
-              <h3 id="UXTP">Elective: "UX Theory &amp; Practice"</h3>
-              <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-                <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/ux-booking.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/ux-booking@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Dissecting the Booking.com website in various components that result in the specific User Experience.</figcaption>
-                </figure>
-              </div>
-              <div class="icon-row width__small" style="filter: hue-rotate(77deg) saturate(1.5)">
-                <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-                <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
-                <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-                <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-                <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
-                <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
-              </div>
-              <p class="width__small p__details">Grade: 8.0</p>
-              <p class="width__small">In this elective we looked at UX from an <b>academic and philosophic perspective</b>. By studying all suggested literature I broadened my view of what UX exactly is. Instead of merely focusing on designing so that systems are usable, UX is also about the <b>complex and subjective impressions</b> people experience, both <b>before, during and after</b> interacting with any given system.</p>
-              <p class="width__small">Furthermore, in this course we had a number of discussions about UX, especially as we discussed design cases. Alongside my team, I discussed <b>Booking.com</b>, where we looked into the User Experience that resulted from shopping for an overnight stay in Amsterdam. We noticed the site using a lot of (ethically) questionable strategies to drive conversions, such as <b>purchase pressure cues and limited product availability</b>, all exposing visitors of the website to stress in order to get them to spend their money.</p>
-              <p class="width__small">This reaffirmed my vision on design on making accessible and respectful systems. However, it is important to stay mindful of <b>maintaining the balance between ethical principles and financial goals</b>.</p>
-              <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Melvin!" data-balloon-pos="up">Melvin Sterk</span> (Manifesto), and in collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jessie!" data-balloon-pos="up">Jessie Harms</span>, <br><span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marit!" data-balloon-pos="up">Marit Her</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marit!" data-balloon-pos="up">Marit Proper</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jordy!" data-balloon-pos="up">Jordy Oplaat</span> (Booking.com case).</p>
-              <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Eggen!" data-balloon-pos="up">prof.dr.ir. Berry Eggen</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. van Essen!" data-balloon-pos="up">dr.ir. Harm van Essen</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Terken!" data-balloon-pos="up">dr. Jacques Terken</span>.</p>
-              <div class="width__small deliverables">
-                <a class="deliverables__item" href="/documents/DDM150-UX-Portfolio-Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual 'UX Portfolio'</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">5MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
-                </a>
-                <a class="deliverables__item" href="/documents/DDM150_Team-Challenge_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Booking.com Team UX Case</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">0.5MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
-                </a>
-                <a class="deliverables__item" href="/documents/DDM150_Manifesto_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">UX Manifesto</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">0.5MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
-                </a>
-              </div>
-            </div>
-
-
-            <div class="activity">
-              <h3 id="DED">Elective: "Data-Enabled Design"</h3>
-              <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-                <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/data-enabled-design-process.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/data-enabled-design-process@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">The Data-Enabled Design approach: moving from the Contextual Step to the Informed Step, implementing insights gathered from data.</figcaption>
-                </figure>
-                <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/data-enabled-design-sensors.jpg" itemprop="contentUrl" data-size="1488x2000">
-                    <img src="/i/data-enabled-design-sensors@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Day-one sensor probe: capturing time-series data on air quality.</figcaption>
-                </figure>
-                <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/data-enabled-design-pattern.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/data-enabled-design-pattern@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">An interesting 'saw-tooth' pattern in humidity/temperature data. In this specific instance, the participant was opening and closing their window for fresh air as they were soldering.</figcaption>
-                </figure>
-                <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/data-enabled-design-presence.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/data-enabled-design-presence@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Early prototype: allowing members of a shared environment to share their presence, visualising the results.</figcaption>
-                </figure>
-                <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/data-enabled-design-volcano.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/data-enabled-design-volcano@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">'Volcano': final design concept for the Data-Enabled Design course. This iPad-based app seeks to bring back accountability in shared environments through tracking of sensor data.</figcaption>
-                </figure>
-              </div>
-              <div class="icon-row width__small" style="filter: hue-rotate(245deg);">
-                <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-                <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
-                <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
-                <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-                <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-                <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
-              </div>
-              <p class="width__small p__details">Grade: 8.0</p>
-              <p class="width__small">In this elective we were introduced to the recently published <b>Data-Enabled Design approach</b> by <a href="https://research.tue.nl/en/publications/data-enabled-design-a-situated-design-approach-that-uses-data-as-" class="link" target="_blank">van Kollenburg &amp; Bogers</a>. This approach seeks to use data as a creative material, enriching existing ecosystems with sensors that capture otherwise unseen experiences, which are used for sense-making and <b>fed back to stakeholders to prompt reaction and reflection</b>.</p>
-              <p class="width__small">This course has given me numerous things. Firstly, I feel able to implement the data-enabled design approach in my own projects, which I see as a <b>high-effort, high-reward</b> approach to design. Secondly, it has made me more comfortable in working with data. The iPad GUIs I designed and developed were my <b>first experience in persistently storing data</b>, which was done using PHP and comma-separated value (.csv) files. Additionally, the GUI <b>integrated the sensor probe</b> developed by Sark, which provided near real-time data on the environment's air quality and temperature, which was a big step for me towards <b>making systems rather than prototypes</b>.</p>
-              <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Yizhou!" data-balloon-pos="up">Yizhou Liu</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sark!" data-balloon-pos="up">Sark Xing</span>.</p>
-              <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Funk!" data-balloon-pos="up">dr. Mathias Funk</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. van Kollenburg!" data-balloon-pos="up">dr. Janne van Kollenburg</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Bogers!" data-balloon-pos="up">dr. Sander Bogers</span>.</p>
-              <div class="width__small deliverables">
-                <a class="deliverables__item" href="/documents/DBM160_Paper_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Pictorial: 'Shared Spaces'</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">5MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
-                </a>
-                <a class="deliverables__item" href="/documents/DBM160_Reflection_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">0.5MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
-                </a>
-              </div>
-            </div>
-
-
-            <div class="activity">
-              <h3 id="BWG">Extracurricular: "Brouwerij Geel Brand"</h3>
-              <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-                <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/brouwerij-geel-progression.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/brouwerij-geel-progression@0,33x.jpg" itemprop="thumbnail" alt="Brouwerij Geel Logo Progression" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Logo and label progression towards a fitting, flexible identity.</figcaption>
-                </figure>
-                <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/toffee-apple.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/toffee-apple@0,33x.jpg" itemprop="thumbnail" alt="Brouwerij Geel Toffee Apple" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Logo design for the 'Toffee Apple' style cider brew.</figcaption>
-                </figure>
-                <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/cheeky-kriekie.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/cheeky-kriekie@0,33x.jpg" itemprop="thumbnail" alt="Brouwerij Geel Cheeky Kriekie" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Logo design for the 'Kiki`s Cheeky Kriekie' style cider brew.</figcaption>
-                </figure>
-              </div>
-              <div class="icon-row width__small" style="filter: hue-rotate(-75deg)">
-                <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
-                <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-                <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
-                <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
-                <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-                <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
-              </div>
-              <p class="width__small">Homebrewing is my hobby, and source of inspiration. I started brewing in 2017, being mostly interested in (brut) ciders at that time. Not only are there a lot of parallels to be made between <b>the brewing process and the design process</b> (iterative, based on customer feedback, optimizing production processes), bringing a product to the market is an interesting challenge.</p>
-              <p class="width__small">In order to explore the potential of turning this hobby in a (part-time) occupation, I conducted <b>market research</b>. The market for cider in the Netherlands is <b>merely a fraction</b> of the market for beers. However, when we expand our perspective we see stronger cider cultures in Europe (France, England, Spain) and world-wide (United States). Furthermore, considering the <b>recent surge</b> in demand for 'non-pilsener' alcoholic beverages such as craft beers, the future market may be more interested in ciders too. A shift in the market can already be seen: big player Heineken introduced their cider brand 'Apple Bandit' to the Dutch market in 2016, establishing themselves as an <b>accessible alternative to pilseners</b>, marketed to all genders.</p>
-
-              <p class="width__small">Finally, looking at historic search trends from 2004-now, localised in the Netherlands, we see a <b>steady increase in interest in cider</b>, peaking in summer (june-august). The rough estimates on costs involved in bringing the product to the market (materials, (rent of) equipment, logistics, marketing, excise taxes) leave a considerable margin, especially if the product would be marketed as a 'small-scale', 'limited-edition' brew. However, the biggest identified risk was the '<a href="https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/themaoverstijgend/programmas_en_formulieren/aanvraag_vergunning_accijnsgoederenplaats" class="link" target="_blank">vergunning accijnsgoederenplaats</a>', the permit required in order to produce- and sell products that contain alcohol.</p>
-              <p class="width__small">For the time being, I concluded the <b>investments and risks involved</b> did not match I have for my career, hence I am not actively pursuing making homebrewing more than a hobby. Nevertheless, for my personal enjoyment, I started <b>designing a brand identity</b> for my homebrewery which sought to meet the positioning goals previously outlined, while offering flexibility in use for products other than cider.</p>
+            <p class="width__small">In the process I gained insight in the importance of integrating a seamless way to collect <b>reliable data</b> (we chose the milking carousel), and use <b>data visualisation</b> to identify features in the dataset which had the most potential. Finally, I've learned about strategies to <b>extract more information from images</b>, such as using edge detection filters and comparing values in different colour spaces.</p>
+            <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jesper!" data-balloon-pos="up">Jesper van Bentum</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marleen!" data-balloon-pos="up">Marleen Hillen</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Tim!" data-balloon-pos="up">Tim van de Puttelaar</span>.</p>
+            <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Hu PDEng MEng!" data-balloon-pos="up">dr. Jun Hu PDEng MEng</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Feijs!" data-balloon-pos="up">prof.dr.ir. Feijs</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Funk!" data-balloon-pos="up">dr. Mathias Funk</span> <br> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Martens!" data-balloon-pos="up">prof.dr.ir. Jean-Bernard Martens</span>.</p>
+            <div class="width__small deliverables">
+              <a class="deliverables__item" href="/documents/DBM130_Paper_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Report: 'Digital Goat Farmer`s Assistant</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">2MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+              <a class="deliverables__item" href="/documents/DBM130_Reflection_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">0.2MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
             </div>
           </div>
 
-        </section>
 
-        <!-- Section 6: M21 Semester -->
-        <section id="M21">
-          <div class="section__inner">
-            <h2 class="width__small">M21 Semester</h2>
-            <p class="width__small">In the M21 semester I started preparing for my graduation by writing and presenting my <a href="#FMP_Proposal" class="link">Final Master Project Proposal</a>. However, I also took the opportunity provided by the M21 Option to solidify my academic knowledge of Computer Science. I completed 15 ECTS in the TU/e Computer Science department, which consisted of the courses <a class="link" href="#JAVA">Object-Oriented Programming (Java)</a>, <a class="link" href="#FDM">Foundations of Data Mining</a> and <a class="link" href="#CCD">Cybersecurity: Crime &amp; Defenses</a>. Finally, I completed two electives within the ID department: <a class="link" href="#DFBC">Design for Behavioural Change</a> and <a class="link" href="#TSoST">The Sound of Smart Things</a>.</p>
-            <div class="activity">
-              <h3 id="FMP_Proposal">Project: "FMP Proposal"</h3>
-              <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-                <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/proposal-problem.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/proposal-problem@0,33x.jpg" itemprop="thumbnail" alt="FMP Proposal: Problem Statement" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">A number of identified problems presented in the proposal. The environment results in a disrupted design process.</figcaption>
-                </figure>
-                <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/fmp-proposal-system.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/fmp-proposal-system@0,33x.jpg" itemprop="thumbnail" alt="FMP Proposal: System Overview" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Schematic overview of the envisioned system to address the identified problem statement.</figcaption>
-                </figure>
-                <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/fmp-proposal-wireframe.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/fmp-proposal-wireframe@0,33x.jpg" itemprop="thumbnail" alt="FMP Proposal: Wireframe" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Wireframe flowchart of the envisioned design concept, illustrating the user journey.</figcaption>
-                </figure>
-              </div>
-              <div class="icon-row width__small">
-                <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
-                <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-                <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-                <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
-                <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
-                <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
-              </div>
-              <p class="width__small p__details">Grade: Pass</p>
-              <p class="width__small">In the FMP Proposal I defined the design briefing for my <a href="#FMP" class="link">Final Master Project</a>. This was done <b>through literature review, reflecting on my identity and vision and early concept development</b>. The FMP Proposal was presented to two assessors. However, the first iteration was graded with a 'contitional hold', with the main points of criticism being that the identified problem statement was <b>not concrete enough</b>, and the road to an eventual concept was <b>not apparent</b>.</p>
-              <p class="width__small">Reflecting on this, I fully agreed with this assessment. For this project, I was envisioning the things made possible by technological developments, yet I did not fully <b>consider the value</b> that the resulting concept would bring. The extra time that was given for the re-take of this proposal was spent re-framing the project, which was done through stakeholder interviews, ideation sessions and low-fidelity prototyping.</p>
-              <p class="width__small">This resulted in a <b>more defined problem statement</b>: "User Experience Designers working in corporate enterprises are inhibited in their ability to perform well due to challenges stemming from low UX Maturity.", which resulted in a <b>concrete concept</b>: "A system that allows UX Designers to more easily share their works-in-progress with colleagues and related stakeholders". In the re-take document, schematic overviews and wireframe renditions of this system were shown, which resulted in an assessment of a 'Pass'.</p>
-              <p class="width__small lecturers">Assessors: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Khan!" data-balloon-pos="up">dr.ir. Javed Khan</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Funk!" data-balloon-pos="up">dr. Mathias Funk</span>.</p>
-              <div class="width__small deliverables">
-                <a class="deliverables__item" href="/documents/M21_Proposal_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">FMP Proposal</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">7MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
+          <div class="activity">
+            <h3 id="SPIE">Extracurricular: "UX Designer at SPIE Nederland B.V."</h3>
+            <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+              <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/spie-urenportaal.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/spie-urenportaal@0,33x.jpg" itemprop="thumbnail" alt="SPIE Urenportaal" loading="lazy" />
                 </a>
-                <a class="deliverables__item" href="/documents/M21_Reflection_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">0.4MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
+                <figcaption itemprop="caption description">Final design of the SPIE Urenportaal App: a web application that allows SPIE employees to keep track of their worked hours on their phones.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/spie-urenportaal-2.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/spie-urenportaal-2@0,33x.jpg" itemprop="thumbnail" alt="SPIE Urenportaal" loading="lazy" />
                 </a>
-              </div>
+                <figcaption itemprop="caption description">Overview of the Figma project of the Urenportaal Final Designs. I introduced Figma in SPIE, showcasing its qualities in speeding up projects through the use of visual prototyping, using grids and using re-usable components.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/spie-dashboard.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/spie-dashboard@0,33x.jpg" itemprop="thumbnail" alt="SPIE Dashboard" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Before- and after view of the Financial Dashboard: increased consistency, spacing, composition and a more balanced colour scheme. (Data is fictional). Built in Microsoft PowerBI.</figcaption>
+              </figure>
             </div>
-
-
-            <div class="activity">
-              <h3 id="DFBC">Elective: "Design for Behavioural Change"</h3>
-              <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-                <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/behaviour-change.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/behaviour-change@0,33x.jpg" itemprop="thumbnail" alt="Behaviour Change: Personality Quiz" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Screen capture of 'Welke composthoop ben jij?', a satirical online personality test, designed for behaviour change.</figcaption>
-                </figure>
-              </div>
-              <div class="icon-row width__small" style="filter: hue-rotate(-55deg)">
-                <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-                <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-                <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-                <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-                <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
-                <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
-              </div>
-              <p class="width__small p__details">Grade: 7.0</p>
-              <p class="width__small">In this elective I gained knowledge on designing products or systems that can <b>help people change their behaviour</b> without utilising coercion or manipulation. In order to do so, I studied models on human behaviour (e.g. the Theory of Planned Behaviour), which provided me with <b>the tools to understand behaviour and even make predictions</b>.</p>
-              <p class="width__small">In a group project I used the <b>COM-B model</b> (Capability-Opportunity-Motivation-Behaviour) to analyse human behaviour regarding waste separation, and identified an <b>intervention strategy</b> aimed to change this behaviour. The final concept was a satirical online personality test which focused on <b>social opportunity and reflective motivation</b>. Finally, in this elective I became aware of the responsibilities involved in designing for behaviour change, which can be addressed by conducting a <b>stakeholder analysis</b>.</p>
-              <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marco!" data-balloon-pos="up">Marco Putzu</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sacha!" data-balloon-pos="up">Sacha Prudon</span>.</p>
-              <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr. Markopoulos!" data-balloon-pos="up">prof.dr. Panos Markopoulos</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. van Essen!" data-balloon-pos="up">dr.ir. Harm van Essen</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Bekker!" data-balloon-pos="up">prof.dr.ir. Tilde Bekker</span>.</p>
-              <div class="width__small deliverables">
-                <a class="deliverables__item" href="/documents/DDM110_Proposal_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Study Proposal</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">0.9MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
-                </a>
-                <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">0.1MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
-                </a>
-              </div>
+            <div class="icon-row width__small" style="filter: hue-rotate(75deg)">
+              <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
+              <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+              <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+              <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+              <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+              <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
             </div>
+            <p class="width__small">In September 2018 I was hired by <a href="https://www.spie-nl.com/" class="link" target="_blank">SPIE Nederland</a> as a UX Designer &mdash; their very first. As a part-time (0.2 FTE) UX Designer I was hired to introduce <b>design expertise</b> in the Dutch branch of the multinational company, something that was sorely lacking.</p>
+            <p class="width__small">SPIE has a lot of custom-made tools that were developed in-house, powerering thousands of their Dutch employees. However, these tools were not created with <b>usability nor aesthetics</b> in mind, resulting in tools that functionally accomplish what they are supposed to do, yet are limited in use. Furthermore, this mentality <b>frustrated progress</b>: projects were realized in code from the get-go, <b>without ever exploring</b> the options, users, context or values. Consequently, fewer iterations were made, and the end-results did not reflect the time invested.</p>
+            <p class="width__small">In the time that I have worked at SPIE, I have contributed to several projects, always directing the design processes. For instance, I've re-designed a <b>workflow support application for mechanics</b> to suit mobile phones and tables, helping them in carrying out their jobs and simplifying their data administration. Additionally, I visually re-designed the <b>Financial Dashboard for business managers</b>, helping them more easily take strategic decisions based on data. Finally, I conducted UX Research and designed a mobile variant of the <b>Urenportaal App</b>, a mobile-first approach to enable all SPIE Nederland employees to report their time on a phone &mdash; something that previously required mandatory logging onto a computer to do.</p>
+            <p class="width__small">In December 2019 I vacated my job at SPIE in order to focus on my Final Master Project. Looking back, it has been excellent for my personal development, allowing me to grow in <b>all competency areas</b> by carrying out real-world projects. However, perhaps the biggest growth was in the competency of <b>Business &amp; Entrepreneurship</b>, due to the financial implications of working in a real-life context. Working has given me experience in <b>collaborating with multiple stakeholders</b> within the company, whose interests did not always align. Additionally, it has taught me to better <b>articulate the value of design</b>, helping in value propositions. Finally, I've gained perspective on <b>the management of risk</b>, an essential component of bringing design concepts to reality.</p>
 
-            <div class="activity">
-              <h3 id="TSoST">Elective: "The Sound of Smart Things"</h3>
-              <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-                <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/smart-coffee.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/smart-coffee@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">The Smart Coffee Machine in the 'Lucid Bar 2030' &mdash; a fictional context which contained decentralised, intelligent systems.</figcaption>
-                </figure>
-              </div>
-              <div class="icon-row width__small">
-                <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-                <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
-                <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
-                <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
-                <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
-                <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
-              </div>
-              <p class="width__small p__details">Grade: 7.0</p>
-              <p class="width__small">In this course I acquired fundamental knowledge of sound and sound design. After reviewing theory on <b>the physics of sound</b> (i.e. waveform vibrations, made by a source in a location) I am better able to deconstruct sounds that I hear, extracting the qualities that they have for me. I've gained practical experience in <b>creating sounds and soundscapes</b> using software (Audacity, Logic Pro X). I have gained insights in principles in <b>music theory</b> such as tension/release and consonance/dissonance, and am now able to better appreciate the emotions soundscapes made with these principles can evoke.</p>
-              <p class="width__small"></p>
-              <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Alynne!" data-balloon-pos="up">Alynne</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Hsiu!" data-balloon-pos="up">Hsiu</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jing-Li!" data-balloon-pos="up">Jing-Li</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Maria!" data-balloon-pos="up">Maria</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Naomi!" data-balloon-pos="up">Naomi</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sanne!" data-balloon-pos="up">Sanne</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Seiji!" data-balloon-pos="up">Seiji</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Shiyuan!" data-balloon-pos="up">Shiyuan</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Yiyue!" data-balloon-pos="up">Yiyue</span> <br> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Veerle!" data-balloon-pos="up">Veerle</span>.</p>
-              <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Hengeveld!" data-balloon-pos="up">dr.ir. Bart Hengeveld</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Eggen!" data-balloon-pos="up">prof.dr.ir. Berry Eggen</span>.</p>
-              <div class="width__small deliverables">
-                <a class="deliverables__item" href="/documents/DCM180_Report_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Report</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">4MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Section 5: M12 Semester -->
+      <section id="M12">
+        <div class="section__inner">
+          <h2 class="width__small">M12 Semester</h2>
+          <p class="width__small">In the M12 Semester I finalized my choice of specialization: the Research, Design &amp; Development (RDD) track with the focal competencies of User &amp; Society (US) and Technology &amp; Realization (TR). Building on the growth from the Constructive Design Research course from last semester, I completed a solo <a href="#TLP" class="link">Design Research Project</a>, entitled 'the Live Persona'. Furthermore, I completed the core elective for the RDD track <a href="#UXTP" class="link">UX Theory &amp; Practice</a>. Finally, I took part in the new <a href="#DED" class="link">Data-Enabled Design</a> elective, and dedicated time to building a brand for my <a href="#BWG" class="link">Homebrewing hobby</a>, and conducted some exploration of potential entrepreneurial opportunities.</p>
+
+          <div class="activity">
+            <h3 id="TLP">M12 Project: 'The Live Persona'</h3>
+            <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+              <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/live-persona.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/live-persona@0,33x.jpg" itemprop="thumbnail" alt="The Live Persona" loading="lazy" />
                 </a>
-                <a class="deliverables__item" href="/documents/DCM180_Reflection_Geel_AJ.pdf" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">0.2MB</p>
-                    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
-                  </div>
+                <figcaption itemprop="caption description">Promotional image of 'The Live Persona'. We see rich insights in the form of statistics, data points and conversations enter, being transmitted to the cloud.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/live-persona-poster.jpg" itemprop="contentUrl" data-size="1488x2000">
+                  <img src="/i/live-persona-poster@0,33x.jpg" itemprop="thumbnail" alt="The Live Persona Poster" loading="lazy" />
                 </a>
-                <a class="deliverables__item" href="https://vimeo.com/428499788" target="_blank">
-                  <div class="deliverables__item-left">
-                    <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Video</h4>
-                  </div>
-                  <div class="deliverables__item-right">
-                    <p class="deliverables__file-size">External</p>
-                    <img src="/i/icons/file-vimeo.png" alt="Vimeo File Icon">
-                  </div>
-                </a>
-              </div>
+                <figcaption itemprop="caption description">A1 Poster (printed on cloth) of the Live Persona, presented at the Final Demo Day.</figcaption>
+              </figure>
             </div>
+            <div class="icon-row width__small" style="filter: hue-rotate(45deg) contrast(.8)">
+              <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+              <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+              <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+              <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+              <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+              <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+            </div>
+            <p class="width__small p__details">Grade: Pass</p>
+            <p class="width__small">In this research project I sought to explore a topic that was close to me: UX Research. When communicating the insights, often formats are used that are <b>not as powerful</b> as directly talking to stakeholders or end-users. In addressing this, I designed and developed the Live Persona, a tool for communicating user research with a focus on <b>transferring empathy</b> by including personal details that make it relatable.The Live Persona was used in a study where designers were asked to carry out a short design case, <b>basing their design decisions on the Live Persona</b>.</p>
+            <p class="width__small">During this project I put the insights of the <b>Constructive Design Research</b> elective into practice, using the 'Field' style research. Beyond gaining more skills in conducting design research such as doing <b>thematic analysis</b>, above all this project made me aware of the <b>time investment</b> (design) research requires, which means the <b>project planning and management</b> has to be sound.</p>
+            <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Khan!" data-balloon-pos="up">dr.ir. Javed Khan</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Hummels!" data-balloon-pos="up">prof.dr.ir. Caroline Hummels</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Levy!" data-balloon-pos="up">dr.ir. Pierre Levy</span>.</p>
+            <div class="width__small deliverables">
+              <a class="deliverables__item" href="/documents/M12_Paper_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Paper: 'The Live Persona'</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">3MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+              <a class="deliverables__item" href="/documents/M12_Reflection_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">0.3MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+              <a class="deliverables__item" href="https://arthurgeel.com/tp/" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Research Onboarding / Demonstrator</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">External</p>
+                  <img src="/i/icons/file-external.png" alt="External File Icon">
+                </div>
+              </a>
+            </div>
+          </div>
 
 
-            <div class="activity">
-              <h3 id="JAVA">Elective: "Object-Oriented Programming (Java)"</h3>
-              <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-                <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                  <a href="/i/oop-java.jpg" itemprop="contentUrl" data-size="2688x1488">
-                    <img src="/i/oop-java@0,33x.jpg" itemprop="thumbnail" alt="Java Code" loading="lazy" />
-                  </a>
-                  <figcaption itemprop="caption description">Object-oriented approach to solving the ArrayQuest problem of the 2019 exam.</figcaption>
-                </figure>
-              </div>
-              <div class="icon-row width__small">
-                <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-                <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
-                <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
-                <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-                <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-                <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
-              </div>
-              <p class="width__small p__details">Grade: 9.0</p>
-              <p class="width__small">Department: Computer Science, TU/e.</p>
-              <p class="width__small">In this elective I sought to increase my ability to write <b>more structured code</b>, making it more scalable and flexible. The language of this elective was Java, a language I had little previous experience in. The elective focused on two areas: GUIs and Object-Oriented Programming. In Java, frameworks are often used to create consistent graphical user interfaces. Through this elective I developed skills and intuition in using the <b>Java Abstract Widget Toolkit (AWT)</b> and the <b>Java Swing Framework</b>, allowing me to build interactive interfaces using Java. However, I do not believe I will use these often, as I am a lot more proficient in my preferred front-end technology stack (HTML/JS/CSS), which is more currently more widely used.</p>
-              <p class="width__small">However, I highly value the insights gained on <b>Object-Oriented Programming</b> (OOP), as these enable me to more efficiently realize designs in code through <b>better modularity</b>. Specifically, I learnt about and implemented the six main principles of Object-Oriented Programming in Java, those being <b>Abstraction, Encapsulation, Polymorphism, Inheritance, Association, Aggregation and Composition</b>. This elective was graded based on weekly challenges and a written test on OOP-implementations, which I completed with a 9.0.</p>
-              <p class="width__small lecturers">Lecturer: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Huizing!" data-balloon-pos="up">dr. Kees Huizing</span>.</p>
-              <!-- <div class="width__small deliverables">
+          <div class="activity">
+            <h3 id="UXTP">Elective: "UX Theory &amp; Practice"</h3>
+            <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+              <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/ux-booking.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/ux-booking@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Dissecting the Booking.com website in various components that result in the specific User Experience.</figcaption>
+              </figure>
+            </div>
+            <div class="icon-row width__small" style="filter: hue-rotate(77deg) saturate(1.5)">
+              <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+              <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
+              <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+              <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+              <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
+              <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+            </div>
+            <p class="width__small p__details">Grade: 8.0</p>
+            <p class="width__small">In this elective we looked at UX from an <b>academic and philosophic perspective</b>. By studying all suggested literature I broadened my view of what UX exactly is. Instead of merely focusing on designing so that systems are usable, UX is also about the <b>complex and subjective impressions</b> people experience, both <b>before, during and after</b> interacting with any given system.</p>
+            <p class="width__small">Furthermore, in this course we had a number of discussions about UX, especially as we discussed design cases. Alongside my team, I discussed <b>Booking.com</b>, where we looked into the User Experience that resulted from shopping for an overnight stay in Amsterdam. We noticed the site using a lot of (ethically) questionable strategies to drive conversions, such as <b>purchase pressure cues and limited product availability</b>, all exposing visitors of the website to stress in order to get them to spend their money.</p>
+            <p class="width__small">This reaffirmed my vision on design on making accessible and respectful systems. However, it is important to stay mindful of <b>maintaining the balance between ethical principles and financial goals</b>.</p>
+            <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Melvin!" data-balloon-pos="up">Melvin Sterk</span> (Manifesto), and in collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jessie!" data-balloon-pos="up">Jessie Harms</span>, <br><span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marit!" data-balloon-pos="up">Marit Her</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marit!" data-balloon-pos="up">Marit Proper</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jordy!" data-balloon-pos="up">Jordy Oplaat</span> (Booking.com case).</p>
+            <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Eggen!" data-balloon-pos="up">prof.dr.ir. Berry Eggen</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. van Essen!" data-balloon-pos="up">dr.ir. Harm van Essen</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Terken!" data-balloon-pos="up">dr. Jacques Terken</span>.</p>
+            <div class="width__small deliverables">
+              <a class="deliverables__item" href="/documents/DDM150-UX-Portfolio-Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual 'UX Portfolio'</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">5MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+              <a class="deliverables__item" href="/documents/DDM150_Team-Challenge_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Booking.com Team UX Case</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">0.5MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+              <a class="deliverables__item" href="/documents/DDM150_Manifesto_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">UX Manifesto</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">0.5MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="activity">
+            <h3 id="DED">Elective: "Data-Enabled Design"</h3>
+            <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+              <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/data-enabled-design-process.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/data-enabled-design-process@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">The Data-Enabled Design approach: moving from the Contextual Step to the Informed Step, implementing insights gathered from data.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/data-enabled-design-sensors.jpg" itemprop="contentUrl" data-size="1488x2000">
+                  <img src="/i/data-enabled-design-sensors@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Day-one sensor probe: capturing time-series data on air quality.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/data-enabled-design-pattern.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/data-enabled-design-pattern@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">An interesting 'saw-tooth' pattern in humidity/temperature data. In this specific instance, the participant was opening and closing their window for fresh air as they were soldering.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/data-enabled-design-presence.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/data-enabled-design-presence@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Early prototype: allowing members of a shared environment to share their presence, visualising the results.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/data-enabled-design-volcano.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/data-enabled-design-volcano@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">'Volcano': final design concept for the Data-Enabled Design course. This iPad-based app seeks to bring back accountability in shared environments through tracking of sensor data.</figcaption>
+              </figure>
+            </div>
+            <div class="icon-row width__small" style="filter: hue-rotate(245deg);">
+              <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+              <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
+              <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
+              <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+              <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+              <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+            </div>
+            <p class="width__small p__details">Grade: 8.0</p>
+            <p class="width__small">In this elective we were introduced to the recently published <b>Data-Enabled Design approach</b> by <a href="https://research.tue.nl/en/publications/data-enabled-design-a-situated-design-approach-that-uses-data-as-" class="link" target="_blank">van Kollenburg &amp; Bogers</a>. This approach seeks to use data as a creative material, enriching existing ecosystems with sensors that capture otherwise unseen experiences, which are used for sense-making and <b>fed back to stakeholders to prompt reaction and reflection</b>.</p>
+            <p class="width__small">This course has given me numerous things. Firstly, I feel able to implement the data-enabled design approach in my own projects, which I see as a <b>high-effort, high-reward</b> approach to design. Secondly, it has made me more comfortable in working with data. The iPad GUIs I designed and developed were my <b>first experience in persistently storing data</b>, which was done using PHP and comma-separated value (.csv) files. Additionally, the GUI <b>integrated the sensor probe</b> developed by Sark, which provided near real-time data on the environment's air quality and temperature, which was a big step for me towards <b>making systems rather than prototypes</b>.</p>
+            <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Yizhou!" data-balloon-pos="up">Yizhou Liu</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sark!" data-balloon-pos="up">Sark Xing</span>.</p>
+            <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Funk!" data-balloon-pos="up">dr. Mathias Funk</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. van Kollenburg!" data-balloon-pos="up">dr. Janne van Kollenburg</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Bogers!" data-balloon-pos="up">dr. Sander Bogers</span>.</p>
+            <div class="width__small deliverables">
+              <a class="deliverables__item" href="/documents/DBM160_Paper_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Pictorial: 'Shared Spaces'</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">5MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+              <a class="deliverables__item" href="/documents/DBM160_Reflection_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">0.5MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="activity">
+            <h3 id="BWG">Extracurricular: "Brouwerij Geel Brand"</h3>
+            <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+              <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/brouwerij-geel-progression.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/brouwerij-geel-progression@0,33x.jpg" itemprop="thumbnail" alt="Brouwerij Geel Logo Progression" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Logo and label progression towards a fitting, flexible identity.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/toffee-apple.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/toffee-apple@0,33x.jpg" itemprop="thumbnail" alt="Brouwerij Geel Toffee Apple" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Logo design for the 'Toffee Apple' style cider brew.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/cheeky-kriekie.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/cheeky-kriekie@0,33x.jpg" itemprop="thumbnail" alt="Brouwerij Geel Cheeky Kriekie" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Logo design for the 'Kiki`s Cheeky Kriekie' style cider brew.</figcaption>
+              </figure>
+            </div>
+            <div class="icon-row width__small" style="filter: hue-rotate(-75deg)">
+              <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
+              <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+              <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
+              <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
+              <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+              <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+            </div>
+            <p class="width__small">Homebrewing is my hobby, and source of inspiration. I started brewing in 2017, being mostly interested in (brut) ciders at that time. Not only are there a lot of parallels to be made between <b>the brewing process and the design process</b> (iterative, based on customer feedback, optimizing production processes), bringing a product to the market is an interesting challenge.</p>
+            <p class="width__small">In order to explore the potential of turning this hobby in a (part-time) occupation, I conducted <b>market research</b>. The market for cider in the Netherlands is <b>merely a fraction</b> of the market for beers. However, when we expand our perspective we see stronger cider cultures in Europe (France, England, Spain) and world-wide (United States). Furthermore, considering the <b>recent surge</b> in demand for 'non-pilsener' alcoholic beverages such as craft beers, the future market may be more interested in ciders too. A shift in the market can already be seen: big player Heineken introduced their cider brand 'Apple Bandit' to the Dutch market in 2016, establishing themselves as an <b>accessible alternative to pilseners</b>, marketed to all genders.</p>
+
+            <p class="width__small">Finally, looking at historic search trends from 2004-now, localised in the Netherlands, we see a <b>steady increase in interest in cider</b>, peaking in summer (june-august). The rough estimates on costs involved in bringing the product to the market (materials, (rent of) equipment, logistics, marketing, excise taxes) leave a considerable margin, especially if the product would be marketed as a 'small-scale', 'limited-edition' brew. However, the biggest identified risk was the '<a href="https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/themaoverstijgend/programmas_en_formulieren/aanvraag_vergunning_accijnsgoederenplaats" class="link" target="_blank">vergunning accijnsgoederenplaats</a>', the permit required in order to produce- and sell products that contain alcohol.</p>
+            <p class="width__small">For the time being, I concluded the <b>investments and risks involved</b> did not match I have for my career, hence I am not actively pursuing making homebrewing more than a hobby. Nevertheless, for my personal enjoyment, I started <b>designing a brand identity</b> for my homebrewery which sought to meet the positioning goals previously outlined, while offering flexibility in use for products other than cider.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Section 6: M21 Semester -->
+      <section id="M21">
+        <div class="section__inner">
+          <h2 class="width__small">M21 Semester</h2>
+          <p class="width__small">In the M21 semester I started preparing for my graduation by writing and presenting my <a href="#FMP_Proposal" class="link">Final Master Project Proposal</a>. However, I also took the opportunity provided by the M21 Option to solidify my academic knowledge of Computer Science. I completed 15 ECTS in the TU/e Computer Science department, which consisted of the courses <a class="link" href="#JAVA">Object-Oriented Programming (Java)</a>, <a class="link" href="#FDM">Foundations of Data Mining</a> and <a class="link" href="#CCD">Cybersecurity: Crime &amp; Defenses</a>. Finally, I completed two electives within the ID department: <a class="link" href="#DFBC">Design for Behavioural Change</a> and <a class="link" href="#TSoST">The Sound of Smart Things</a>.</p>
+          <div class="activity">
+            <h3 id="FMP_Proposal">Project: "FMP Proposal"</h3>
+            <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+              <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/proposal-problem.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/proposal-problem@0,33x.jpg" itemprop="thumbnail" alt="FMP Proposal: Problem Statement" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">A number of identified problems presented in the proposal. The environment results in a disrupted design process.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/fmp-proposal-system.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/fmp-proposal-system@0,33x.jpg" itemprop="thumbnail" alt="FMP Proposal: System Overview" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Schematic overview of the envisioned system to address the identified problem statement.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/fmp-proposal-wireframe.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/fmp-proposal-wireframe@0,33x.jpg" itemprop="thumbnail" alt="FMP Proposal: Wireframe" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Wireframe flowchart of the envisioned design concept, illustrating the user journey.</figcaption>
+              </figure>
+            </div>
+            <div class="icon-row width__small">
+              <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div>
+              <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+              <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+              <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
+              <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
+              <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+            </div>
+            <p class="width__small p__details">Grade: Pass</p>
+            <p class="width__small">In the FMP Proposal I defined the design briefing for my <a href="#FMP" class="link">Final Master Project</a>. This was done <b>through literature review, reflecting on my identity and vision and early concept development</b>. The FMP Proposal was presented to two assessors. However, the first iteration was graded with a 'contitional hold', with the main points of criticism being that the identified problem statement was <b>not concrete enough</b>, and the road to an eventual concept was <b>not apparent</b>.</p>
+            <p class="width__small">Reflecting on this, I fully agreed with this assessment. For this project, I was envisioning the things made possible by technological developments, yet I did not fully <b>consider the value</b> that the resulting concept would bring. The extra time that was given for the re-take of this proposal was spent re-framing the project, which was done through stakeholder interviews, ideation sessions and low-fidelity prototyping.</p>
+            <p class="width__small">This resulted in a <b>more defined problem statement</b>: "User Experience Designers working in corporate enterprises are inhibited in their ability to perform well due to challenges stemming from low UX Maturity.", which resulted in a <b>concrete concept</b>: "A system that allows UX Designers to more easily share their works-in-progress with colleagues and related stakeholders". In the re-take document, schematic overviews and wireframe renditions of this system were shown, which resulted in an assessment of a 'Pass'.</p>
+            <p class="width__small lecturers">Assessors: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Khan!" data-balloon-pos="up">dr.ir. Javed Khan</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Funk!" data-balloon-pos="up">dr. Mathias Funk</span>.</p>
+            <div class="width__small deliverables">
+              <a class="deliverables__item" href="/documents/M21_Proposal_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">FMP Proposal</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">7MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+              <a class="deliverables__item" href="/documents/M21_Reflection_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">0.4MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="activity">
+            <h3 id="DFBC">Elective: "Design for Behavioural Change"</h3>
+            <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+              <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/behaviour-change.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/behaviour-change@0,33x.jpg" itemprop="thumbnail" alt="Behaviour Change: Personality Quiz" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Screen capture of 'Welke composthoop ben jij?', a satirical online personality test, designed for behaviour change.</figcaption>
+              </figure>
+            </div>
+            <div class="icon-row width__small" style="filter: hue-rotate(-55deg)">
+              <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+              <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+              <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+              <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+              <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
+              <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+            </div>
+            <p class="width__small p__details">Grade: 7.0</p>
+            <p class="width__small">In this elective I gained knowledge on designing products or systems that can <b>help people change their behaviour</b> without utilising coercion or manipulation. In order to do so, I studied models on human behaviour (e.g. the Theory of Planned Behaviour), which provided me with <b>the tools to understand behaviour and even make predictions</b>.</p>
+            <p class="width__small">In a group project I used the <b>COM-B model</b> (Capability-Opportunity-Motivation-Behaviour) to analyse human behaviour regarding waste separation, and identified an <b>intervention strategy</b> aimed to change this behaviour. The final concept was a satirical online personality test which focused on <b>social opportunity and reflective motivation</b>. Finally, in this elective I became aware of the responsibilities involved in designing for behaviour change, which can be addressed by conducting a <b>stakeholder analysis</b>.</p>
+            <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marco!" data-balloon-pos="up">Marco Putzu</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sacha!" data-balloon-pos="up">Sacha Prudon</span>.</p>
+            <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr. Markopoulos!" data-balloon-pos="up">prof.dr. Panos Markopoulos</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. van Essen!" data-balloon-pos="up">dr.ir. Harm van Essen</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Bekker!" data-balloon-pos="up">prof.dr.ir. Tilde Bekker</span>.</p>
+            <div class="width__small deliverables">
+              <a class="deliverables__item" href="/documents/DDM110_Proposal_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Study Proposal</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">0.9MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
               <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
-              <div class="deliverables__item-left">
-              <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">0.1MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
             </div>
-            <div class="deliverables__item-right">
-            <p class="deliverables__file-size">0.1MB</p>
-            <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
           </div>
-        </a>
-      </div> -->
-    </div>
+
+          <div class="activity">
+            <h3 id="TSoST">Elective: "The Sound of Smart Things"</h3>
+            <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+              <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/smart-coffee.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/smart-coffee@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">The Smart Coffee Machine in the 'Lucid Bar 2030' &mdash; a fictional context which contained decentralised, intelligent systems.</figcaption>
+              </figure>
+            </div>
+            <div class="icon-row width__small">
+              <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+              <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div>
+              <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div>
+              <!-- <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div> -->
+              <!-- <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div> -->
+              <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
+            </div>
+            <p class="width__small p__details">Grade: 7.0</p>
+            <p class="width__small">In this course I acquired fundamental knowledge of sound and sound design. After reviewing theory on <b>the physics of sound</b> (i.e. waveform vibrations, made by a source in a location) I am better able to deconstruct sounds that I hear, extracting the qualities that they have for me. I've gained practical experience in <b>creating sounds and soundscapes</b> using software (Audacity, Logic Pro X). I have gained insights in principles in <b>music theory</b> such as tension/release and consonance/dissonance, and am now able to better appreciate the emotions soundscapes made with these principles can evoke.</p>
+            <p class="width__small"></p>
+            <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Alynne!" data-balloon-pos="up">Alynne</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Hsiu!" data-balloon-pos="up">Hsiu</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jing-Li!" data-balloon-pos="up">Jing-Li</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Maria!" data-balloon-pos="up">Maria</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Naomi!" data-balloon-pos="up">Naomi</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sanne!" data-balloon-pos="up">Sanne</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Seiji!" data-balloon-pos="up">Seiji</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Shiyuan!" data-balloon-pos="up">Shiyuan</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Yiyue!" data-balloon-pos="up">Yiyue</span> <br> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Veerle!" data-balloon-pos="up">Veerle</span>.</p>
+            <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Hengeveld!" data-balloon-pos="up">dr.ir. Bart Hengeveld</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Eggen!" data-balloon-pos="up">prof.dr.ir. Berry Eggen</span>.</p>
+            <div class="width__small deliverables">
+              <a class="deliverables__item" href="/documents/DCM180_Report_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Report</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">4MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+              <a class="deliverables__item" href="/documents/DCM180_Reflection_Geel_AJ.pdf" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">0.2MB</p>
+                  <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+                </div>
+              </a>
+              <a class="deliverables__item" href="https://vimeo.com/428499788" target="_blank">
+                <div class="deliverables__item-left">
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Video</h4>
+                </div>
+                <div class="deliverables__item-right">
+                  <p class="deliverables__file-size">External</p>
+                  <img src="/i/icons/file-vimeo.png" alt="Vimeo File Icon">
+                </div>
+              </a>
+            </div>
+          </div>
 
 
-    <div class="activity">
-      <h3 id="FDM">Elective: "Foundations of Data Mining"</h3>
-      <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
-        <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="/i/data-mining.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/data-mining@0,33x.jpg" itemprop="thumbnail" alt="Data Mining: Clustering" loading="lazy" />
-          </a>
-          <figcaption itemprop="caption description">Pen-and-paper exercise using a simple clustering algorithm with different k-mean values, resulting in two different separations of clusters (red versus blue).</figcaption>
-        </figure>
-        <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-          <a href="/i/data-mining-graph.jpg" itemprop="contentUrl" data-size="2688x1488">
-            <img src="/i/data-mining-graph@0,33x.jpg" itemprop="thumbnail" alt="Data Mining: Clustering" loading="lazy" />
-          </a>
-          <figcaption itemprop="caption description">Course dependency graph of algorithms seen in this elective, showing the progression from relatively easy algorithms (i.e. clustering) to complex algorithms (neural networks).</figcaption>
-        </figure>
-      </div>
-      <div class="icon-row width__small" style="filter: hue-rotate(205deg);">
-        <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
-        <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
-        <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
-        <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
-        <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
-      </div>
-      <p class="width__small p__details">Grade: 9.0</p>
-      <p class="width__small">Department: Computer Science, TU/e.</p>
-      <p class="width__small">In this elective I learnt the theoretical background of state-of-the-art techniques used in Data Mining. It is easy to lose track of how algorithms exactly work, which is why this course had us start by computing basic data mining algorithms such as <b>Clustering</b>, <b>Frequent Itemset Mining</b> and <b>Subspace Clustering</b> by hand &mdash; using pen-and-paper.</p>
-      <p class="width__small">As the course passed, the earlier algorithms were used as building blocks for more advanced algorithms, which included <b>Learning Deep Representation, Multi-Layer Perceptrons</b> and finally <b>Convolutional- and Recurrent Neural Networks</b>. This elective was graded based on assignments done in a group, which involved 'from-scratch' implementations of the algorithms, first using pen-and-paper and later progressing to <b>Python</b>. The assignments I worked on alongside my group were graded with a 9.0, and can be opened with the password '<code>backpropagation</code>'.</p>
-      <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jelle!" data-balloon-pos="up">Jelle Koks</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Martijn!" data-balloon-pos="up">Martijn Beeks</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Steffi!" data-balloon-pos="up">Steffi Krijgsman</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sven!" data-balloon-pos="up">Sven Ruiter</span>.</p>
-      <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Duivesteijn!" data-balloon-pos="up">dr. Wouter Duivesteijn</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Mocanu!" data-balloon-pos="up">dr. Decebal Mocanu</span>.</p>
-      <div class="width__small deliverables">
-        <a class="deliverables__item" href="/documents/2IMM20_Group-Assignments_Geel_AJ.zip" target="_blank">
-          <div class="deliverables__item-left">
-            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Assignments</h4>
+          <div class="activity">
+            <h3 id="JAVA">Elective: "Object-Oriented Programming (Java)"</h3>
+            <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+              <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/oop-java.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/oop-java@0,33x.jpg" itemprop="thumbnail" alt="Java Code" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Object-oriented approach to solving the ArrayQuest problem of the 2019 exam.</figcaption>
+              </figure>
+            </div>
+            <div class="icon-row width__small">
+              <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+              <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
+              <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
+              <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+              <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+              <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+            </div>
+            <p class="width__small p__details">Grade: 9.0</p>
+            <p class="width__small">Department: Computer Science, TU/e.</p>
+            <p class="width__small">In this elective I sought to increase my ability to write <b>more structured code</b>, making it more scalable and flexible. The language of this elective was Java, a language I had little previous experience in. The elective focused on two areas: GUIs and Object-Oriented Programming. In Java, frameworks are often used to create consistent graphical user interfaces. Through this elective I developed skills and intuition in using the <b>Java Abstract Widget Toolkit (AWT)</b> and the <b>Java Swing Framework</b>, allowing me to build interactive interfaces using Java. However, I do not believe I will use these often, as I am a lot more proficient in my preferred front-end technology stack (HTML/JS/CSS), which is more currently more widely used.</p>
+            <p class="width__small">However, I highly value the insights gained on <b>Object-Oriented Programming</b> (OOP), as these enable me to more efficiently realize designs in code through <b>better modularity</b>. Specifically, I learnt about and implemented the six main principles of Object-Oriented Programming in Java, those being <b>Abstraction, Encapsulation, Polymorphism, Inheritance, Association, Aggregation and Composition</b>. This elective was graded based on weekly challenges and a written test on OOP-implementations, which I completed with a 9.0.</p>
+            <p class="width__small lecturers">Lecturer: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Huizing!" data-balloon-pos="up">dr. Kees Huizing</span>.</p>
+            <!-- <div class="width__small deliverables">
+            <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
+            <div class="deliverables__item-left">
+            <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
           </div>
           <div class="deliverables__item-right">
-            <p class="deliverables__file-size">4MB</p>
-            <img src="/i/icons/file-zip.png" alt="ZIP File Icon">
-          </div>
+          <p class="deliverables__file-size">0.1MB</p>
+          <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+        </div>
+      </a>
+    </div> -->
+  </div>
+
+
+  <div class="activity">
+    <h3 id="FDM">Elective: "Foundations of Data Mining"</h3>
+    <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
+      <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="/i/data-mining.jpg" itemprop="contentUrl" data-size="2688x1488">
+          <img src="/i/data-mining@0,33x.jpg" itemprop="thumbnail" alt="Data Mining: Clustering" loading="lazy" />
         </a>
-        <!-- <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
-        <div class="deliverables__item-left">
-        <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
-      </div>
-      <div class="deliverables__item-right">
-      <p class="deliverables__file-size">0.1MB</p>
-      <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+        <figcaption itemprop="caption description">Pen-and-paper exercise using a simple clustering algorithm with different k-mean values, resulting in two different separations of clusters (red versus blue).</figcaption>
+      </figure>
+      <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="/i/data-mining-graph.jpg" itemprop="contentUrl" data-size="2688x1488">
+          <img src="/i/data-mining-graph@0,33x.jpg" itemprop="thumbnail" alt="Data Mining: Clustering" loading="lazy" />
+        </a>
+        <figcaption itemprop="caption description">Course dependency graph of algorithms seen in this elective, showing the progression from relatively easy algorithms (i.e. clustering) to complex algorithms (neural networks).</figcaption>
+      </figure>
     </div>
-  </a> -->
+    <div class="icon-row width__small" style="filter: hue-rotate(205deg);">
+      <!-- <div class="icon-list__icon icon__be" data-balloon-length="large" aria-label="Business &amp; Entrepreneurship" data-balloon-pos="up"><img src="i/icons/business-entrepreneurship.svg" alt="Business and Entrepreneurship Icon"></div> -->
+      <!-- <div class="icon-list__icon icon__ca" data-balloon-length="large" aria-label="Creativity &amp; Aesthetics" data-balloon-pos="up"><img src="i/icons/creativity-aesthetics.svg" alt="Creativity and Aesthetics Icon"></div> -->
+      <!-- <div class="icon-list__icon icon__drp" data-balloon-length="large" aria-label="Design &amp; Research Processes" data-balloon-pos="up"><img src="i/icons/design-research-processes.svg" alt="Design and Research Processes Icon"></div> -->
+      <div class="icon-list__icon icon__mdc" data-balloon-length="large" aria-label="Math, Data &amp; Computing" data-balloon-pos="up"><img src="i/icons/math-data-computing.svg" alt="Math, Data and Computing Icon"></div>
+      <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
+      <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
+    </div>
+    <p class="width__small p__details">Grade: 9.0</p>
+    <p class="width__small">Department: Computer Science, TU/e.</p>
+    <p class="width__small">In this elective I learnt the theoretical background of state-of-the-art techniques used in Data Mining. It is easy to lose track of how algorithms exactly work, which is why this course had us start by computing basic data mining algorithms such as <b>Clustering</b>, <b>Frequent Itemset Mining</b> and <b>Subspace Clustering</b> by hand &mdash; using pen-and-paper.</p>
+    <p class="width__small">As the course passed, the earlier algorithms were used as building blocks for more advanced algorithms, which included <b>Learning Deep Representation, Multi-Layer Perceptrons</b> and finally <b>Convolutional- and Recurrent Neural Networks</b>. This elective was graded based on assignments done in a group, which involved 'from-scratch' implementations of the algorithms, first using pen-and-paper and later progressing to <b>Python</b>. The assignments I worked on alongside my group were graded with a 9.0, and can be opened with the password '<code>backpropagation</code>'.</p>
+    <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jelle!" data-balloon-pos="up">Jelle Koks</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Martijn!" data-balloon-pos="up">Martijn Beeks</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Steffi!" data-balloon-pos="up">Steffi Krijgsman</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sven!" data-balloon-pos="up">Sven Ruiter</span>.</p>
+    <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Duivesteijn!" data-balloon-pos="up">dr. Wouter Duivesteijn</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Mocanu!" data-balloon-pos="up">dr. Decebal Mocanu</span>.</p>
+    <div class="width__small deliverables">
+      <a class="deliverables__item" href="/documents/2IMM20_Group-Assignments_Geel_AJ.zip" target="_blank">
+        <div class="deliverables__item-left">
+          <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Assignments</h4>
+        </div>
+        <div class="deliverables__item-right">
+          <p class="deliverables__file-size">4MB</p>
+          <img src="/i/icons/file-zip.png" alt="ZIP File Icon">
+        </div>
+      </a>
+      <!-- <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
+      <div class="deliverables__item-left">
+      <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
+    </div>
+    <div class="deliverables__item-right">
+    <p class="deliverables__file-size">0.1MB</p>
+    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
+  </div>
+</a> -->
 </div>
 </div>
 
@@ -1116,9 +1117,13 @@ Proudly developed from scratch using HTML/CSS/JS/PHP.
 <section id="Future">
   <div class="section__inner">
     <h2 class="width__small">Future</h2>
-    <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+    <p class="width__small">I started this Master's programme with <b>one overarching goal</b>: to prepare myself for a career as a UX Designer. In the Master's programme I focused on developing myself interdisciplinarily: strengthening my skills in typical UX Design while laying a solid base in understanding digital technology. My preferred working environment is either doing in-house work for a Small or Medium-Sized Company (SME), or working project-based for a (creative) design agency. Reflecting on my growth during this programme, I feel ready to start contributing to professional projects.</p>
+    <p class="width__small">The Corona crisis has had an unprecedented impact on the world, and I have no doubt that this will continue for a <b>prolonged period of time</b>. Firstly, we have to adapt to working remotely. Instead of physical, face-to-face meeting with our colleagues, stakeholders and end-users, digital meetings will have to suffice. This means that we have to become comfortable in a range of collaborative tools that allow us to keep doing the things that we were doing.</p>
+    <p class="width__small">It is no more than reasonable to assume that the aftermath of the Corona crisis will have <b>a significant impact</b> on the economy, both nationally as well as globally. Kick-starting a professional career never is easy, let alone during a global crisis. However, I am cautiously optimistic about my future: I believe my skill-set can add value to a lot of companies in my preferred working environment.</p>
+    <p class="width__small">Over the past months <b>I have been preparing myself</b> for a career as a UX Designer. I have created a resume, am in the process of releasing my <a href="https://arthurgeel.com" class="link">industry portfolio</a> and have compiled a shortlist of companies with vacancies or open applications which I am in the process of reaching out to. I hope to be able to update this line soon once I have <b>realised my dream</b> of becoming a professional UX Designer in the Randstad area.</p>
     <h3>A Word of Gratitude</h3>
-    <p class="width__small">In euismod, dui at artibus maximus, nibh dui elementum risus, vitae tincidunt arturus leo sit amet ligula. Integer quis mollis nulla. Artem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim eros vel ante rhoncus, sit amet aliquet massa placerat. Donec artem turpis, vulputate a vestibulum a, cursus eu arcu. Nunc sit amet velit sed nibh congue artuere. Morbi ut turpis eget nisl tincidunt fermentum. Integer arcu nisi, aliquam a urna vitae, tincidunt commodo arcu.</p>
+    <p class="width__small">Over the past two years I have received a lot of support from friends and family without whom I could not have done this. Firstly, I would like to thank my mentor <b>dr.ir. Javed Khan</b> for the support, guidance and opportunities shown. Subsequently, I am grateful for <b>all members and staff of the Industrial Design faculty and of course Lucid</b> who have made my Master's degree an intellectually stimulating yet inviting environment.</p>
+    <p class="width__small">I would like to thank <b>all friends and family</b> with whom I was able to share my passion for digital design and technology over the years. I especially would like to thank <b>Kees, Frederika, Dieuwertje &amp; Johan</b> for their unconditional support. Finally, I cannot express my gratitude enough for you, <b>Nienke</b>, for being there with me every step of the way.</p>
   </div>
 </section>
 
