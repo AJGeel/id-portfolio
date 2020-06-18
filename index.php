@@ -119,7 +119,7 @@ MSc Industrial Design TU/e, 2018-2020
               <a href="/i/ajgeel.jpg" itemprop="contentUrl" data-size="1680x1400">
                 <img src="/i/ajgeel@0,2x.jpg" itemprop="thumbnail" alt="Arthur Geel" loading="lazy"/>
               </a>
-              <figcaption itemprop="caption description"></figcaption>
+              <figcaption itemprop="caption description">A photo of me in Mostar, Bosnia. </figcaption>
             </figure>
           </div>
         </div>
@@ -129,7 +129,7 @@ MSc Industrial Design TU/e, 2018-2020
         <p class="width__small">Afterwards, I give shape to the insights by designing digital prototypes in increasing levels of fidelity — from wireframes to complete <b>design systems</b>. These design artifacts allow me to further explore the design space by conducting in-context evaluations. Finally, I enjoy breathing life into prototypes by developing them with my skills in the Technology & Realization competency. My preferred tool of choice for this is a front- end development stack. During my Master’s degree, <b>programming</b> has become an integral part of my designer’s identity and toolkit.</p>
         <p class="width__small">Throughout my time at the TU/e I was driven to complement my academic knowledge with <b>professional experience</b>. In 2017 I had a six-month internship as a Junior Interaction Designer at creative digital agency Momkai <sup><a href="#ref__1" class="link">[ 1 ]</a></sup>, which I discuss in detail in my FBP portfolio <sup><a href="#ref__1" class="link">[ 2 ]</a></sup>. This great experience solidified my interest in becoming a UX Designer. Additionally, from September 2018 until December 2019 I have been working part-time as the sole UX Designer at SPIE Nederland B.V. <sup><a href="#ref__1" class="link">[ 3 ]</a></sup>. In this position I was responsible for re-designing the usability and user experience of legacy applications.</p>
         <p class="width__small">Experiencing the differences in working as a designer at these companies with very differing attitudes towards design
-          has given me more <b>perspective</b> for continuing my career as a UX Designer after I graduate.</p>
+          has <b>given me more perspective</b> for continuing my career as a UX Designer after I graduate.</p>
           <div class="width__small references">
             <h4 id="ref__1">References</h4>
             <ol>
@@ -142,7 +142,7 @@ MSc Industrial Design TU/e, 2018-2020
           <h3>Vision on Design</h3>
           <p class="width__small">Computers and the internet have <b>revolutionalised our way of living</b>. We increasingly perform complex tasks that were previously deemed impossible, including connecting with peers all over the world, automating tasks that are repetitive and sharing vast amounts of data. We have made the world <b>more accessible</b>: computers enable all to contribute to our society, regardless of their location, age, gender or disabilities.</p>
           <p class="width__small">In contrast with physical products, the landscape of digital products is a lot more dynamic. By removing physical materials and real-world shipping from the equation, we see new products make it to the market faster, and see existing products receive new features regularly. All these developments seem to <b>rapidly improve our world!</b></p>
-          <p class="width__small"><b>However&hellip; that is not always the case.</b> The complexity of the tools we use in everyday life is rapidly expanding, requiring more training and expertise to operate. This clashes with making the world more accessible: not everybody is able to participate anymore as their skillset does not allow them to participate. Furthermore, we are seeing <b>negative societal trends</b> regarding the digital products we use. Our privacy is being eroded through the increasing intensiveness of web trackers and transfer of personal data to third parties, ultimately allowing them to slyly manipulate our behaviour.</p>
+          <p class="width__small"><b>However&hellip; that is not always the case.</b> The complexity of the tools we use in everyday life is ever expanding, requiring more training and expertise to operate. This clashes with making the world more accessible: not everybody is able to participate anymore as their skillset does not allow them to. Furthermore, we are seeing <b>negative societal trends</b> regarding the digital products we use. Our privacy is being eroded through the increasing intensiveness of web trackers and transfer of personal data to third parties, ultimately allowing them to slyly manipulate our behaviour.</p>
           <p class="width__small p__block">With my design I try to take a stand against these developments. I am driven to create <b>digital tools and systems</b> that not only make the internet a <b>more accessible place</b>, but also <b>more respecting</b> of the persons operating it.</p>
         </div>
       </section>
@@ -178,7 +178,7 @@ MSc Industrial Design TU/e, 2018-2020
             </div>
             <div class="icon-list__copy">
               <h3>Creativity &amp; Aesthetics</h3>
-              <p>This competency is about <b>exploring possibilities</b>. It allows me to shape design prototypes as 'living hypotheses' used for examining the design space and communicating insights and qualities to stakeholders.</p>
+              <p>This competency is about <b>exploring possibilities</b>. It allows me to shape design prototypes as 'living hypotheses' used for examining the design space and communicating insights to stakeholders.</p>
             </div>
           </div>
 
@@ -222,7 +222,7 @@ MSc Industrial Design TU/e, 2018-2020
             </div>
             <div class="icon-list__copy">
               <h3>User &amp; Society</h3>
-              <p>This competency is about <b>expanding perspectives</b>. It allows me to be empathic, curious and sensitive to stakeholders and contexts, and provides me with the tools to approach design problems.</p>
+              <p>This competency is about <b>expanding perspectives</b>. It allows me to be empathic, curious and sensitive to stakeholders and contexts, and provides me with the tools to switch between viewpoints.</p>
             </div>
           </div>
 
@@ -233,7 +233,7 @@ MSc Industrial Design TU/e, 2018-2020
       <section id="M11">
         <div class="section__inner">
           <h2 class="width__small">M11 Semester</h2>
-          <p class="width__small">The first semester of my Master's degree was spent exploring the potential tracks that the study had. In this semester I completed my last group project, which was in the context of the <a href="#EM" class="link">Eindhoven Museum</a>. I completed the core course on <a href="#CDR" class="link">Constructive Design Research</a>, as well as an elective course on <a href="#DIII" class="link">Designing Intelligence in Interaction</a>. Finally, I landed a part-time job as a UX Designer, working at <a href="#SPIE" class="link">SPIE Nederland</a>.</p>
+          <p class="width__small">The first semester of my Master's degree was spent exploring the potential tracks of the MSc programme. In this semester I completed my last group project, which was in the context of the <a href="#EM" class="link">Eindhoven Museum</a>. I completed the core course on <a href="#CDR" class="link">Constructive Design Research</a>, as well as an elective course on <a href="#DIII" class="link">Designing Intelligence in Interaction</a>. Finally, I landed a part-time job as a UX Designer, working at <a href="#SPIE" class="link">SPIE Nederland</a>.</p>
 
           <div class="activity">
             <h3 id="EM">M11 Project: "Eindhoven Museum"</h3>
@@ -245,16 +245,28 @@ MSc Industrial Design TU/e, 2018-2020
                 <figcaption itemprop="caption description">Ray &mdash; a Conversational UI that predicts who you are.. based on how you behaved during your visit to the Eindhoven Museum.</figcaption>
               </figure>
               <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-                <a href="/i/ray-2.jpg" itemprop="contentUrl" data-size="1488x2000">
-                  <img src="/i/ray-2@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy"/>
+                <a href="/i/philips-museum-interview.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/philips-museum-interview@0,33x.jpg" itemprop="thumbnail" alt="Philips Museum interview" loading="lazy"/>
                 </a>
-                <figcaption itemprop="caption description">Ray in person. Let's have a talk!</figcaption>
+                <figcaption itemprop="caption description">Exploring the context: interviewing mr. Sergio Derks, curator of the Philips Museum.</figcaption>
               </figure>
               <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
                 <a href="/i/em-early-prototype.jpg" itemprop="contentUrl" data-size="2688x1488">
                   <img src="/i/em-early-prototype@0,33x.jpg" itemprop="thumbnail" alt="Eindhoven Museum early prototype" loading="lazy"/>
                 </a>
                 <figcaption itemprop="caption description">Early concept exploration: matching Eindhoven Museum and Gamification with a modal quiz interface.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/ray-data-stream.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/ray-data-stream@0,33x.jpg" itemprop="thumbnail" alt="Ray concept data stream" loading="lazy"/>
+                </a>
+                <figcaption itemprop="caption description">Exploring data streams and creating value from data generated by other expositions.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/ray-2.jpg" itemprop="contentUrl" data-size="1488x2000">
+                  <img src="/i/ray-2@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy"/>
+                </a>
+                <figcaption itemprop="caption description">Ray in person. Let's have a talk!</figcaption>
               </figure>
             </div>
             <div class="icon-row width__small" style="filter: hue-rotate(-135deg) saturate(2);">
@@ -310,6 +322,18 @@ MSc Industrial Design TU/e, 2018-2020
                   <img src="/i/wayfinder@0,33x.jpg" itemprop="thumbnail" alt="Wayfinder Research Poster" loading="lazy"/>
                 </a>
                 <figcaption itemprop="caption description">Isometric illustration style for the research poster</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/cdr-field-deployment.jpg" itemprop="contentUrl" data-size="1488x2000">
+                  <img src="/i/cdr-field-deployment@0,33x.jpg" itemprop="thumbnail" alt="CDR Field Deployment" loading="lazy"/>
+                </a>
+                <figcaption itemprop="caption description">Field deployment of the 'Wayfinder' research prototype</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/cdr-field-interview.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/cdr-field-interview@0,33x.jpg" itemprop="thumbnail" alt="CDR Field Interview" loading="lazy"/>
+                </a>
+                <figcaption itemprop="caption description">Part of the 'field' research style: observing and interviewing those that interacted with our research prototype.</figcaption>
               </figure>
               <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
                 <a href="/i/wayfinder-2.jpg" itemprop="contentUrl" data-size="1488x2000">
@@ -384,7 +408,7 @@ MSc Industrial Design TU/e, 2018-2020
             <div class="width__small deliverables">
               <a class="deliverables__item" href="/documents/DBM130_Paper_Geel_AJ.pdf" target="_blank">
                 <div class="deliverables__item-left">
-                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Report: 'Digital Goat Farmer`s Assistant</h4>
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Group Report: 'Digital Goat Farmer`s Assistant</h4>
                 </div>
                 <div class="deliverables__item-right">
                   <p class="deliverables__file-size">2MB</p>
@@ -448,7 +472,7 @@ MSc Industrial Design TU/e, 2018-2020
       <section id="M12">
         <div class="section__inner">
           <h2 class="width__small">M12 Semester</h2>
-          <p class="width__small">In the M12 Semester I finalized my choice of specialization: the Research, Design &amp; Development (RDD) track with the focal competencies of User &amp; Society (US) and Technology &amp; Realization (TR). Building on the growth from the Constructive Design Research course from last semester, I completed a solo <a href="#TLP" class="link">Design Research Project</a>, entitled 'the Live Persona'. Furthermore, I completed the core elective for the RDD track <a href="#UXTP" class="link">UX Theory &amp; Practice</a>. Finally, I took part in the new <a href="#DED" class="link">Data-Enabled Design</a> elective, and dedicated time to building a brand for my <a href="#BWG" class="link">Homebrewing hobby</a>, and conducted some exploration of potential entrepreneurial opportunities.</p>
+          <p class="width__small">In the M12 Semester I finalized my <b>choice of specialization</b>: the Research, Design &amp; Development (RDD) track with the focal competencies of User &amp; Society (US) and Technology &amp; Realization (TR). Building on the growth from the Constructive Design Research course from last semester, I completed a solo <a href="#TLP" class="link">Design Research Project</a>: 'the Live Persona'. Furthermore, I completed the core elective for the RDD track <a href="#UXTP" class="link">UX Theory &amp; Practice</a>, and took part in the new <a href="#DED" class="link">Data-Enabled Design</a> elective. Finally, I dedicated time to building a brand for my <a href="#BWG" class="link">Homebrewing hobby</a>, and conducted an exploration of potential entrepreneurial opportunities.</p>
 
           <div class="activity">
             <h3 id="TLP">M12 Project: 'The Live Persona'</h3>
@@ -476,7 +500,7 @@ MSc Industrial Design TU/e, 2018-2020
             </div>
             <p class="width__small p__details">Grade: Pass</p>
             <p class="width__small">In this research project I sought to explore a topic that was close to me: UX Research. When communicating the insights, often formats are used that are <b>not as powerful</b> as directly talking to stakeholders or end-users. In addressing this, I designed and developed the Live Persona, a tool for communicating user research with a focus on <b>transferring empathy</b> by including personal details that make it relatable.The Live Persona was used in a study where designers were asked to carry out a short design case, <b>basing their design decisions on the Live Persona</b>.</p>
-            <p class="width__small">During this project I put the insights of the <b>Constructive Design Research</b> elective into practice, using the 'Field' style research. Beyond gaining more skills in conducting design research such as doing <b>thematic analysis</b>, above all this project made me aware of the <b>time investment</b> (design) research requires, which means the <b>project planning and management</b> has to be sound.</p>
+            <p class="width__small">During this project I put the insights of the <b>Constructive Design Research</b> elective into practice, using the 'Field' style approach to design research. Beyond gaining more skills in conducting design research such as doing <b>thematic analysis</b>, above all this project made me aware of the <b>time investment</b> (design) research requires, which means the <b>project planning and management</b> has to be sound.</p>
             <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Khan!" data-balloon-pos="up">dr.ir. Javed Khan</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Hummels!" data-balloon-pos="up">prof.dr.ir. Caroline Hummels</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. Levy!" data-balloon-pos="up">dr.ir. Pierre Levy</span>.</p>
             <div class="width__small deliverables">
               <a class="deliverables__item" href="/documents/M12_Paper_Geel_AJ.pdf" target="_blank">
@@ -499,7 +523,7 @@ MSc Industrial Design TU/e, 2018-2020
               </a>
               <a class="deliverables__item" href="https://arthurgeel.com/tp/" target="_blank">
                 <div class="deliverables__item-left">
-                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Research Onboarding / Demonstrator</h4>
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Research Onboarding / Workshop</h4>
                 </div>
                 <div class="deliverables__item-right">
                   <p class="deliverables__file-size">External</p>
@@ -515,9 +539,15 @@ MSc Industrial Design TU/e, 2018-2020
             <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
               <figure class="no-invert" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
                 <a href="/i/ux-booking.jpg" itemprop="contentUrl" data-size="2688x1488">
-                  <img src="/i/ux-booking@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" />
+                  <img src="/i/ux-booking@0,33x.jpg" itemprop="thumbnail" alt="Booking.com Case" loading="lazy" />
                 </a>
                 <figcaption itemprop="caption description">Dissecting the Booking.com website in various components that result in the specific User Experience.</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/ux-manifesto.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/ux-manifesto@0,33x.jpg" itemprop="thumbnail" alt="UX Manifesto" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Manifesto for UX: highlighting the values I find important. Created in collaboration with <a href="https://melvinsterk.nl" target="_blank" style="color: #fff;">Melvin Sterk</a>.</figcaption>
               </figure>
             </div>
             <div class="icon-row width__small" style="filter: hue-rotate(77deg) saturate(1.5)">
@@ -529,9 +559,9 @@ MSc Industrial Design TU/e, 2018-2020
               <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
             </div>
             <p class="width__small p__details">Grade: 8.0</p>
-            <p class="width__small">In this elective we looked at UX from an <b>academic and philosophic perspective</b>. By studying all suggested literature I broadened my view of what UX exactly is. Instead of merely focusing on designing so that systems are usable, UX is also about the <b>complex and subjective impressions</b> people experience, both <b>before, during and after</b> interacting with any given system.</p>
-            <p class="width__small">Furthermore, in this course we had a number of discussions about UX, especially as we discussed design cases. Alongside my team, I discussed <b>Booking.com</b>, where we looked into the User Experience that resulted from shopping for an overnight stay in Amsterdam. We noticed the site using a lot of (ethically) questionable strategies to drive conversions, such as <b>purchase pressure cues and limited product availability</b>, all exposing visitors of the website to stress in order to get them to spend their money.</p>
-            <p class="width__small">This reaffirmed my vision on design on making accessible and respectful systems. However, it is important to stay mindful of <b>maintaining the balance between ethical principles and financial goals</b>.</p>
+            <p class="width__small">In this elective we looked at UX from an <b>academic and philosophic perspective</b>. By studying all suggested literature I broadened my view of what UX exactly is. Instead of merely focusing on designing so that systems are usable, UX is also about the <b>nuanced impressions</b> people experience, both <b>before, during and after</b> interacting with any given system. Of course, these are highly subjective and context-dependent.</p>
+            <p class="width__small">Furthermore, in this course we had a number of engaging discussions about UX, especially as we discussed design cases. Alongside my team, I discussed <b>Booking.com</b>, where we looked into the User Experience that resulted from shopping for an overnight stay in Amsterdam. We noticed the site using a lot of (ethically) questionable strategies to drive conversions, such as <b>purchase pressure cues and limited product availability</b>, all exposing visitors of the website to stress in order to get them to spend their money.</p>
+            <p class="width__small">Seeing this (in my opinion) blatant disregard of ethics in oder to drive revenue reaffirmed my vision on design on making accessible and respectful systems. I believe UX Designers have the responsibility of advocating on behalf of the users in the discussion of <b>maintaining the balance between ethical principles and financial goals</b>.</p>
             <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Melvin!" data-balloon-pos="up">Melvin Sterk</span> (Manifesto), and in collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jessie!" data-balloon-pos="up">Jessie Harms</span>, <br><span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marit!" data-balloon-pos="up">Marit Her</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marit!" data-balloon-pos="up">Marit Proper</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jordy!" data-balloon-pos="up">Jordy Oplaat</span> (Booking.com case).</p>
             <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Eggen!" data-balloon-pos="up">prof.dr.ir. Berry Eggen</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. van Essen!" data-balloon-pos="up">dr.ir. Harm van Essen</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Terken!" data-balloon-pos="up">dr. Jacques Terken</span>.</p>
             <div class="width__small deliverables">
@@ -579,7 +609,13 @@ MSc Industrial Design TU/e, 2018-2020
                 <a href="/i/data-enabled-design-sensors.jpg" itemprop="contentUrl" data-size="1488x2000">
                   <img src="/i/data-enabled-design-sensors@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design" loading="lazy" />
                 </a>
-                <figcaption itemprop="caption description">Day-one sensor probe: capturing time-series data on air quality.</figcaption>
+                <figcaption itemprop="caption description">Day-one sensor probe: capturing time-series data on air quality (volatile organic compounds, temperature, humidity).</figcaption>
+              </figure>
+              <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+                <a href="/i/data-enabled-design-probe.jpg" itemprop="contentUrl" data-size="2688x1488">
+                  <img src="/i/data-enabled-design-probe@0,33x.jpg" itemprop="thumbnail" alt="Data-Enabled Design Probe" loading="lazy" />
+                </a>
+                <figcaption itemprop="caption description">Extended sensor probe, including upgrades in consistency through better air flow mechanisms.</figcaption>
               </figure>
               <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
                 <a href="/i/data-enabled-design-pattern.jpg" itemprop="contentUrl" data-size="2688x1488">
@@ -610,7 +646,7 @@ MSc Industrial Design TU/e, 2018-2020
             </div>
             <p class="width__small p__details">Grade: 8.0</p>
             <p class="width__small">In this elective we were introduced to the recently published <b>Data-Enabled Design approach</b> by <a href="https://research.tue.nl/en/publications/data-enabled-design-a-situated-design-approach-that-uses-data-as-" class="link" target="_blank">van Kollenburg &amp; Bogers</a>. This approach seeks to use data as a creative material, enriching existing ecosystems with sensors that capture otherwise unseen experiences, which are used for sense-making and <b>fed back to stakeholders to prompt reaction and reflection</b>.</p>
-            <p class="width__small">This course has given me numerous things. Firstly, I feel able to implement the data-enabled design approach in my own projects, which I see as a <b>high-effort, high-reward</b> approach to design. Secondly, it has made me more comfortable in working with data. The iPad GUIs I designed and developed were my <b>first experience in persistently storing data</b>, which was done using PHP and comma-separated value (.csv) files. Additionally, the GUI <b>integrated the sensor probe</b> developed by Sark, which provided near real-time data on the environment's air quality and temperature, which was a big step for me towards <b>making systems rather than prototypes</b>.</p>
+            <p class="width__small">This course has given me numerous things. Firstly, I feel able to implement the data-enabled design approach in my own projects, which I see as a <b>high-effort, high-reward</b> approach to design. Secondly, it has made me more comfortable in working with data. The iPad GUIs I designed and developed were my <b>first experience in persistently storing data</b>, which was done using PHP and comma-separated value (.csv) files. Additionally, the GUI <b>integrated data of the sensor probe</b> developed by Sark Xing, which provided near real-time updates on the environment's air quality and temperature. This was a big step for me in <b>making systems rather than prototypes</b>.</p>
             <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Yizhou!" data-balloon-pos="up">Yizhou Liu</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sark!" data-balloon-pos="up">Sark Xing</span>.</p>
             <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Funk!" data-balloon-pos="up">dr. Mathias Funk</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. van Kollenburg!" data-balloon-pos="up">dr. Janne van Kollenburg</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Bogers!" data-balloon-pos="up">dr. Sander Bogers</span>.</p>
             <div class="width__small deliverables">
@@ -680,7 +716,7 @@ MSc Industrial Design TU/e, 2018-2020
       <section id="M21">
         <div class="section__inner">
           <h2 class="width__small">M21 Semester</h2>
-          <p class="width__small">In the M21 semester I started preparing for my graduation by writing and presenting my <a href="#FMP_Proposal" class="link">Final Master Project Proposal</a>. However, I also took the opportunity provided by the M21 Option to solidify my academic knowledge of Computer Science. I completed 15 ECTS in the TU/e Computer Science department, which consisted of the courses <a class="link" href="#JAVA">Object-Oriented Programming (Java)</a>, <a class="link" href="#FDM">Foundations of Data Mining</a> and <a class="link" href="#CCD">Cybersecurity: Crime &amp; Defenses</a>. Finally, I completed two electives within the ID department: <a class="link" href="#DFBC">Design for Behavioural Change</a> and <a class="link" href="#TSoST">The Sound of Smart Things</a>.</p>
+          <p class="width__small">In the M21 semester I started preparing for my graduation by writing and presenting my <a href="#FMP_Proposal" class="link">Final Master Project Proposal</a>. I also took the opportunity provided by the M21 Option to solidify my academic knowledge of Computer Science. I completed 15 ECTS in the TU/e Computer Science MSc department, which consisted of the courses <a class="link" href="#JAVA">Object-Oriented Programming (Java)</a>, <a class="link" href="#FDM">Foundations of Data Mining</a> and <a class="link" href="#CCD">Cybersecurity: Crime &amp; Defenses</a>. Finally, I completed two electives within the ID department: <a class="link" href="#DFBC">Design for Behavioural Change</a> and <a class="link" href="#TSoST">The Sound of Smart Things</a>.</p>
           <div class="activity">
             <h3 id="FMP_Proposal">Project: "FMP Proposal"</h3>
             <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
@@ -728,7 +764,7 @@ MSc Industrial Design TU/e, 2018-2020
               </a>
               <a class="deliverables__item" href="/documents/M21_Reflection_Geel_AJ.pdf" target="_blank">
                 <div class="deliverables__item-left">
-                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection</h4>
+                  <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Reflection</h4>
                 </div>
                 <div class="deliverables__item-right">
                   <p class="deliverables__file-size">0.4MB</p>
@@ -759,7 +795,7 @@ MSc Industrial Design TU/e, 2018-2020
             </div>
             <p class="width__small p__details">Grade: 7.0</p>
             <p class="width__small">In this elective I gained knowledge on designing products or systems that can <b>help people change their behaviour</b> without utilising coercion or manipulation. In order to do so, I studied models on human behaviour (e.g. the Theory of Planned Behaviour), which provided me with <b>the tools to understand behaviour and even make predictions</b>.</p>
-            <p class="width__small">In a group project I used the <b>COM-B model</b> (Capability-Opportunity-Motivation-Behaviour) to analyse human behaviour regarding waste separation, and identified an <b>intervention strategy</b> aimed to change this behaviour. The final concept was a satirical online personality test which focused on <b>social opportunity and reflective motivation</b>. Finally, in this elective I became aware of the responsibilities involved in designing for behaviour change, which can be addressed by conducting a <b>stakeholder analysis</b>.</p>
+            <p class="width__small">In a group project I used the <b>COM-B model</b> (Capability-Opportunity-Motivation-Behaviour) to analyse human behaviour regarding waste separation, and identified an <b>intervention strategy</b> aimed to change this behaviour. The final concept was a satirical online personality test which focused on <b>social opportunity and reflective motivation</b>. Finally, in this elective I became aware of the responsibilities involved in designing for behaviour change, which can be addressed by conducting a <b>stakeholder analysis</b>. Furthermore, when  designing for behaviour change, taking an ethical and human-centered approach is vital.</p>
             <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Marco!" data-balloon-pos="up">Marco Putzu</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sacha!" data-balloon-pos="up">Sacha Prudon</span>.</p>
             <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr. Markopoulos!" data-balloon-pos="up">prof.dr. Panos Markopoulos</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr.ir. van Essen!" data-balloon-pos="up">dr.ir. Harm van Essen</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr.ir. Bekker!" data-balloon-pos="up">prof.dr.ir. Tilde Bekker</span>.</p>
             <div class="width__small deliverables">
@@ -789,9 +825,15 @@ MSc Industrial Design TU/e, 2018-2020
     <div class="pswp__gallery width__small" itemscope itemtype="https://schema.org/ImageGallery">
       <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="/i/smart-coffee.jpg" itemprop="contentUrl" data-size="2688x1488">
-          <img src="/i/smart-coffee@0,33x.jpg" itemprop="thumbnail" alt="Ray Conversational UI" loading="lazy" />
+          <img src="/i/smart-coffee@0,33x.jpg" itemprop="thumbnail" alt="Smart Coffee Machine" loading="lazy" />
         </a>
         <figcaption itemprop="caption description">The Smart Coffee Machine in the 'Lucid Bar 2030' &mdash; a fictional context which contained decentralised, intelligent systems.</figcaption>
+      </figure>
+      <figure class="hidden" itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="/i/sound-session.jpg" itemprop="contentUrl" data-size="2688x1488">
+          <img src="/i/sound-session@0,33x.jpg" itemprop="thumbnail" alt="Sound Session" loading="lazy" />
+        </a>
+        <figcaption itemprop="caption description">An impression from one of the hands-on-approaches towards communicating integrated system statuses through sound.</figcaption>
       </figure>
     </div>
     <div class="icon-row width__small">
@@ -846,7 +888,7 @@ MSc Industrial Design TU/e, 2018-2020
         <a href="/i/oop-java.jpg" itemprop="contentUrl" data-size="2688x1488">
           <img src="/i/oop-java@0,33x.jpg" itemprop="thumbnail" alt="Java Code" loading="lazy" />
         </a>
-        <figcaption itemprop="caption description">Object-oriented approach to solving the ArrayQuest problem of the 2019 exam.</figcaption>
+        <figcaption itemprop="caption description">My object-oriented approach to solving the 'ArrayQuest' problem included in the final examination.</figcaption>
       </figure>
     </div>
     <div class="icon-row width__small">
@@ -859,8 +901,8 @@ MSc Industrial Design TU/e, 2018-2020
     </div>
     <p class="width__small p__details">Grade: 9.0</p>
     <p class="width__small">Department: Computer Science, TU/e.</p>
-    <p class="width__small">In this elective I sought to increase my ability to write <b>more structured code</b>, making it more scalable and flexible. The language of this elective was Java, a language I had little previous experience in. The elective focused on two areas: GUIs and Object-Oriented Programming. In Java, frameworks are often used to create consistent graphical user interfaces. Through this elective I developed skills and intuition in using the <b>Java Abstract Widget Toolkit (AWT)</b> and the <b>Java Swing Framework</b>, allowing me to build interactive interfaces using Java. However, I do not believe I will use these often, as I am a lot more proficient in my preferred front-end technology stack (HTML/JS/CSS), which is more currently more widely used.</p>
-    <p class="width__small">However, I highly value the insights gained on <b>Object-Oriented Programming</b> (OOP), as these enable me to more efficiently realize designs in code through <b>better modularity</b>. Specifically, I learnt about and implemented the six main principles of Object-Oriented Programming in Java, those being <b>Abstraction, Encapsulation, Polymorphism, Inheritance, Association, Aggregation and Composition</b>. This elective was graded based on weekly challenges and a written test on OOP-implementations, which I completed with a 9.0.</p>
+    <p class="width__small">In this elective I sought to increase my ability to write <b>more structured code</b>, making it more scalable and flexible. The language of this elective was Java, a language I had little previous experience in. The elective focused on two areas: GUIs and Object-Oriented Programming. In Java, frameworks are often used to create consistent graphical user interfaces. Through this elective I developed skills and intuition in using the <b>Java Abstract Widget Toolkit (AWT)</b> and the <b>Java Swing Framework</b>, allowing me to build interactive interfaces using Java. However, I do not believe I will use these often, as I am a lot more proficient in my preferred front-end technology stack (HTML/JS/CSS), which also sees significantly more industry interest.</p>
+    <p class="width__small">However, I highly value the insights gained on <b>Object-Oriented Programming</b> (OOP), as these enable me to more efficiently realize designs in code through <b>better modularity</b>. Specifically, I learnt about- and implemented the six main principles of Object-Oriented Programming in Java, those being <b>Abstraction, Encapsulation, Polymorphism, Inheritance, Association, Aggregation and Composition</b>. This elective was graded based on weekly challenges and a written test on OOP-implementations, which I scored a 9.0 for.</p>
     <p class="width__small lecturers">Lecturer: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Huizing!" data-balloon-pos="up">dr. Kees Huizing</span>.</p>
   </div>
 
@@ -892,7 +934,8 @@ MSc Industrial Design TU/e, 2018-2020
     <p class="width__small p__details">Grade: 9.0</p>
     <p class="width__small">Department: Computer Science, TU/e.</p>
     <p class="width__small">In this elective I learnt the theoretical background of state-of-the-art techniques used in Data Mining. It is easy to lose track of how algorithms exactly work, which is why this course had us start by computing basic data mining algorithms such as <b>Clustering</b>, <b>Frequent Itemset Mining</b> and <b>Subspace Clustering</b> by hand &mdash; using pen-and-paper.</p>
-    <p class="width__small">As the course passed, the earlier algorithms were used as building blocks for more advanced algorithms, which included <b>Learning Deep Representation, Multi-Layer Perceptrons</b> and finally <b>Convolutional- and Recurrent Neural Networks</b>. This elective was graded based on assignments done in a group, which involved 'from-scratch' implementations of the algorithms, first using pen-and-paper and later progressing to <b>Python</b>. The assignments I worked on alongside my group were graded with a 9.0, and can be opened with the password '<code>backpropagation</code>'.</p>
+    <p class="width__small">As the course passed, the earlier algorithms were used as building blocks for more advanced algorithms, which included <b>Learning Deep Representation, Multi-Layer Perceptrons</b> and finally <b>Convolutional- and Recurrent Neural Networks</b>. Through all of this, I gained a much more thorough understanding of the theory behind all models, providing me with a better intuition on their implementation for design purposes.</p>
+    <p class="width__small">This elective was graded based on assignments done in a group, which involved 'from-scratch' implementations of the algorithms, first using pen-and-paper and later progressing to <b>Python</b>. The assignments I worked on alongside my group were graded with a 9.0, and can be opened with the password '<code>backpropagation</code>'.</p>
     <p class="width__small collab">In collaboration with <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Jelle!" data-balloon-pos="up">Jelle Koks</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Martijn!" data-balloon-pos="up">Martijn Beeks</span>, <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Steffi!" data-balloon-pos="up">Steffi Krijgsman</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, Sven!" data-balloon-pos="up">Sven Ruiter</span>.</p>
     <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Duivesteijn!" data-balloon-pos="up">dr. Wouter Duivesteijn</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Mocanu!" data-balloon-pos="up">dr. Decebal Mocanu</span>.</p>
     <div class="width__small deliverables">
@@ -905,17 +948,8 @@ MSc Industrial Design TU/e, 2018-2020
           <img src="/i/icons/file-zip.png" alt="ZIP File Icon">
         </div>
       </a>
-      <!-- <a class="deliverables__item" href="/documents/DDM110_Reflection_Geel_AJ.pdf" target="_blank">
-      <div class="deliverables__item-left">
-      <h4><img src="/i/icons/check-square.svg" alt="Square checkmark icon">Individual Reflection (TO-DO)</h4>
     </div>
-    <div class="deliverables__item-right">
-    <p class="deliverables__file-size">0.1MB</p>
-    <img src="/i/icons/file-pdf.png" alt="PDF File Icon">
   </div>
-</a> -->
-</div>
-</div>
 
 
 <div class="activity">
@@ -940,7 +974,7 @@ MSc Industrial Design TU/e, 2018-2020
   <p class="width__small p__details">Grade: 10.0</p>
   <p class="width__small">Department: Computer Science, TU/e.</p>
   <p class="width__small">In this course I learnt a lot about the critical infrastructure that keeps our society running &mdash; and the ways they are exploited for financial or political gain. I learnt about the way cyber criminals operate <b>(Lockeed Martin Cyber Kill chain)</b>, why and how systems are compromised <b>(attack vectors, vulnerabilities, zero-day exploits)</b> and that any system, whether directly connected to the internet or even air-gapped, can be compromised <b>(i.e. Stuxnet, Duqu, Flame)</b>.</p>
-  <p class="width__small">I've learnt about strategies to stop or detect attacks <b>(Rejection-based, acceptance-based, anomaly detection)</b>, and learnt about the frightening outlook of the future, with systems growing to be more critical and interconnected, for example because of an <b>increasing interest in Internet of Things and Smart Systems</b>, which often contain vulnerabilities that are never patched, especially as the product's development ceasesyet the products remain used.</p>
+  <p class="width__small">I've learnt about strategies to stop or detect attacks <b>(Rejection-based, acceptance-based, anomaly detection)</b>, and learnt about the frightening outlook of the future, with systems growing to be more critical and interconnected, for example because of an <b>increasing interest in Internet of Things and Smart Systems</b>, which often contain vulnerabilities that are never patched, especially as the product's development ceases while the products remain used. Furthermore, I learnt about the lack of interest in creating secure systems, as deploying new functionalities often receive priority over re-working existing functionalities to be more secure.</p>
   <p class="width__small">Finally, I became acquainted with prof.dr. Etalle's outlook on the cybersecurity of the future. Currently, <b>attacks are difficult to counter because present systems are hard to monitor</b>. Looking at all present options of prevention/detection, behaviour/knowledge based, specification/anomaly-based, whitebox/blackbox, none are suitable due to issues in <b>adaptability, scalability and actionability</b>, rendering them ineffective. The only way to make things better is to <b>change the way we create software</b> to make it more amendable to monitoring. Software should be supervisable and privacy-preserving by design, which I agree with in my <a href="#Welcome" class="link">vision on design</a>. My performance in this elective was graded by a written exam of course materials, which I got a 10.0 for.</p>
   <p class="width__small lecturers">Lecturers: <span class="thanks" data-balloon-length="medium" aria-label="Thank you, prof.dr. Etalle!" data-balloon-pos="up">prof.dr. Sandro Etalle</span> &amp; <span class="thanks" data-balloon-length="medium" aria-label="Thank you, dr. Allodi!" data-balloon-pos="up">dr. Luca Allodi</span>.</p>
   <div class="width__small deliverables">
@@ -978,10 +1012,10 @@ MSc Industrial Design TU/e, 2018-2020
         <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div>
       </div>
       <p class="width__small"><b>How might we create a better collaborative space for UX Designers and their environment?</b></p>
-      <p class="width__small">That is the question that guided this work. Despite the increasing industry interest in attracting in-house UX Designers to add design thinking to commercial projects, we see <b>significant challenges</b> related to misunderstandings about what design is, and what place it should take in the workplace, ultimately resulting in disrupted design processes. Even though this issue was first discussed more than a decade ago by <a href="https://www.nngroup.com/articles/ux-maturity-stages-1-4/" class="link">Jakob Nielsen</a>, recent surveys held among <a href="https://info.userzoom.com/UX-Enterprise-Survey-2019.html" class="link">professional practitioners</a> demonstrate that the same problems still rings true.</p>
-      <p class="width__small">With this project I designed and developed <b>Requestor</b>: an online platform that facilitates sharing works-in-progress with non-experts. The platform enables UX Designers to integrate ongoing design prototypes from their favourite design tools (Figma, Adobe XD), and share them with others. The platform helps these potential non-expert designers in <b>understanding and evaluating the design</b>, empowering them to give meaningful feedback to the UX Designer, and helping bridge the knowledge gap.</p>
+      <p class="width__small">That is the question that guided this work. Despite the increasing industry interest in attracting in-house UX Designers to add design thinking to commercial projects, we see <b>significant challenges</b> related to misunderstandings about what design is, and what place it should take in the workplace, ultimately resulting in disrupted design processes. Even though this issue was first discussed more than a decade ago by <a href="https://www.nngroup.com/articles/ux-maturity-stages-1-4/" class="link">Jakob Nielsen</a>, recent surveys held among <a href="https://info.userzoom.com/UX-Enterprise-Survey-2019.html" class="link">professional practitioners</a> demonstrate that the same problems still persist.</p>
+      <p class="width__small">With this project I designed and developed <b>Requestor</b>: an online platform that facilitates sharing works-in-progress with non-experts. The platform enables UX Designers to integrate ongoing design prototypes from their favourite design tools (Figma, Adobe XD), and share them with others. The platform helps these potential non-expert designers in <b>understanding and evaluating design work</b>, empowering them to give meaningful feedback to the UX Designer, and helping bridge the knowledge gap.</p>
       <p class="width__small">Requestor was evaluated in a comparative study, where two variants of the interface were compared as 24 total research participants used Requestor to perform a heuristic evaluation of a fictional design case. Two variants were designed: a 'traditional' GUI and a Conversational UI. Analysis of the results showed <b>a statistically significant difference</b> in perceived effort and perceived mental demand between the two variants, with the <b>Conversational UI being perceived as less demanding</b>.</p>
-      <p class="width__small">This project has brought me a lot. It has resulted in the most complete system that I have made so far, and the process of bringing this concept from early wireframes to a fully functioning system has taught me a lot. I have learnt about incrementally designing and developing a system using a <b>module-based philosphy</b>, which allowed for adaptability and scalability throughout the process.</p>
+      <p class="width__small">This project has brought me a lot. It has resulted in the most complete system that I have made so far, and the process of individually bringing this concept from early wireframes to a fully functioning system has broadened my perspective immensely. Perhaps the biggest insights gained from this was on incrementally designing and developing a system using a <b>module-based philosphy</b>, which allowed for adaptability and scalability throughout the process.</p>
       <div class="pswp__gallery width__small small-thumbnails" itemscope itemtype="https://schema.org/ImageGallery">
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
           <a href="/i/requestor-cui.jpg" itemprop="contentUrl" data-size="2688x1488">
@@ -1095,7 +1129,7 @@ MSc Industrial Design TU/e, 2018-2020
         <div class="icon-list__icon icon__tr" data-balloon-length="large" aria-label="Technology &amp; Realization" data-balloon-pos="up"><img src="i/icons/technology-realization.svg" alt="Technology and Realization Icon"></div>
         <!-- <div class="icon-list__icon icon__us" data-balloon-length="medium" aria-label="User &amp; Society" data-balloon-pos="up"><img src="i/icons/user-society.svg" alt="User and Society Icon"></div> -->
       </div>
-      <p class="width__small">During stressful times it is important to keep doing things that bring you joy. For me, one of those things is working on my homebrewery: Brouwerij Geel. After <a href="#BWG" class="link">establishing a brand identity earlier</a>, I designed and built a website which serves as a digital display where I can show off what I do. Additionally, it serves <b>a number of purposes for me personally</b>. I have created a page where I can easily keep track of the brews that I have made, simplifying my administration processes. Additionally, I created interactive pages where I can store and share my recipes. These pages are equipped with functionality that <b>make it easier to keep track of the steps</b> performed in the process.</p>
+      <p class="width__small">During stressful times it is important to keep doing things that bring you joy. For me, one of those things is working on my homebrewery: Brouwerij Geel. After <a href="#BWG" class="link">establishing a brand identity earlier</a>, I designed and built a website which serves as a digital display where I can show off what I do. Additionally, it serves <b>a number of purposes for me personally</b>. I have created a page where I can easily keep track of the brews that I have made, simplifying my administration processes. Additionally, I created interactive pages where I can store and share my recipes. These pages are equipped with functionality that <b>make it easier to keep track of the steps</b> performed in the process.  From this activity I have further developed my ability for designing an aesthetic brand experience, while also providing pragmatic practice for developing- and deploying modern web systems, complete with an integrated back-end.</p>
       <div class="width__small deliverables">
         <a class="deliverables__item" href="https://brouwerijgeel.nl" target="_blank">
           <div class="deliverables__item-left">
@@ -1115,13 +1149,16 @@ MSc Industrial Design TU/e, 2018-2020
 <section id="Future">
   <div class="section__inner">
     <h2 class="width__small">Future</h2>
-    <p class="width__small">I started this Master's programme with <b>one overarching goal</b>: to prepare myself for a career as a UX Designer. In the Master's programme I focused on developing myself interdisciplinarily: strengthening my skills in typical UX Design while laying a solid base in understanding digital technology. My preferred working environment is either doing in-house work for a Small or Medium-Sized Company (SME), or working project-based for a (creative) design agency. Reflecting on my growth during this programme, I feel ready to start contributing to professional projects.</p>
+    <p class="width__small">I started this Master's programme with <b>one overarching goal</b>: to prepare myself for a career as a UX Designer. In the Master's programme I focused on developing myself interdisciplinarily: strengthening my skills in typical UX Design while laying a solid base in understanding- and working with digital technologies. My preferred working environment is either doing in-house work for a Small or Medium-Sized Company (SME), or working project-based for a (creative) design agency. Reflecting on my growth during this programme, I feel ready to start contributing to professional projects.</p>
     <p class="width__small">The Corona crisis has had an unprecedented impact on the world, and I have no doubt that this will continue for a <b>prolonged period of time</b>. Firstly, we have to adapt to working remotely. Instead of physical, face-to-face meeting with our colleagues, stakeholders and end-users, digital meetings will have to suffice. This means that we have to become comfortable in a range of collaborative tools that allow us to keep doing the things that we were doing.</p>
     <p class="width__small">It is no more than reasonable to assume that the aftermath of the Corona crisis will have <b>a significant impact</b> on the economy, both nationally as well as globally. Kick-starting a professional career never is easy, let alone during a global crisis. However, I am cautiously optimistic about my future: I believe my skill-set can add value to a lot of companies in my preferred working environment.</p>
-    <p class="width__small">Over the past months <b>I have been preparing myself</b> for a career as a UX Designer. I have created a resume, am in the process of releasing my <a href="https://arthurgeel.com" class="link">industry portfolio</a> and have compiled a shortlist of companies with vacancies or open applications which I am in the process of reaching out to. I hope to be able to update this line soon once I have <b>realised my dream</b> of becoming a professional UX Designer in the Randstad area.</p>
+    <p class="width__small">Over the past months <b>I have started the practical preparations</b> for a career as a UX Designer. I have created a resume, am in the process of releasing my <a href="https://arthurgeel.com" class="link">industry portfolio</a> and have compiled a shortlist of companies with vacancies or open applications which I am reaching out to. I hope to be able to update this line soon once I have <b>realised my dream</b> of becoming a professional UX Designer in the Randstad area.</p>
     <h3>A Word of Gratitude</h3>
-    <p class="width__small">Over the past two years I have received a lot of support from friends and family without whom I could not have done this. Firstly, I would like to thank my mentor <b>dr.ir. Javed Khan</b> for the support, guidance and opportunities shown. Subsequently, I am grateful for <b>all members and staff of the Industrial Design faculty and of course Lucid</b> who have made my Master's degree an intellectually stimulating yet inviting environment.</p>
+    <p class="width__small">Over the past two years I have received a lot of support from friends and family without whom I could not have done this. Firstly, I would like to thank my mentor <b>dr.ir. Javed Khan</b> for the support, guidance and opportunities provided to me. Subsequently, I am grateful for <b>all members and staff of the Industrial Design faculty and Study Association Lucid</b> who have made my Master's degree into an inspiring yet friendly and inviting experience.</p>
     <p class="width__small">I would like to thank <b>all friends and family</b> with whom I was able to share my passion for digital design and technology over the years. I especially would like to thank <b>Kees, Frederika, Dieuwertje &amp; Johan</b> for their unconditional support. Finally, I cannot express my gratitude enough for you, <b>Nienke</b>, for being there with me every step of the way.</p>
+
+    <h3>Contact</h3>
+    <p class="width__small">Do you have questions or comments about anything that was included in this portfolio? Please feel free to reach out to me through e-mail at <a href="mailto:hello@arthurgeel.com" class="link" target="_blank">hello@arthurgeel.com</a>.</p>
   </div>
 </section>
 
@@ -1173,11 +1210,7 @@ MSc Industrial Design TU/e, 2018-2020
 <script defer src="js/photoswipe.min.js" charset="utf-8"></script>
 <script defer src="js/photoswipe-ui-default.min.js" charset="utf-8"></script>
 
-<!-- ScrollReveal v4.0.1 waypoints.js -->
-<!-- <script defer src="js/waypoints.min.js" charset="utf-8"></script> -->
-
-<!-- <script defer src="js/main.min.js" charset="utf-8"></script> -->
-<script defer src="js/main.js" charset="utf-8"></script>
+<script defer src="js/main.min.js" charset="utf-8"></script>
 
 </html>
 
