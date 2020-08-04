@@ -1,0 +1,3 @@
+# Ignore all .pdf and .zip files (deliverables)
+*.pdf
+*.zip
