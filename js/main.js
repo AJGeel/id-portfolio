@@ -1,15 +1,21 @@
+/*--------------------------------------------------
+      Global vars & DOM calls
+---------------------------------------------------*/
+
 // Make DOM call to detect 'nav' element
 const nav = document.querySelector('nav');
 
-// Add hamburger closer eventlistener to all 'a' tags in nav
-for (i=0; i < nav.children.length; i++) {
-  nav.children[i].addEventListener('click', function() {
-    linkAndBurger();
-  })
-}
+const hamburger = document.getElementById('hamburgerMenu');
+
+// Make reference to all deliverable items
+let allDeliverables = document.getElementsByClassName('deliverables__item');
 
 // Init PhotoSwipe
 const pswpElement = document.querySelectorAll('.pswp')[0];
+
+/*--------------------------------------------------
+      Functions
+---------------------------------------------------*/
 
 
 var initPhotoSwipeFromDOM = function(gallerySelector) {
@@ -215,9 +221,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     }
 };
 
-// execute above function
-initPhotoSwipeFromDOM('.pswp__gallery');
-
 
 function updateUrlHash(hash) {
   // Check if browser supports pushState API
@@ -253,8 +256,6 @@ let observer = new IntersectionObserver((entries, observer) => {
     }
   });
 }, {rootMargin: "0px 0px 0px 0px"});
-document.querySelectorAll('section').forEach(section => { observer.observe(section) });
-
 
 
 // Function that counts the amount of words in a string
@@ -316,9 +317,6 @@ function updateGreeting() {
   timeOfDayDOM.innerHTML = greeting;
 }
 
-// updateReadingTimeDOM();
-updateGreeting();
-
 // Make reference to all icons
 let allIcons = document.getElementsByClassName('icon-list__icon');
 
@@ -340,13 +338,6 @@ function iconEventListener(competency) {
     })
   }
 }
-// Add event listeners to all
-iconEventListener(iconBe);
-iconEventListener(iconCa);
-iconEventListener(iconDrp);
-iconEventListener(iconMdc);
-iconEventListener(iconTr);
-iconEventListener(iconUs);
 
 // Function that highlights icons of the selected competency
 function toggleCompetencyClass(competency) {
@@ -378,24 +369,11 @@ function toggleCompetencyClass(competency) {
   }
 }
 
-// Make reference to all deliverable items
-let allDeliverables = document.getElementsByClassName('deliverables__item');
-
-// Add eventlistener to deliverables to keep track of them being clicked.
-for (i=0; i<allDeliverables.length; i++) {
-    allDeliverables[i].addEventListener('click', function() {
-      // console.log(this);
-      toggleLinkVisited(this);
-    })
-  }
-
 
 function toggleLinkVisited(target) {
   // Check if target has not been visited before
   target.classList.add('visited');
 }
-
-const hamburger = document.getElementById('hamburgerMenu');
 
 function toggleHamburger() {
   // Select 'aside' DOM element
@@ -414,13 +392,53 @@ function toggleHamburger() {
   }
 }
 
-hamburger.addEventListener('click', function() {
-  toggleHamburger();
-})
-
 // Nav A tag behaviour: close hamburger menu if screen is small enough.
 function linkAndBurger() {
   if (screen.width <= 780) {
     toggleHamburger();
   }
 }
+
+/*--------------------------------------------------
+      EventListeners
+---------------------------------------------------*/
+
+hamburger.addEventListener('click', function() {
+  toggleHamburger();
+})
+
+// Add hamburger closer eventlistener to all 'a' tags in nav
+for (i=0; i < nav.children.length; i++) {
+  nav.children[i].addEventListener('click', function() {
+    linkAndBurger();
+  })
+}
+
+// Add eventlistener to deliverables to keep track of them being clicked.
+for (i=0; i<allDeliverables.length; i++) {
+  allDeliverables[i].addEventListener('click', function() {
+    // console.log(this);
+    toggleLinkVisited(this);
+  })
+}
+
+// Add eventlistener to all sections (for scrolling / URL hash refresh)
+document.querySelectorAll('section').forEach(section => { observer.observe(section) });
+
+// Add event listeners to icons
+iconEventListener(iconBe);
+iconEventListener(iconCa);
+iconEventListener(iconDrp);
+iconEventListener(iconMdc);
+iconEventListener(iconTr);
+iconEventListener(iconUs);
+
+/*--------------------------------------------------
+      OnLoad Functions
+---------------------------------------------------*/
+
+// Initiate PhotoSwipe from DOM functionality
+initPhotoSwipeFromDOM('.pswp__gallery');
+
+// updateReadingTimeDOM();
+updateGreeting();

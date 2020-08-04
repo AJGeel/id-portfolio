@@ -4,6 +4,11 @@
   --gray-94: hsl(0, 0%, 94%);
 }
 
+::-moz-selection {
+  background-color: var(--royal-green--select);
+  color: #000;
+}
+
 ::selection {
   background-color: var(--royal-green--select);
   color: #000;
@@ -47,9 +52,13 @@ aside {
 
   transition: width .2s ease-in-out;
 
-  animation: fadeIn 2s ease-in-out;
-  animation-delay: 1.5s;
-  animation-fill-mode: backwards;
+  -webkit-animation: fadeIn 2s ease-in-out;
+
+          animation: fadeIn 2s ease-in-out;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 
 nav {
@@ -119,7 +128,9 @@ main {
   overflow: hidden;
   margin-bottom: 4rem;
 
-  animation: fadeIn 2s ease-in-out;
+  -webkit-animation: fadeIn 2s ease-in-out;
+
+          animation: fadeIn 2s ease-in-out;
 }
 
 .section__slide-inner {
@@ -169,24 +180,12 @@ main {
   will-change: transform;
 
   -webkit-animation-name: rotate;
-     -moz-animation-name: rotate;
-      -ms-animation-name: rotate;
-       -o-animation-name: rotate;
           animation-name: rotate;
   -webkit-animation-duration: 20s;
-     -moz-animation-duration: 20s;
-      -ms-animation-duration: 20s;
-       -o-animation-duration: 20s;
           animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
-     -moz-animation-iteration-count: infinite;
-      -ms-animation-iteration-count: infinite;
-       -o-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-     -moz-animation-timing-function: linear;
-      -ms-animation-timing-function: linear;
-       -o-animation-timing-function: linear;
           animation-timing-function: linear;
 
 }
@@ -200,9 +199,12 @@ main {
 }
 
 .section__inner.first {
-  animation: fadeIn 2s ease-in-out;
-  animation-delay: 3s;
-  animation-fill-mode: backwards;
+  -webkit-animation: fadeIn 2s ease-in-out;
+          animation: fadeIn 2s ease-in-out;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 
 .section__inner p {
@@ -254,7 +256,8 @@ main {
   background-image: url(/i/icons/more-photos.svg);
   background-repeat: no-repeat;
   background-position: center;
-  filter: invert(1);
+  -webkit-filter: invert(1);
+          filter: invert(1);
   border-radius: 100%;
 
   border: 2px solid rgba(0,0,0,0);
@@ -263,7 +266,8 @@ main {
 }
 
 .pswp__gallery > figure.no-invert:first-child::before, .pswp__gallery.small-thumbnails > figure.no-invert::before {
-  filter: invert(0);
+  -webkit-filter: invert(0);
+          filter: invert(0);
   opacity: .5;
 }
 
@@ -359,12 +363,17 @@ figure {
   box-shadow: 0 2px 5px rgba(0,153,114,.4);
   text-align: center;
 
+  transition: transform .2s ease-in-out, box-shadow .2s ease-in-out, background-color .2s ease-in-out, -webkit-filter .2s ease-in-out;
+
   transition: transform .2s ease-in-out, box-shadow .2s ease-in-out, filter .2s ease-in-out, background-color .2s ease-in-out;
+
+  transition: transform .2s ease-in-out, box-shadow .2s ease-in-out, filter .2s ease-in-out, background-color .2s ease-in-out, -webkit-filter .2s ease-in-out;
 }
 
 .icon-list__icon.active img {
   /* Select filter for this specific item */
-  filter: grayscale(1) contrast(8) invert(1);
+  -webkit-filter: grayscale(1) contrast(8) invert(1);
+          filter: grayscale(1) contrast(8) invert(1);
 }
 
 .icon-list__icon:hover {
@@ -374,7 +383,8 @@ figure {
 
 .icon-list__icon.active img {
   /* Select filter for this specific item */
-  filter: grayscale(1) contrast(8) invert(1);
+  -webkit-filter: grayscale(1) contrast(8) invert(1);
+          filter: grayscale(1) contrast(8) invert(1);
 }
 
 
@@ -384,7 +394,8 @@ figure {
 
 .icon-row .icon-list__icon.active img {
   /* Select filter for this specific item */
-  filter: grayscale(1) contrast(8) invert(1);
+  -webkit-filter: grayscale(1) contrast(8) invert(1);
+          filter: grayscale(1) contrast(8) invert(1);
 }
 
 .icon-row .icon-list__icon.active {
@@ -790,7 +801,8 @@ span.thanks {
   /* Remove some  animations for Mobile, adjust timing for others */
 
   aside {
-    animation: none;
+    -webkit-animation: none;
+            animation: none;
   }
 
   .section__slide {
@@ -798,13 +810,17 @@ span.thanks {
   }
 
   .section__inner.first {
-    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
   }
 
   .section__inner.second {
-    animation: fadeIn 2s ease-in-out;
-    animation-delay: 1.5s;
-    animation-fill-mode: backwards;
+    -webkit-animation: fadeIn 2s ease-in-out;
+            animation: fadeIn 2s ease-in-out;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
   }
 
 
@@ -893,39 +909,12 @@ code {
     from { -webkit-transform: rotate(360deg); }
     to { -webkit-transform: rotate(0); }
 }
-@-moz-keyframes rotate {
-    from { -moz-transform: rotate(360deg); }
-    to { -moz-transform: rotate(0); }
-}
-@-ms-keyframes rotate {
-    from { -ms-transform: rotate(360deg); }
-    to { -ms-transform: rotate(0); }
-}
-@-o-keyframes rotate {
-    from { -o-transform: rotate(360deg); }
-    to { -o-transform: rotate(0); }
-}
 @keyframes rotate {
     from { transform: rotate(360deg); }
     to { transform: rotate(0); }
 }
 
 @-webkit-keyframes fadeIn {
-  from { opacity: 0;}
-  to   { opacity: 1;}
-}
-
-@-moz-keyframes fadeIn {
-  from { opacity: 0;}
-  to   { opacity: 1;}
-}
-
-@-ms-keyframes fadeIn {
-  from { opacity: 0;}
-  to   { opacity: 1;}
-}
-
-@-o-keyframes fadeIn {
   from { opacity: 0;}
   to   { opacity: 1;}
 }
